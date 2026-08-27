@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Warlords CW — unofficial clan-war ladder</title>
+  <meta name="description" content="Unofficial Warlords (Bannerlord) clan-war ladder. Fan project, not affiliated with Warlords or TaleWorlds.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <p class="kicker">Mount &amp; Blade II: Bannerlord</p>
+      <h1>Warlords clan wars</h1>
+      <p class="lede">Unofficial fan ladder of published EU clan wars. Not an official Warlords ranking. Identity is the clan id — two clans can share a tag or name and are still rated separately.</p>
+      <div class="meta">
+        <span>Last updated: <strong id="last-updated">—</strong></span>
+        <span id="board-counts"></span>
+        <span><a href="https://mbwarlords.com/">mbwarlords.com</a></span>
+      </div>
+    </header>
+
+    <div class="controls">
+      <div class="seg" role="group" aria-label="Who to show">
+        <button type="button" id="btn-established" aria-pressed="true">Established</button>
+        <button type="button" id="btn-all" aria-pressed="false">All ranked</button>
+      </div>
+      <label class="search">
+        <input id="search" type="search" placeholder="Search tag or name" autocomplete="off">
+      </label>
+      <label class="sort">
+        <select id="sort" aria-label="Sort board">
+          <option value="rating">Sort: Rating</option>
+          <option value="wars">Sort: Wars</option>
+        </select>
+      </label>
+    </div>
+    <p class="filter-hint">Established = 15+ wars and Uncertainty below 100. All ranked = 5+ wars. Uncertainty is how trusted the Rating is (low = trusted, high = still a guess) — not round difference.</p>
+
+    <div class="table-wrap">
+      <table class="board">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Clan</th>
+            <th class="sortable" scope="col" data-sort="rating" aria-sort="descending">Rating</th>
+            <th scope="col">Uncertainty</th>
+            <th scope="col">Avg opp</th>
+            <th scope="col">W–L–D</th>
+            <th scope="col">Win%</th>
+            <th class="sortable" scope="col" data-sort="wars">Wars</th>
+            <th scope="col">Last</th>
+          </tr>
+        </thead>
+        <tbody id="board-body"></tbody>
+      </table>
+      <p class="empty" id="board-empty" hidden>No clans match this view.</p>
+    </div>
+    <p class="caption">Not official. Avg opp is the mean of opponents’ <em>current</em> Rating (one count per war), not the rating on the night you played them. Win% ignores schedule; Rating and Avg opp do not. Score margin does not affect Rating: 12–3 and 9–7 are the same win. Draws count as 0.5.</p>
+
+    <section class="explain" aria-label="How the rating works">
+      <article class="card">
+        <h2>How the number works</h2>
+        <p>Everyone starts at 1500. Early wars move the number a lot; after many wars it sticks.</p>
+        <p>Opponent strength is in the update. Beating a stronger clan is worth more than beating a weaker one. The round score only decides win, loss, or draw.</p>
+        <div id="explain-dynamic"></div>
+      </article>
+      <article class="card">
+        <h2>How to read the board</h2>
+        <ul>
+          <li><strong>Rating</strong> — strength estimate from the war history.</li>
+          <li><strong>Uncertainty</strong> — HIGH = guess, LOW = trusted.</li>
+          <li><strong>Avg opp</strong> — schedule column: who you have been playing, measured with today’s ratings.</li>
+          <li>A high win% on a soft schedule is not the same as a high win% on a hard one. That is why a clan can farm wars and still sit mid-table, while another with a similar win% sits at the top.</li>
+          <li>Short unbeaten runs with high Uncertainty are noise. Switch to Established if you want the table that has actually settled.</li>
+        </ul>
+      </article>
+    </section>
+
+    <footer>
+      Fan project by Velorum. Data from the public <a href="https://mbwarlords.com/">Warlords</a> API.
+      Not affiliated with Warlords or TaleWorlds Entertainment.
+      <a href="data/ratings.json">ratings.json</a>
+    </footer>
+  </div>
+
+  <script type="application/json" id="ladder-data">__LADDER_JSON__</script>
+  <script src="app.js" defer></script>
+</body>
+</html>
