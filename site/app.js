@@ -7,8 +7,12 @@
   const filters = data.filters || {
     establishedMinWars: 15,
     establishedMaxUncertainty: 100,
+    establishedMaxIdleDays: 21,
     rankedMinWars: 5,
   };
+  if (!Number.isFinite(filters.establishedMaxIdleDays)) {
+    filters.establishedMaxIdleDays = 21;
+  }
 
   const state = {
     view: "established",
@@ -92,14 +96,18 @@
     return (Date.parse(data.generatedAt) - dt.getTime()) / 86400000;
   }
 
+  function isEstablished(c) {
+    return (
+      c.wars >= filters.establishedMinWars &&
+      c.uncertainty < filters.establishedMaxUncertainty &&
+      ageDays(c.lastPlayed) <= filters.establishedMaxIdleDays
+    );
+  }
+
   function viewRows() {
     let rows = clans.filter((c) => c.wars >= filters.rankedMinWars);
     if (state.view === "established") {
-      rows = rows.filter(
-        (c) =>
-          c.wars >= filters.establishedMinWars &&
-          c.uncertainty < filters.establishedMaxUncertainty
-      );
+      rows = rows.filter(isEstablished);
     }
     return rows;
   }
@@ -246,11 +254,7 @@
     els.updated.textContent = data.generatedAt ? fmtWhen(data.generatedAt) : "—";
   }
   if (els.counts) {
-    const nEst = clans.filter(
-      (c) =>
-        c.wars >= filters.establishedMinWars &&
-        c.uncertainty < filters.establishedMaxUncertainty
-    ).length;
+    const nEst = clans.filter(isEstablished).length;
     const nRanked = clans.filter((c) => c.wars >= filters.rankedMinWars).length;
     const used = data.counts?.used ?? "—";
     els.counts.textContent = `${used} wars · ${nEst} established · ${nRanked} ranked`;

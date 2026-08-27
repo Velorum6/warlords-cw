@@ -275,7 +275,7 @@ table.board {
 
 .recent-list {
   list-style: none;
-  margin: 0;
+  margin: 0 -18px;
   padding: 0;
 }
 
@@ -284,13 +284,21 @@ table.board {
   grid-template-columns: 8.5rem minmax(0, 1fr) 4.2rem;
   gap: 12px;
   align-items: baseline;
-  padding: 8px 0;
+  padding: 8px 18px;
   border-bottom: 1px solid #2a241c;
+  background: var(--row);
+}
+
+.recent-list li:nth-child(even) {
+  background: #221e18;
+}
+
+.recent-list li:hover {
+  background: var(--row-hover);
 }
 
 .recent-list li:last-child {
   border-bottom: 0;
-  padding-bottom: 0;
 }
 
 .recent-list .when {
@@ -324,6 +332,26 @@ table.board {
   color: #e07666;
 }
 
+.recent-list .delta {
+  margin-left: 0.4rem;
+  font-size: 0.86em;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.recent-list .side .delta.up {
+  color: #76cc94;
+}
+
+.recent-list .side .delta.down {
+  color: #e07666;
+}
+
+.recent-list .side .delta.flat {
+  color: var(--muted);
+}
+
 .recent-list .score {
   text-align: right;
   font-weight: 700;
@@ -341,7 +369,7 @@ table.board {
       "match score"
       "when score";
     gap: 2px 12px;
-    padding: 10px 0;
+    padding: 10px 18px;
   }
 
   .recent-list .when {
