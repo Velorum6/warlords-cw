@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Warlords CW — clan war history</title>
+  <meta name="description" content="Full published clan-war history for the unofficial Warlords CW ladder.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <p class="kicker">Mount &amp; Blade II: Bannerlord</p>
+      <h1>Clan war history</h1>
+      <p class="lede">Every published war used on the ladder. Actas only — no player dumps. Winner in green, loser in red.</p>
+      <nav class="nav" aria-label="Site">
+        <a href="index.html">Ladder</a>
+        <a href="wars.html" aria-current="page">History</a>
+      </nav>
+      <div class="meta">
+        <span>Last updated: <strong id="last-updated">—</strong></span>
+        <span id="war-counts"></span>
+        <span><a href="https://mbwarlords.com/">mbwarlords.com</a></span>
+      </div>
+    </header>
+
+    <div class="controls">
+      <label class="search">
+        <input id="search" type="search" placeholder="Search tag or name" autocomplete="off">
+      </label>
+    </div>
+
+    <section class="recent history-page" aria-label="All published clan wars">
+      <article class="card">
+        <h2>All published wars</h2>
+        <p class="recent-hint">Newest first. Same rules as the ladder: published, two clans, usable scores.</p>
+        <ul id="war-list" class="recent-list"></ul>
+        <p class="empty" id="war-empty" hidden>No wars match this search.</p>
+      </article>
+    </section>
+
+    <footer>
+      Fan project by Velorum. Back to the <a href="index.html">ladder</a>.
+      <a href="data/wars.json">wars.json</a>
+    </footer>
+  </div>
+
+  <script type="application/json" id="wars-data">__WARS_JSON__</script>
+  <script src="wars.js" defer></script>
+</body>
+</html>

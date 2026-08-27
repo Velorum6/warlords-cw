@@ -13,6 +13,10 @@
       <p class="kicker">Mount &amp; Blade II: Bannerlord</p>
       <h1>Warlords clan wars</h1>
       <p class="lede">Unofficial fan ladder of published EU clan wars. Not an official Warlords ranking. Identity is the clan id — two clans can share a tag or name and are still rated separately.</p>
+      <nav class="nav" aria-label="Site">
+        <a href="index.html" aria-current="page">Ladder</a>
+        <a href="wars.html">History</a>
+      </nav>
       <div class="meta">
         <span>Last updated: <strong id="last-updated">—</strong></span>
         <span id="board-counts"></span>
@@ -56,24 +60,48 @@
       </table>
       <p class="empty" id="board-empty" hidden>No clans match this view.</p>
     </div>
-    <p class="caption">Not official. Avg opp is the mean of opponents’ <em>current</em> Rating (one count per war), not the rating on the night you played them. Win% ignores schedule; Rating and Avg opp do not. Score margin does not affect Rating: 12–3 and 9–7 are the same win. Draws count as 0.5.</p>
+    <p class="caption">Not official. Avg opp uses opponents’ ratings <em>today</em>, not on the night you played them. Draws count as 0.5. A 12–0 moves Rating more than an 11–10.</p>
+
+    <section class="recent" aria-label="Most recent clan wars">
+      <article class="card">
+        <h2>Most recent clan wars</h2>
+        <p class="recent-hint">Published wars only, newest first. <a href="wars.html">Full history</a></p>
+        <ul id="recent-wars" class="recent-list"></ul>
+      </article>
+    </section>
 
     <section class="explain" aria-label="How the rating works">
       <article class="card">
         <h2>How the number works</h2>
-        <p>Everyone starts at 1500. Early wars move the number a lot; after many wars it sticks.</p>
-        <p>Opponent strength is in the update. Beating a stronger clan is worth more than beating a weaker one. The round score only decides win, loss, or draw.</p>
+        <ul class="rules">
+          <li>Everyone starts at <strong>1500</strong>.</li>
+          <li>Early wars swing hard. After many wars, the number sticks.</li>
+          <li>A CW is four sets, each first to 3 (max <strong>12–0</strong>). W–L–D only cares who scored more. Rating also uses the gap.</li>
+        </ul>
         <div id="explain-dynamic"></div>
       </article>
       <article class="card">
         <h2>How to read the board</h2>
-        <ul>
-          <li><strong>Rating</strong> — strength estimate from the war history.</li>
-          <li><strong>Uncertainty</strong> — HIGH = guess, LOW = trusted.</li>
-          <li><strong>Avg opp</strong> — schedule column: who you have been playing, measured with today’s ratings.</li>
-          <li>A high win% on a soft schedule is not the same as a high win% on a hard one. That is why a clan can farm wars and still sit mid-table, while another with a similar win% sits at the top.</li>
-          <li>Short unbeaten runs with high Uncertainty are noise. Switch to Established if you want the table that has actually settled.</li>
-        </ul>
+        <dl class="cols">
+          <div>
+            <dt>Rating</dt>
+            <dd>Strength from the published war history.</dd>
+          </div>
+          <div>
+            <dt>Uncertainty</dt>
+            <dd>Low = trusted. High = still a guess. Not round difference.</dd>
+          </div>
+          <div>
+            <dt>Avg opp</dt>
+            <dd>Schedule, using opponents’ ratings <em>today</em>.</dd>
+          </div>
+          <div>
+            <dt>Win%</dt>
+            <dd>Ignores who you played. Rating and Avg opp do not.</dd>
+          </div>
+        </dl>
+        <p class="note">Use <strong>Established</strong> (15+ wars, Uncertainty under 100) if you want the table that has settled. Short unbeaten runs with high Uncertainty are noise.</p>
+        <div id="explain-board"></div>
       </article>
     </section>
 

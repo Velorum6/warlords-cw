@@ -6,6 +6,8 @@ Live URL after GitHub Pages is enabled:
 
 `https://velorum6.github.io/warlords-cw/`
 
+War history: `https://velorum6.github.io/warlords-cw/wars.html`
+
 The browser never talks to `mbwarlords.com`. A GitHub Actions workflow fetches the public API, replays Glicko-2, writes `data/ratings.json` plus static HTML, commits the JSON (git-scraping), and deploys Pages.
 
 ## How to fork and run it
@@ -41,10 +43,11 @@ Open `http://127.0.0.1:8080/`. That local run hits the public API; the deployed 
 - Winner = higher `scoreTeam1` / `scoreTeam2`. Equal scores are a draw (0.5).
 - Identity = clan **id**. Tags and names are labels.
 - Start 1500 / uncertainty 350 / vol 0.06 / tau 0.5. One rating period per war.
-- Score margin is ignored. Opponent strength is not.
+- Round gap scales the win: +1 (11–10) → 0.64, +12 (12–0) → 1.0. Loss is the complement. W–L–D is still who scored more.
+- Opponent strength is in the update.
 - **Established** = 15+ wars and uncertainty &lt; 100. **All ranked** = 5+ wars.
 - Avg opp = mean of opponents’ *current* Rating, one count per war.
 
 ## Out of scope (v1)
 
-Player ratings, Discord bot, login, database, round-margin in the rating, and fetching per-war detail payloads.
+Player ratings, Discord bot, login, database, and fetching per-war detail payloads.

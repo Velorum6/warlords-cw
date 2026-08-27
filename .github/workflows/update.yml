@@ -42,9 +42,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ratings.json
+          git add data/ratings.json data/wars.json
           if git diff --staged --quiet; then
-            echo "ratings.json unchanged"
+            echo "data JSON unchanged"
           else
             git commit -m "Update clan-war ratings"
             git push

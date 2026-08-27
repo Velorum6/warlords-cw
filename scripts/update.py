@@ -40,6 +40,31 @@ USER_AGENT = "warlords-cw/1.0 (unofficial GitHub Pages fan ladder)"
 RANKED_MIN_WARS = 5
 ESTABLISHED_MIN_WARS = 15
 ESTABLISHED_MAX_UNCERTAINTY = 100.0
+# Four first-to-3 sets → max 12–0. A +1 win still pays; a 12–0 pays 1.0.
+MARGIN_MAX = 12.0
+WIN_FLOOR = 0.64
+EXAMPLE_WIN = (12, 4)
+RECENT_LIMIT = 12
+
+
+def match_score(s_for: int, s_against: int) -> float:
+    """Glicko result in [0, 1]. Draws are 0.5. Wins map +1…+12 onto WIN_FLOOR…1.0."""
+    diff = s_for - s_against
+    if diff == 0:
+        return 0.5
+    span = min(abs(diff) / MARGIN_MAX, 1.0)
+    mag = WIN_FLOOR + (1.0 - WIN_FLOOR) * span
+    return mag if diff > 0 else 1.0 - mag
+
+
+def check_match_score() -> None:
+    assert match_score(7, 7) == 0.5
+    assert match_score(12, 0) == 1.0
+    assert match_score(0, 12) == 0.0
+    close = WIN_FLOOR + (1.0 - WIN_FLOOR) / MARGIN_MAX
+    assert abs(match_score(11, 10) - close) < 1e-12
+    assert abs(match_score(10, 11) - (1.0 - close)) < 1e-12
+    assert abs(match_score(12, 4) + match_score(4, 12) - 1.0) < 1e-12
 
 
 def utc_now() -> datetime:
@@ -169,6 +194,31 @@ def select_matches(wars: list[dict]) -> tuple[list[dict], dict[str, int]]:
     return matches, skipped
 
 
+def war_row(match: dict) -> dict:
+    def side(blob: dict) -> dict:
+        return {
+            "id": blob.get("id") or "",
+            "tag": blob.get("tag") or "",
+            "name": blob.get("name") or "",
+        }
+
+    return {
+        "when": match["when"],
+        "clan1": side(match["clan1"]),
+        "clan2": side(match["clan2"]),
+        "s1": match["s1"],
+        "s2": match["s2"],
+    }
+
+
+def recent_wars(matches: list[dict]) -> list[dict]:
+    return [war_row(m) for m in reversed(matches[-RECENT_LIMIT:])]
+
+
+def history_wars(matches: list[dict]) -> list[dict]:
+    return [war_row(m) for m in reversed(matches)]
+
+
 def replay(matches: list[dict]) -> dict[str, Clan]:
     clans: dict[str, Clan] = {}
 
@@ -190,25 +240,24 @@ def replay(matches: list[dict]) -> dict[str, Clan]:
         a = clan(match["clan1"])
         b = clan(match["clan2"])
         s1, s2 = match["s1"], match["s2"]
-        if s1 > s2:
-            sa, sb = 1.0, 0.0
-        elif s2 > s1:
-            sa, sb = 0.0, 1.0
-        else:
-            sa, sb = 0.5, 0.5
+        sa = match_score(s1, s2)
+        sb = match_score(s2, s1)
 
         a_opp = a.rating.snapshot()
         b_opp = b.rating.snapshot()
         update_period(a.rating, [(b_opp, sa)])
         update_period(b.rating, [(a_opp, sb)])
 
-        for side, score, opp_id in ((a, sa, b.clan_id), (b, sb, a.clan_id)):
+        for side, scored, conceded, opp_id in (
+            (a, s1, s2, b.clan_id),
+            (b, s2, s1, a.clan_id),
+        ):
             side.wars += 1
             side.opp_ids.append(opp_id)
             side.last_played = match["when"]
-            if score == 1.0:
+            if scored > conceded:
                 side.wins += 1
-            elif score == 0.0:
+            elif scored < conceded:
                 side.losses += 1
             else:
                 side.draws += 1
@@ -265,7 +314,7 @@ def explain_payload(clans: dict[str, Clan]) -> dict:
             opp = by_tag(clans, tag)
             if not opp:
                 continue
-            delta = expected_delta(mf.rating, opp.rating, 1.0)
+            delta = expected_delta(mf.rating, opp.rating, match_score(*EXAMPLE_WIN))
             beats.append(
                 {
                     "tag": opp.tag,
@@ -278,8 +327,17 @@ def explain_payload(clans: dict[str, Clan]) -> dict:
             "name": mf.name,
             "rating": round(mf.rating.rating, 1),
             "wars": mf.wars,
+            "exampleScore": f"{EXAMPLE_WIN[0]}–{EXAMPLE_WIN[1]}",
             "beats": beats,
         }
+        dm = by_tag(clans, "DM")
+        if dm:
+            out["mf"]["marginDemo"] = {
+                "tag": dm.tag,
+                "close": round(expected_delta(mf.rating, dm.rating, match_score(11, 10)), 1),
+                "solid": round(expected_delta(mf.rating, dm.rating, match_score(*EXAMPLE_WIN)), 1),
+                "stomp": round(expected_delta(mf.rating, dm.rating, match_score(12, 0)), 1),
+            }
     for key, tag in (("kol", "KoL"), ("ie", "IE")):
         row = by_tag(clans, tag)
         if row:
@@ -323,36 +381,58 @@ def build_payload(wars: list[dict], matches: list[dict], skipped: dict[str, int]
             "tau": TAU,
             "scale": SCALE,
             "period": "one published war",
+            "marginMax": MARGIN_MAX,
+            "winFloor": WIN_FLOOR,
+            "notes": "Win maps round gap +1…+12 onto 0.64…1.0. Draw = 0.5. W–L–D is still who scored more.",
         },
         "firstMatch": times[0] if times else None,
         "lastMatch": times[-1] if times else None,
         "explain": explain_payload(clans),
+        "recentWars": recent_wars(matches),
         "clans": [clan_brief(c) for c in ranked],
     }
 
 
-def write_outputs(payload: dict) -> None:
+def inject_html(template_name: str, placeholder: str, obj: dict) -> None:
+    html = (SITE / template_name).read_text(encoding="utf-8")
+    if placeholder not in html:
+        raise RuntimeError(f"site/{template_name} is missing {placeholder}")
+    compact = json.dumps(obj, separators=(",", ":"), ensure_ascii=False).replace("<", "\\u003c")
+    (DIST / template_name).write_text(html.replace(placeholder, compact), encoding="utf-8")
+
+
+def write_outputs(payload: dict, history: list[dict]) -> None:
     DATA.mkdir(parents=True, exist_ok=True)
     DIST.mkdir(parents=True, exist_ok=True)
     (DIST / "data").mkdir(parents=True, exist_ok=True)
 
-    compact = json.dumps(payload, separators=(",", ":"), ensure_ascii=False)
     pretty = json.dumps(payload, indent=2, ensure_ascii=False) + "\n"
     (DATA / "ratings.json").write_text(pretty, encoding="utf-8")
     (DIST / "data" / "ratings.json").write_text(pretty, encoding="utf-8")
 
-    html = (SITE / "index.html").read_text(encoding="utf-8")
-    safe = compact.replace("<", "\\u003c")
-    if "__LADDER_JSON__" not in html:
-        raise RuntimeError("site/index.html is missing __LADDER_JSON__ placeholder")
-    (DIST / "index.html").write_text(html.replace("__LADDER_JSON__", safe), encoding="utf-8")
-    (DIST / "styles.css").write_text((SITE / "styles.css").read_text(encoding="utf-8"), encoding="utf-8")
-    (DIST / "app.js").write_text((SITE / "app.js").read_text(encoding="utf-8"), encoding="utf-8")
+    wars_store = {"wars": history}
+    wars_pretty = json.dumps(wars_store, indent=2, ensure_ascii=False) + "\n"
+    (DATA / "wars.json").write_text(wars_pretty, encoding="utf-8")
+    (DIST / "data" / "wars.json").write_text(wars_pretty, encoding="utf-8")
+
+    inject_html("index.html", "__LADDER_JSON__", payload)
+    inject_html(
+        "wars.html",
+        "__WARS_JSON__",
+        {
+            "generatedAt": payload["generatedAt"],
+            "count": len(history),
+            "wars": history,
+        },
+    )
+    for name in ("styles.css", "app.js", "wars.js"):
+        (DIST / name).write_text((SITE / name).read_text(encoding="utf-8"), encoding="utf-8")
     (DIST / ".nojekyll").write_text("", encoding="utf-8")
 
 
 def main() -> int:
     self_check()
+    check_match_score()
     wars = fetch_all_wars()
     if not wars:
         print("API returned no wars", file=sys.stderr)
@@ -363,9 +443,10 @@ def main() -> int:
         return 1
     clans = replay(matches)
     payload = build_payload(wars, matches, skipped, clans)
-    write_outputs(payload)
+    history = history_wars(matches)
+    write_outputs(payload, history)
     print(f"used={len(matches)} skipped={skipped} clans={payload['counts']['clans']}")
-    print(f"wrote {DATA / 'ratings.json'} and {DIST / 'index.html'}")
+    print(f"wrote {DATA / 'ratings.json'}, {DATA / 'wars.json'} and {DIST / 'index.html'}")
     print("\nTop 10 established:")
     shown = 0
     for row in payload["clans"]:

@@ -26,6 +26,8 @@
     body: document.getElementById("board-body"),
     empty: document.getElementById("board-empty"),
     explain: document.getElementById("explain-dynamic"),
+    explainBoard: document.getElementById("explain-board"),
+    recent: document.getElementById("recent-wars"),
   };
 
   function fmtWhen(iso) {
@@ -47,6 +49,19 @@
       day: "numeric",
       month: "short",
       year: "numeric",
+      timeZone: "UTC",
+    }).format(dt);
+  }
+
+  function fmtStamp(iso) {
+    if (!iso) return "—";
+    const dt = new Date(iso);
+    if (Number.isNaN(dt.getTime())) return iso.slice(0, 10);
+    return new Intl.DateTimeFormat("en-GB", {
+      day: "numeric",
+      month: "short",
+      hour: "2-digit",
+      minute: "2-digit",
       timeZone: "UTC",
     }).format(dt);
   }
@@ -119,36 +134,97 @@
   }
 
   function renderExplain() {
-    if (!els.explain) return;
+    if (!els.explain && !els.explainBoard) return;
     const ex = data.explain || {};
     const bits = [];
     const mf = ex.mf;
-    if (mf && mf.beats && mf.beats.length) {
-      const parts = mf.beats.map((b) => {
-        const sign = b.delta >= 0 ? "+" : "";
-        return `beating ${esc(b.tag)} (~${Math.round(b.rating)}) ≈ ${sign}${b.delta.toFixed(0)}`;
-      });
+    if (mf && mf.marginDemo) {
+      const d = mf.marginDemo;
+      const fmt = (n) => `${n >= 0 ? "+" : ""}${Math.round(n)}`;
       bits.push(
-        `<p>Example: <strong>${esc(mf.tag)}</strong> (~${Math.round(mf.rating)}, ${mf.wars} wars) ${parts.join("; ")}.</p>`
+        `<div class="ex-block">
+          <h3>Same opponent, different score — ${esc(mf.tag)} vs ${esc(d.tag)}</h3>
+          <ul class="ex-rows">
+            <li><span>11–10</span><span class="ex-delta">${fmt(d.close)}</span></li>
+            <li><span>12–4</span><span class="ex-delta">${fmt(d.solid)}</span></li>
+            <li><span>12–0</span><span class="ex-delta">${fmt(d.stomp)}</span></li>
+          </ul>
+        </div>`
       );
     }
+    if (mf && mf.beats && mf.beats.length) {
+      const rows = mf.beats
+        .map((b) => {
+          const sign = b.delta >= 0 ? "+" : "";
+          return `<li><span>vs ${esc(b.tag)} ~${Math.round(b.rating)}</span><span class="ex-delta">${sign}${Math.round(b.delta)}</span></li>`;
+        })
+        .join("");
+      bits.push(
+        `<div class="ex-block">
+          <h3>Same 12–4, different opponent — ${esc(mf.tag)} (~${Math.round(mf.rating)}, ${mf.wars} wars)</h3>
+          <ul class="ex-rows">${rows}</ul>
+        </div>`
+      );
+    }
+    if (els.explain) els.explain.innerHTML = bits.join("");
+
+    const boardBits = [];
     const kol = ex.kol;
     const ie = ex.ie;
     if (kol && ie) {
-      bits.push(
-        `<p><strong>${esc(kol.tag)}</strong>: ${kol.winPct.toFixed(0)}% win rate, ${kol.wars} wars, Avg opp ~${Math.round(kol.avgOpp)} → mid table.
-        <strong>${esc(ie.tag)}</strong>: ${ie.winPct.toFixed(0)}% win rate, Avg opp ~${Math.round(ie.avgOpp)} → top of the board.
-        Same win% idea, different schedule.</p>`
+      boardBits.push(
+        `<div class="ex-block">
+          <h3>Same win%, different schedule</h3>
+          <ul class="ex-rows">
+            <li><span><strong>${esc(kol.tag)}</strong> ${kol.winPct.toFixed(0)}% · Avg opp ~${Math.round(kol.avgOpp)}</span><span class="ex-result">mid</span></li>
+            <li><span><strong>${esc(ie.tag)}</strong> ${ie.winPct.toFixed(0)}% · Avg opp ~${Math.round(ie.avgOpp)}</span><span class="ex-result">top</span></li>
+          </ul>
+        </div>`
       );
     }
     const fs = ex.forsaken;
     if (fs) {
       const label = fs.name && fs.name !== fs.tag ? `${esc(fs.name)} [${esc(fs.tag)}]` : esc(fs.tag);
-      bits.push(
-        `<p><strong>${label}</strong> (${fs.wins}–${fs.losses}${fs.draws ? "–" + fs.draws : ""}, ${fs.wars} wars): Uncertainty ~${Math.round(fs.uncertainty)}, Avg opp ~${Math.round(fs.avgOpp)}. That rank is still a guess — ignore it until the sample is large and Uncertainty is low.</p>`
+      boardBits.push(
+        `<div class="ex-block">
+          <h3>Ignore this rank</h3>
+          <p class="ex-note">${label}, ${fs.wins}–${fs.losses}${fs.draws ? "–" + fs.draws : ""} in ${fs.wars} wars. Uncertainty ~${Math.round(fs.uncertainty)}, Avg opp ~${Math.round(fs.avgOpp)} — still a guess.</p>
+        </div>`
       );
     }
-    els.explain.innerHTML = bits.join("");
+    if (els.explainBoard) els.explainBoard.innerHTML = boardBits.join("");
+  }
+
+  function clanLabel(c) {
+    const tag = c?.tag || "—";
+    const name = c?.name || "";
+    return `<span class="tag">${esc(tag)}</span> ${esc(name)}`;
+  }
+
+  function renderRecent() {
+    if (!els.recent) return;
+    const wars = data.recentWars || [];
+    if (!wars.length) {
+      els.recent.innerHTML = `<li class="recent-empty">No published wars yet.</li>`;
+      return;
+    }
+    els.recent.innerHTML = wars
+      .map((w) => {
+        const w1 = w.s1 > w.s2;
+        const w2 = w.s2 > w.s1;
+        const c1 = w1 ? " win" : w2 ? " lose" : "";
+        const c2 = w2 ? " win" : w1 ? " lose" : "";
+        return `<li>
+          <span class="when">${esc(fmtStamp(w.when))}</span>
+          <span class="match">
+            <span class="side${c1}">${clanLabel(w.clan1)}</span>
+            <span class="vs">vs</span>
+            <span class="side${c2}">${clanLabel(w.clan2)}</span>
+          </span>
+          <span class="score">${w.s1}–${w.s2}</span>
+        </li>`;
+      })
+      .join("");
   }
 
   function esc(value) {
@@ -244,5 +320,6 @@
   });
 
   renderExplain();
+  renderRecent();
   render();
 })();
