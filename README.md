@@ -1,53 +1,96 @@
 # Warlords CW
 
-Unofficial fan ladder of [Warlords](https://mbwarlords.com/) clan wars (Mount & Blade II: Bannerlord). Not affiliated with Warlords or TaleWorlds.
+Unofficial fan ladder of published EU [Warlords](https://mbwarlords.com/) clan wars (*Mount & Blade II: Bannerlord*).
 
-Live URL after GitHub Pages is enabled:
+It is not an official ranking and is not affiliated with Warlords or TaleWorlds.
 
-`https://velorum6.github.io/warlords-cw/`
+- Ladder: [velorum6.github.io/warlords-cw](https://velorum6.github.io/warlords-cw/)
+- History: [velorum6.github.io/warlords-cw/wars.html](https://velorum6.github.io/warlords-cw/wars.html)
 
-War history: `https://velorum6.github.io/warlords-cw/wars.html`
+## What it is
 
-The browser never talks to `mbwarlords.com`. A GitHub Actions workflow fetches the public API, replays Glicko-2, writes `data/ratings.json` plus static HTML, commits the JSON (git-scraping), and deploys Pages.
+A static site that replays every published clan war through Glicko-2 and shows two pages:
 
-## How to fork and run it
+| Page | What you get |
+| --- | --- |
+| **Ladder** | Clan ratings, search, Established / All ranked |
+| **History** | Every war used on the board, with that night’s rating change |
 
-1. Fork this repository, or create a new GitHub repo named `warlords-cw` and push these files to branch `main`. If `git init` created `master`, run `git branch -M main` before the first push.
-2. **Settings → Pages**: Source = **GitHub Actions** (not “Deploy from a branch”).
-3. **Settings → Actions → General**: allow Actions. Workflow permissions should be **Read and write**.
-4. Open the **Actions** tab and enable workflows if GitHub has them disabled on the fork.
-5. Run **Update ladder** → **Run workflow**. The first successful run commits `data/ratings.json` and publishes the site.
-6. No API key. No secrets. Do not add a `GameServerKey`.
+Identity is the clan **id**. Tags and names are labels only: two clans can share a tag and are still rated separately. Clans that field several lineups under one id (KoL, EQUE, VW, and others) share one rating. That number is the house, not 1st team vs 2nd team.
 
-Scheduled runs are every 20 minutes. GitHub can delay cron jobs, and they only fire on the default branch.
+The browser never calls `mbwarlords.com`. GitHub Actions fetches the public API, writes `data/ratings.json` and `data/wars.json`, builds static HTML, and deploys GitHub Pages. No API key, no secrets, no `GameServerKey`.
 
-### 60-day cron note
+## Fork and publish
 
-GitHub disables scheduled workflows after **60 days of repository inactivity**. This project commits `data/ratings.json` on every successful run (the payload includes `generatedAt`) so the repo stays active. If you fork and never get a successful run, or you delete the commit step, the cron will eventually stop. Re-enable it from the Actions tab.
+Forks do not inherit a live Pages site or a running cron. Do the steps below on **your** repo.
 
-## Local build
+1. **Fork** this repository (keep the name `warlords-cw`, or the Pages URL will use whatever name you chose).
+2. Confirm the default branch is **`main`**.
+3. **Settings → Pages**: Source = **GitHub Actions** (not “Deploy from a branch”).
+4. **Settings → Actions → General**:
+   - Allow Actions.
+   - Workflow permissions = **Read and write**.
+5. Open the **Actions** tab and **enable workflows**. GitHub turns them off on new forks.
+6. Run **Update ladder → Run workflow**. The first green run commits the JSON and publishes Pages.
+7. If GitHub asks you to approve the `github-pages` environment, approve it once.
 
-Python 3.11+ (stdlib only):
+Your site will be:
+
+`https://<you>.github.io/<repo>/`
+
+There is nothing to configure after that. Do not add secrets.
+
+### After it is live
+
+The **Update ladder** workflow runs:
+
+- every 20 minutes (`7`, `27`, `47` past the hour, UTC),
+- when you push to `main` (README and `data/` changes do not retrigger it),
+- when you use **Run workflow**.
+
+GitHub can delay or skip scheduled jobs, especially in the first hours after a fork, and they only fire on the default branch. A successful run always commits JSON (`generatedAt` changes) so the repo counts as active. GitHub otherwise disables cron after **60 days with no repository activity**. If the timer dies, enable workflows again from the Actions tab and run it once by hand.
+
+Pull before you push `main`. The bot commits on a schedule; a force-push will wipe those updates.
+
+## Run it locally
+
+Python 3.11+ (standard library only). A local run **does** hit the public Warlords API; the deployed site does not.
 
 ```bash
 python scripts/update.py
-python -m http.server 8080 --directory dist
+python -m http.server 8080 --bind 127.0.0.1 --directory dist
 ```
 
-Open `http://127.0.0.1:8080/`. That local run hits the public API; the deployed site does not.
+Open `http://127.0.0.1:8080/`. `--bind 127.0.0.1` matters on Windows; without it the server may listen on IPv6 only.
 
-## Rating rules
+`dist/` is generated and gitignored. Edit files under `site/` and `scripts/`, then run `update.py` again.
 
-- Published wars only, two distinct clan ids, usable scores, not cancelled.
-- Sorted by `stoppedAt`, then `publishedAt`.
-- Winner = higher `scoreTeam1` / `scoreTeam2`. Equal scores are a draw (0.5).
-- Identity = clan **id**. Tags and names are labels.
-- Start 1500 / uncertainty 350 / vol 0.06 / tau 0.5. One rating period per war.
-- Round gap scales the win: +1 (11–10) → 0.64, +12 (12–0) → 1.0. Loss is the complement. W–L–D is still who scored more.
-- Opponent strength is in the update.
-- **Established** = 15+ wars and uncertainty &lt; 100. **All ranked** = 5+ wars.
-- Avg opp = mean of opponents’ *current* Rating, one count per war.
+## How the rating works
 
-## Out of scope (v1)
+Published wars only, two different clan ids, usable scores, not cancelled. Wars are replayed in order of `stoppedAt`, then `publishedAt`.
 
-Player ratings, Discord bot, login, database, and fetching per-war detail payloads.
+| | |
+| --- | --- |
+| Start | 1500 rating, 350 uncertainty, 0.06 volatility |
+| Period | One published war |
+| Win / loss | Higher `scoreTeam1` / `scoreTeam2`. A draw is 0.5 in Glicko; W–L–D still follows who scored more |
+| Margin | A clan war is four sets, first to 3 (max 12–0). Rating uses the round gap: 11–10 → 0.64, 12–0 → 1.0. The loser gets the complement |
+| Avg opp | Mean of opponents’ ratings **today**, one count per war — not the rating they had that night |
+
+**Established** is the default board: 15+ wars, uncertainty below 100, and a published war in the last 21 days. Idle clans stay on **All ranked** (5+ wars) and return to Established when they play again. They are not deleted.
+
+Timestamps on the site are Europe/Madrid (CET / CEST).
+
+## Layout
+
+```
+site/                 pages, CSS, JS
+scripts/update.py     fetch API, replay Glicko-2, write dist/
+scripts/glicko2.py    Glicko-2
+data/                 committed snapshots (git-scraping)
+.github/workflows/    fetch, commit, deploy Pages
+```
+
+## What this does not do
+
+Player ratings, Discord, logins, a database, or per-war roster dumps. Splitting multi-team houses needs separate clan ids in Warlords, or a team id on the published war — this site cannot infer lineups from the public list.
