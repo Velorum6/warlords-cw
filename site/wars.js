@@ -21,15 +21,21 @@
       .replaceAll('"', "&quot;");
   }
 
+  const TZ = "Europe/Madrid";
+
   function fmtWhen(iso) {
     if (!iso) return "—";
     const dt = new Date(iso);
     if (Number.isNaN(dt.getTime())) return iso.slice(0, 10);
     return new Intl.DateTimeFormat("en-GB", {
-      dateStyle: "medium",
-      timeStyle: "short",
-      timeZone: "UTC",
-    }).format(dt) + " UTC";
+      day: "numeric",
+      month: "short",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      timeZone: TZ,
+      timeZoneName: "short",
+    }).format(dt);
   }
 
   function fmtStamp(iso) {
@@ -42,7 +48,7 @@
       year: "numeric",
       hour: "2-digit",
       minute: "2-digit",
-      timeZone: "UTC",
+      timeZone: TZ,
     }).format(dt);
   }
 
@@ -54,8 +60,16 @@
 
   function matchesQuery(w, q) {
     if (!q) return true;
-    const blob = `${w.clan1?.tag || ""} ${w.clan1?.name || ""} ${w.clan2?.tag || ""} ${w.clan2?.name || ""}`.toLowerCase();
-    return blob.includes(q);
+    const text = (c) => `${c?.tag || ""} ${c?.name || ""}`.toLowerCase();
+    const c1 = text(w.clan1);
+    const c2 = text(w.clan2);
+    const parts = q.split(/\s+vs\.?\s+/);
+    if (parts.length === 2 && parts[0] && parts[1]) {
+      const a = parts[0].trim();
+      const b = parts[1].trim();
+      return (c1.includes(a) && c2.includes(b)) || (c1.includes(b) && c2.includes(a));
+    }
+    return `${c1} ${c2}`.includes(q);
   }
 
   function render() {

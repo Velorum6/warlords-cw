@@ -30,15 +30,21 @@
     recent: document.getElementById("recent-wars"),
   };
 
+  const TZ = "Europe/Madrid";
+
   function fmtWhen(iso) {
     if (!iso) return "—";
     const dt = new Date(iso);
     if (Number.isNaN(dt.getTime())) return iso.slice(0, 10);
     return new Intl.DateTimeFormat("en-GB", {
-      dateStyle: "medium",
-      timeStyle: "short",
-      timeZone: "UTC",
-    }).format(dt) + " UTC";
+      day: "numeric",
+      month: "short",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      timeZone: TZ,
+      timeZoneName: "short",
+    }).format(dt);
   }
 
   function fmtDay(iso) {
@@ -49,7 +55,7 @@
       day: "numeric",
       month: "short",
       year: "numeric",
-      timeZone: "UTC",
+      timeZone: TZ,
     }).format(dt);
   }
 
@@ -62,7 +68,7 @@
       month: "short",
       hour: "2-digit",
       minute: "2-digit",
-      timeZone: "UTC",
+      timeZone: TZ,
     }).format(dt);
   }
 
