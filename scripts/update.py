@@ -40,6 +40,7 @@ USER_AGENT = "warlords-cw/1.0 (unofficial GitHub Pages fan ladder)"
 RANKED_MIN_WARS = 5
 ESTABLISHED_MIN_WARS = 15
 ESTABLISHED_MAX_UNCERTAINTY = 100.0
+ESTABLISHED_MAX_IDLE_DAYS = 21
 # Four first-to-3 sets → max 12–0. A +1 win still pays; a 12–0 pays 1.0.
 MARGIN_MAX = 12.0
 WIN_FLOOR = 0.64
@@ -207,6 +208,8 @@ def war_row(match: dict) -> dict:
         "clan2": side(match["clan2"]),
         "s1": match["s1"],
         "s2": match["s2"],
+        "d1": match.get("d1"),
+        "d2": match.get("d2"),
     }
 
 
@@ -240,8 +243,12 @@ def replay(matches: list[dict]) -> dict[str, Clan]:
 
         a_opp = a.rating.snapshot()
         b_opp = b.rating.snapshot()
+        before_a = a.rating.rating
+        before_b = b.rating.rating
         update_period(a.rating, [(b_opp, sa)])
         update_period(b.rating, [(a_opp, sb)])
+        match["d1"] = int(round(a.rating.rating - before_a))
+        match["d2"] = int(round(b.rating.rating - before_b))
 
         for side, scored, conceded, opp_id in (
             (a, s1, s2, b.clan_id),
@@ -280,8 +287,18 @@ def by_name_contains(clans: dict[str, Clan], needle: str) -> Clan | None:
     return hits[0]
 
 
-def clan_brief(row: Clan) -> dict:
+def is_established(row: Clan, now: datetime) -> bool:
+    if row.wars < ESTABLISHED_MIN_WARS or row.rating.rd >= ESTABLISHED_MAX_UNCERTAINTY:
+        return False
+    played = parse_time(row.last_played) if row.last_played else None
+    if played is None:
+        return False
+    return (now - played).total_seconds() <= ESTABLISHED_MAX_IDLE_DAYS * 86400
+
+
+def clan_brief(row: Clan, now: datetime | None = None) -> dict:
     win_pct = 100.0 * row.wins / row.wars if row.wars else 0.0
+    when = now or utc_now()
     return {
         "id": row.clan_id,
         "tag": row.tag,
@@ -295,8 +312,7 @@ def clan_brief(row: Clan) -> dict:
         "winPct": round(win_pct, 1),
         "wars": row.wars,
         "lastPlayed": row.last_played[:10] if row.last_played else "",
-        "established": row.wars >= ESTABLISHED_MIN_WARS
-        and row.rating.rd < ESTABLISHED_MAX_UNCERTAINTY,
+        "established": is_established(row, when),
     }
 
 
@@ -344,16 +360,13 @@ def explain_payload(clans: dict[str, Clan]) -> dict:
 
 
 def build_payload(wars: list[dict], matches: list[dict], skipped: dict[str, int], clans: dict[str, Clan]) -> dict:
+    now = utc_now()
     ranked = [c for c in clans.values() if c.wars >= RANKED_MIN_WARS]
     ranked.sort(key=lambda c: (-c.rating.rating, c.rating.rd, -c.wars, c.tag))
-    established = [
-        c
-        for c in ranked
-        if c.wars >= ESTABLISHED_MIN_WARS and c.rating.rd < ESTABLISHED_MAX_UNCERTAINTY
-    ]
+    established = [c for c in ranked if is_established(c, now)]
     times = [m["when"] for m in matches]
     return {
-        "generatedAt": utc_now().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generatedAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source": BASE + "clan-wars",
         "disclaimer": "Unofficial fan ladder. Not affiliated with Warlords or TaleWorlds.",
         "counts": {
@@ -367,6 +380,7 @@ def build_payload(wars: list[dict], matches: list[dict], skipped: dict[str, int]
         "filters": {
             "establishedMinWars": ESTABLISHED_MIN_WARS,
             "establishedMaxUncertainty": ESTABLISHED_MAX_UNCERTAINTY,
+            "establishedMaxIdleDays": ESTABLISHED_MAX_IDLE_DAYS,
             "rankedMinWars": RANKED_MIN_WARS,
         },
         "model": {
@@ -383,7 +397,7 @@ def build_payload(wars: list[dict], matches: list[dict], skipped: dict[str, int]
         "firstMatch": times[0] if times else None,
         "lastMatch": times[-1] if times else None,
         "explain": explain_payload(clans),
-        "clans": [clan_brief(c) for c in ranked],
+        "clans": [clan_brief(c, now) for c in ranked],
     }
 
 

@@ -58,6 +58,14 @@
     return `<span class="tag">${esc(tag)}</span> ${esc(name)}`;
   }
 
+  function deltaSpan(n) {
+    if (typeof n !== "number" || Number.isNaN(n)) return "";
+    const v = Math.round(n);
+    const text = v > 0 ? `+${v}` : v < 0 ? `−${Math.abs(v)}` : "0";
+    const cls = v > 0 ? "up" : v < 0 ? "down" : "flat";
+    return ` <span class="delta ${cls}">${text}</span>`;
+  }
+
   function matchesQuery(w, q) {
     if (!q) return true;
     const text = (c) => `${c?.tag || ""} ${c?.name || ""}`.toLowerCase();
@@ -85,9 +93,9 @@
           return `<li>
             <span class="when">${esc(fmtStamp(w.when))}</span>
             <span class="match">
-              <span class="side${c1}">${clanLabel(w.clan1)}</span>
+              <span class="side${c1}">${clanLabel(w.clan1)}${deltaSpan(w.d1)}</span>
               <span class="vs">vs</span>
-              <span class="side${c2}">${clanLabel(w.clan2)}</span>
+              <span class="side${c2}">${clanLabel(w.clan2)}${deltaSpan(w.d2)}</span>
             </span>
             <span class="score">${w.s1}–${w.s2}</span>
           </li>`;
