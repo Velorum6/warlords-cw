@@ -90,7 +90,3 @@ scripts/glicko2.py    Glicko-2
 data/                 committed snapshots (git-scraping)
 .github/workflows/    fetch, commit, deploy Pages
 ```
-
-## What this does not do
-
-Player ratings, Discord, logins, a database, or per-war roster dumps. Splitting multi-team houses needs separate clan ids in Warlords, or a team id on the published war — this site cannot infer lineups from the public list.
