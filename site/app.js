@@ -53,10 +53,19 @@
 
   function heatColor(t) {
     const x = Math.min(1, Math.max(0, t));
-    const r = Math.round(168 + (46 - 168) * x);
-    const g = Math.round(52 + (140 - 52) * x);
-    const b = Math.round(48 + (72 - 48) * x);
-    return `rgba(${r}, ${g}, ${b}, 0.55)`;
+    // Coral → gold → mint, for dark text-on-ink (not cell fills).
+    const stops = [
+      [224, 118, 102],
+      [212, 177, 90],
+      [118, 204, 148],
+    ];
+    const pos = x * (stops.length - 1);
+    const i = Math.min(stops.length - 2, Math.floor(pos));
+    const u = pos - i;
+    const r = Math.round(stops[i][0] + (stops[i + 1][0] - stops[i][0]) * u);
+    const g = Math.round(stops[i][1] + (stops[i + 1][1] - stops[i][1]) * u);
+    const b = Math.round(stops[i][2] + (stops[i + 1][2] - stops[i][2]) * u);
+    return `rgb(${r}, ${g}, ${b})`;
   }
 
   function scale(values, value, invert) {
@@ -166,15 +175,15 @@
             ? 1 - Math.min(1, ageDays(c.lastPlayed) / 60)
             : 0;
           return `<tr>
-            <td>${i + 1}</td>
+            <td class="num">${i + 1}</td>
             <td class="clan"><span class="tag">${esc(c.tag || "—")}</span> <span class="name">${esc(c.name)}</span></td>
-            <td class="heat" style="background:${heatColor(scale(ratings, c.rating, false))}">${Math.round(c.rating)}</td>
-            <td class="heat" style="background:${heatColor(scale(uncs, c.uncertainty, true))}">${Math.round(c.uncertainty)}</td>
-            <td class="heat" style="background:${heatColor(scale(opps, c.avgOpp, false))}">${Math.round(c.avgOpp)}</td>
-            <td class="wld">${c.wins}–${c.losses}–${c.draws}</td>
-            <td class="heat" style="background:${heatColor(scale(winps, c.winPct, false))}">${c.winPct.toFixed(1)}%</td>
-            <td class="heat" style="background:${heatColor(scale(wars, c.wars, false))}">${c.wars}</td>
-            <td class="heat" style="background:${heatColor(lastHeat)}">${esc(fmtDay(c.lastPlayed))}</td>
+            <td class="num heat" style="color:${heatColor(scale(ratings, c.rating, false))}">${Math.round(c.rating)}</td>
+            <td class="num heat" style="color:${heatColor(scale(uncs, c.uncertainty, true))}">${Math.round(c.uncertainty)}</td>
+            <td class="num heat" style="color:${heatColor(scale(opps, c.avgOpp, false))}">${Math.round(c.avgOpp)}</td>
+            <td class="num wld">${c.wins}–${c.losses}–${c.draws}</td>
+            <td class="num heat" style="color:${heatColor(scale(winps, c.winPct, false))}">${c.winPct.toFixed(1)}%</td>
+            <td class="num heat" style="color:${heatColor(scale(wars, c.wars, false))}">${c.wars}</td>
+            <td class="num heat" style="color:${heatColor(lastHeat)}">${esc(fmtDay(c.lastPlayed))}</td>
           </tr>`;
         })
         .join("");
