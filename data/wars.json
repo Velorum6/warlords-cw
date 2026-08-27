@@ -1,6 +1,40 @@
 {
   "wars": [
     {
+      "when": "2026-08-27T18:13:51.921000+00:00",
+      "clan1": {
+        "id": "6a331bf334894c83691a729b",
+        "tag": "DoN",
+        "name": "Dukedom of Navarra"
+      },
+      "clan2": {
+        "id": "6a255dbf20738f4b9efbfa29",
+        "tag": "CI",
+        "name": "Coronas Ibericas"
+      },
+      "s1": 1,
+      "s2": 12,
+      "d1": -39,
+      "d2": 4
+    },
+    {
+      "when": "2026-08-27T18:08:09.738000+00:00",
+      "clan1": {
+        "id": "6a255ebe20738f4b9efc0534",
+        "tag": "IPL",
+        "name": "Imperium Polskie"
+      },
+      "clan2": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "s1": 3,
+      "s2": 12,
+      "d1": -2,
+      "d2": 2
+    },
+    {
       "when": "2026-08-26T20:33:13.463000+00:00",
       "clan1": {
         "id": "6a255e8f20738f4b9efc03c5",
