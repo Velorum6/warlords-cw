@@ -44,7 +44,6 @@ ESTABLISHED_MAX_UNCERTAINTY = 100.0
 MARGIN_MAX = 12.0
 WIN_FLOOR = 0.64
 EXAMPLE_WIN = (12, 4)
-RECENT_LIMIT = 12
 
 
 def match_score(s_for: int, s_against: int) -> float:
@@ -209,10 +208,6 @@ def war_row(match: dict) -> dict:
         "s1": match["s1"],
         "s2": match["s2"],
     }
-
-
-def recent_wars(matches: list[dict]) -> list[dict]:
-    return [war_row(m) for m in reversed(matches[-RECENT_LIMIT:])]
 
 
 def history_wars(matches: list[dict]) -> list[dict]:
@@ -388,7 +383,6 @@ def build_payload(wars: list[dict], matches: list[dict], skipped: dict[str, int]
         "firstMatch": times[0] if times else None,
         "lastMatch": times[-1] if times else None,
         "explain": explain_payload(clans),
-        "recentWars": recent_wars(matches),
         "clans": [clan_brief(c) for c in ranked],
     }
 

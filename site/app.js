@@ -27,7 +27,6 @@
     empty: document.getElementById("board-empty"),
     explain: document.getElementById("explain-dynamic"),
     explainBoard: document.getElementById("explain-board"),
-    recent: document.getElementById("recent-wars"),
   };
 
   const TZ = "Europe/Madrid";
@@ -55,19 +54,6 @@
       day: "numeric",
       month: "short",
       year: "numeric",
-      timeZone: TZ,
-    }).format(dt);
-  }
-
-  function fmtStamp(iso) {
-    if (!iso) return "—";
-    const dt = new Date(iso);
-    if (Number.isNaN(dt.getTime())) return iso.slice(0, 10);
-    return new Intl.DateTimeFormat("en-GB", {
-      day: "numeric",
-      month: "short",
-      hour: "2-digit",
-      minute: "2-digit",
       timeZone: TZ,
     }).format(dt);
   }
@@ -201,38 +187,6 @@
     if (els.explainBoard) els.explainBoard.innerHTML = boardBits.join("");
   }
 
-  function clanLabel(c) {
-    const tag = c?.tag || "—";
-    const name = c?.name || "";
-    return `<span class="tag">${esc(tag)}</span> ${esc(name)}`;
-  }
-
-  function renderRecent() {
-    if (!els.recent) return;
-    const wars = data.recentWars || [];
-    if (!wars.length) {
-      els.recent.innerHTML = `<li class="recent-empty">No published wars yet.</li>`;
-      return;
-    }
-    els.recent.innerHTML = wars
-      .map((w) => {
-        const w1 = w.s1 > w.s2;
-        const w2 = w.s2 > w.s1;
-        const c1 = w1 ? " win" : w2 ? " lose" : "";
-        const c2 = w2 ? " win" : w1 ? " lose" : "";
-        return `<li>
-          <span class="when">${esc(fmtStamp(w.when))}</span>
-          <span class="match">
-            <span class="side${c1}">${clanLabel(w.clan1)}</span>
-            <span class="vs">vs</span>
-            <span class="side${c2}">${clanLabel(w.clan2)}</span>
-          </span>
-          <span class="score">${w.s1}–${w.s2}</span>
-        </li>`;
-      })
-      .join("");
-  }
-
   function esc(value) {
     return String(value ?? "")
       .replaceAll("&", "&amp;")
@@ -326,6 +280,5 @@
   });
 
   renderExplain();
-  renderRecent();
   render();
 })();
