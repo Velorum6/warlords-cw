@@ -90,15 +90,34 @@ h1 {
 
 .nav {
   display: flex;
-  gap: 16px;
-  margin-top: 14px;
-  font-size: 0.92rem;
+  gap: 2px;
+  margin: 16px 0 -22px;
+  font-size: 0.95rem;
+}
+
+.nav a {
+  color: var(--muted);
+  text-decoration: none;
+  padding: 11px 18px 13px;
+  font-weight: 600;
+  border-bottom: 3px solid transparent;
+  border-radius: 8px 8px 0 0;
+}
+
+.nav a:hover {
+  color: var(--ink);
+  background: var(--row-hover);
+}
+
+.nav a:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
 }
 
 .nav a[aria-current="page"] {
   color: var(--gold);
-  font-weight: 650;
-  text-decoration: none;
+  background: rgba(212, 177, 90, 0.08);
+  border-bottom-color: var(--gold);
 }
 
 .meta strong {
