@@ -1,6 +1,74 @@
 {
   "wars": [
     {
+      "when": "2026-08-27T19:55:29.262000+00:00",
+      "clan1": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "clan2": {
+        "id": "6a255e8f20738f4b9efc03c5",
+        "tag": "IZpp",
+        "name": "IZpp"
+      },
+      "s1": 11,
+      "s2": 5,
+      "d1": 7,
+      "d2": -14
+    },
+    {
+      "when": "2026-08-27T19:30:12.308000+00:00",
+      "clan1": {
+        "id": "6a29c2dfbc6a49b6e3523eeb",
+        "tag": "LGA",
+        "name": "La Garde de l'Aube"
+      },
+      "clan2": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "s1": 0,
+      "s2": 12,
+      "d1": -77,
+      "d2": 6
+    },
+    {
+      "when": "2026-08-27T19:09:01.419000+00:00",
+      "clan1": {
+        "id": "6a31ad7abee995dec85f45ae",
+        "tag": "SANT",
+        "name": "Orden de Santiago"
+      },
+      "clan2": {
+        "id": "6a25619c20738f4b9efc3ee9",
+        "tag": "DWDN",
+        "name": "Daewden Kingdom"
+      },
+      "s1": 6,
+      "s2": 12,
+      "d1": -19,
+      "d2": 14
+    },
+    {
+      "when": "2026-08-27T18:48:45.205000+00:00",
+      "clan1": {
+        "id": "6a3061c700bfb3d84b370b8e",
+        "tag": "OMEY",
+        "name": "Guardia Omeya"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 2,
+      "s2": 12,
+      "d1": -6,
+      "d2": 5
+    },
+    {
       "when": "2026-08-27T18:40:46.576000+00:00",
       "clan1": {
         "id": "6a25acf220738f4b9e034213",
