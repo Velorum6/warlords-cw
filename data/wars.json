@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-08-28T18:35:27.269000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "s1": 1,
+      "s2": 12,
+      "d1": -39,
+      "d2": 9
+    },
+    {
       "when": "2026-08-27T19:55:29.262000+00:00",
       "clan1": {
         "id": "6a2add67bc6a49b6e35668e5",
