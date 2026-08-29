@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-08-29T20:17:38.154000+00:00",
+      "clan1": {
+        "id": "6a5b9aa79170a0608721d432",
+        "tag": "VAGOS",
+        "name": "Vagos"
+      },
+      "clan2": {
+        "id": "6a255e0120738f4b9efbfbfa",
+        "tag": "DM",
+        "name": "Destiny Masters"
+      },
+      "s1": 9,
+      "s2": 7,
+      "d1": 15,
+      "d2": -9
+    },
+    {
       "when": "2026-08-29T19:09:10.561000+00:00",
       "clan1": {
         "id": "6a255dc620738f4b9efbfa2a",
