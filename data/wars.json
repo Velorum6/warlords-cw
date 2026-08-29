@@ -1,6 +1,40 @@
 {
   "wars": [
     {
+      "when": "2026-08-28T20:36:19.145000+00:00",
+      "clan1": {
+        "id": "6a3007bf00bfb3d84b34484a",
+        "tag": "ANG",
+        "name": "Duchy of L'Anguille"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 7,
+      "s2": 8,
+      "d1": 31,
+      "d2": -2
+    },
+    {
+      "when": "2026-08-28T20:15:52.533000+00:00",
+      "clan1": {
+        "id": "6a25636320738f4b9efc646a",
+        "tag": "CHAD",
+        "name": "CHADSQUAD"
+      },
+      "clan2": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "s1": 5,
+      "s2": 10,
+      "d1": -7,
+      "d2": 19
+    },
+    {
       "when": "2026-08-28T19:50:05.566000+00:00",
       "clan1": {
         "id": "6a255e0120738f4b9efbfbfa",
