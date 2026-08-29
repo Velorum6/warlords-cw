@@ -1,6 +1,91 @@
 {
   "wars": [
     {
+      "when": "2026-08-29T19:09:10.561000+00:00",
+      "clan1": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "clan2": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "s1": 12,
+      "s2": 5,
+      "d1": 8,
+      "d2": -10
+    },
+    {
+      "when": "2026-08-29T19:04:09.260000+00:00",
+      "clan1": {
+        "id": "6a3061c700bfb3d84b370b8e",
+        "tag": "OMEY",
+        "name": "Guardia Omeya"
+      },
+      "clan2": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "s1": 5,
+      "s2": 9,
+      "d1": 1,
+      "d2": -1
+    },
+    {
+      "when": "2026-08-29T18:01:35.343000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a255f7f20738f4b9efc12f0",
+        "tag": "MF",
+        "name": "Milites Fortunae"
+      },
+      "s1": 12,
+      "s2": 5,
+      "d1": 23,
+      "d2": -7
+    },
+    {
+      "when": "2026-08-29T17:58:56.012000+00:00",
+      "clan1": {
+        "id": "6a255ed220738f4b9efc0669",
+        "tag": "VEMO",
+        "name": "Velmore Company"
+      },
+      "clan2": {
+        "id": "6a25d04320738f4b9e067e57",
+        "tag": "ODS",
+        "name": "Order of Santiago"
+      },
+      "s1": 4,
+      "s2": 11,
+      "d1": -17,
+      "d2": 26
+    },
+    {
+      "when": "2026-08-29T17:49:35.991000+00:00",
+      "clan1": {
+        "id": "6a255eb620738f4b9efc04d6",
+        "tag": "IE",
+        "name": "Imperial Eagles"
+      },
+      "clan2": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "s1": 12,
+      "s2": 4,
+      "d1": 5,
+      "d2": -5
+    },
+    {
       "when": "2026-08-28T20:36:19.145000+00:00",
       "clan1": {
         "id": "6a3007bf00bfb3d84b34484a",
