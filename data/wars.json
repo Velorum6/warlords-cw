@@ -1,6 +1,57 @@
 {
   "wars": [
     {
+      "when": "2026-08-30T17:56:57.357000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a31ad7abee995dec85f45ae",
+        "tag": "SANT",
+        "name": "Orden de Santiago"
+      },
+      "s1": 12,
+      "s2": 0,
+      "d1": 14,
+      "d2": -10
+    },
+    {
+      "when": "2026-08-30T17:56:18.356000+00:00",
+      "clan1": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "clan2": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "s1": 9,
+      "s2": 9,
+      "d1": 2,
+      "d2": -2
+    },
+    {
+      "when": "2026-08-30T17:46:11.621000+00:00",
+      "clan1": {
+        "id": "6a256cde20738f4b9efd591f",
+        "tag": "Host",
+        "name": "Knights Hospitaller"
+      },
+      "clan2": {
+        "id": "6a255eb620738f4b9efc04d6",
+        "tag": "IE",
+        "name": "Imperial Eagles"
+      },
+      "s1": 2,
+      "s2": 12,
+      "d1": -3,
+      "d2": 2
+    },
+    {
       "when": "2026-08-30T17:29:01.907000+00:00",
       "clan1": {
         "id": "6a255ed220738f4b9efc0669",
@@ -16,6 +67,40 @@
       "s2": 11,
       "d1": -5,
       "d2": 36
+    },
+    {
+      "when": "2026-08-30T17:05:29.065000+00:00",
+      "clan1": {
+        "id": "6a25606d20738f4b9efc2689",
+        "tag": "VALE",
+        "name": "The Vale"
+      },
+      "clan2": {
+        "id": "6a90b06060736ae2d6edc08d",
+        "tag": "MILAN",
+        "name": "Duchy of Milan"
+      },
+      "s1": 6,
+      "s2": 8,
+      "d1": -2,
+      "d2": 11
+    },
+    {
+      "when": "2026-08-30T13:35:29.599000+00:00",
+      "clan1": {
+        "id": "6a90b06060736ae2d6edc08d",
+        "tag": "MILAN",
+        "name": "Duchy of Milan"
+      },
+      "clan2": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "s1": 10,
+      "s2": 8,
+      "d1": 95,
+      "d2": -10
     },
     {
       "when": "2026-08-29T22:18:39.598000+00:00",
