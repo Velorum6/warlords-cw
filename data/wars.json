@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-08-30T20:13:20.207000+00:00",
+      "clan1": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "s1": 9,
+      "s2": 0,
+      "d1": 2,
+      "d2": -3
+    },
+    {
       "when": "2026-08-30T18:52:13.891000+00:00",
       "clan1": {
         "id": "6a255dc620738f4b9efbfa2a",
