@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-08-30T17:29:01.907000+00:00",
+      "clan1": {
+        "id": "6a255ed220738f4b9efc0669",
+        "tag": "VEMO",
+        "name": "Velmore Company"
+      },
+      "clan2": {
+        "id": "6a331bf334894c83691a729b",
+        "tag": "DoN",
+        "name": "Dukedom of Navarra"
+      },
+      "s1": 5,
+      "s2": 11,
+      "d1": -5,
+      "d2": 36
+    },
+    {
       "when": "2026-08-29T22:18:39.598000+00:00",
       "clan1": {
         "id": "6a255dc620738f4b9efbfa2a",
