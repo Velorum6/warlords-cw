@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-08-31T00:02:19.975000+00:00",
+      "clan1": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 8,
+      "s2": 8,
+      "d1": 22,
+      "d2": -10
+    },
+    {
       "when": "2026-08-30T20:13:20.207000+00:00",
       "clan1": {
         "id": "6a2add67bc6a49b6e35668e5",
