@@ -35,6 +35,57 @@
       "d2": 6
     },
     {
+      "when": "2026-08-31T18:06:25.944000+00:00",
+      "clan1": {
+        "id": "6a255ebe20738f4b9efc0534",
+        "tag": "IPL",
+        "name": "Imperium Polskie"
+      },
+      "clan2": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "s1": 10,
+      "s2": 8,
+      "d1": 7,
+      "d2": -8
+    },
+    {
+      "when": "2026-08-31T17:56:56.858000+00:00",
+      "clan1": {
+        "id": "6a25979c20738f4b9e01bbdf",
+        "tag": "VSC",
+        "name": "The Volsung Clan"
+      },
+      "clan2": {
+        "id": "6a25636320738f4b9efc646a",
+        "tag": "CHAD",
+        "name": "CHADSQUAD"
+      },
+      "s1": 6,
+      "s2": 8,
+      "d1": -80,
+      "d2": 4
+    },
+    {
+      "when": "2026-08-31T17:49:08.200000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a255e8f20738f4b9efc03c5",
+        "tag": "IZpp",
+        "name": "IZpp"
+      },
+      "s1": 4,
+      "s2": 11,
+      "d1": -9,
+      "d2": 15
+    },
+    {
       "when": "2026-08-31T00:02:19.975000+00:00",
       "clan1": {
         "id": "6a25acf220738f4b9e034213",
