@@ -1,6 +1,40 @@
 {
   "wars": [
     {
+      "when": "2026-09-01T17:48:07.677000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "s1": 9,
+      "s2": 6,
+      "d1": 11,
+      "d2": -10
+    },
+    {
+      "when": "2026-09-01T17:47:49.880000+00:00",
+      "clan1": {
+        "id": "6a3061c700bfb3d84b370b8e",
+        "tag": "OMEY",
+        "name": "Guardia Omeya"
+      },
+      "clan2": {
+        "id": "6a331bf334894c83691a729b",
+        "tag": "DoN",
+        "name": "Dukedom of Navarra"
+      },
+      "s1": 12,
+      "s2": 1,
+      "d1": 11,
+      "d2": -74
+    },
+    {
       "when": "2026-08-31T20:38:37.174000+00:00",
       "clan1": {
         "id": "6a3083f000bfb3d84b37eae2",
