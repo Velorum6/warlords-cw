@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-02T18:00:51.171000+00:00",
+      "clan1": {
+        "id": "6a255f7f20738f4b9efc12f0",
+        "tag": "MF",
+        "name": "Milites Fortunae"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 2,
+      "s2": 12,
+      "d1": -8,
+      "d2": 8
+    },
+    {
       "when": "2026-09-02T17:33:00.266000+00:00",
       "clan1": {
         "id": "6a2594e520738f4b9e017b7a",
@@ -16,6 +33,23 @@
       "s2": 0,
       "d1": 14,
       "d2": -12
+    },
+    {
+      "when": "2026-09-01T19:25:09.039000+00:00",
+      "clan1": {
+        "id": "6a2573ad20738f4b9efe1284",
+        "tag": "CATA",
+        "name": "Cataphract Knights"
+      },
+      "clan2": {
+        "id": "6a25636320738f4b9efc646a",
+        "tag": "CHAD",
+        "name": "CHADSQUAD"
+      },
+      "s1": 2,
+      "s2": 12,
+      "d1": -7,
+      "d2": 7
     },
     {
       "when": "2026-09-01T18:59:05.269000+00:00",
