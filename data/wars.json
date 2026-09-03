@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-03T18:45:00.918000+00:00",
+      "clan1": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "clan2": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "s1": 7,
+      "s2": 7,
+      "d1": -1,
+      "d2": 1
+    },
+    {
       "when": "2026-09-03T17:46:23.427000+00:00",
       "clan1": {
         "id": "6a25636c20738f4b9efc650f",
