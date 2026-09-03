@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-03T17:46:23.427000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "s1": 10,
+      "s2": 4,
+      "d1": 7,
+      "d2": -6
+    },
+    {
       "when": "2026-09-02T21:18:23.551000+00:00",
       "clan1": {
         "id": "6a25625120738f4b9efc4ca5",
