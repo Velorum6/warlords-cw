@@ -1,6 +1,40 @@
 {
   "wars": [
     {
+      "when": "2026-09-04T19:04:33.726000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a255eb620738f4b9efc04d6",
+        "tag": "IE",
+        "name": "Imperial Eagles"
+      },
+      "s1": 5,
+      "s2": 12,
+      "d1": -1,
+      "d2": 1
+    },
+    {
+      "when": "2026-09-04T18:57:02.498000+00:00",
+      "clan1": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "clan2": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "s1": 6,
+      "s2": 9,
+      "d1": -2,
+      "d2": 2
+    },
+    {
       "when": "2026-09-03T19:01:02.423000+00:00",
       "clan1": {
         "id": "6a2594e520738f4b9e017b7a",
