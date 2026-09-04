@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-04T19:06:49.288000+00:00",
+      "clan1": {
+        "id": "6a255ed220738f4b9efc0669",
+        "tag": "VEMO",
+        "name": "Velmore Company"
+      },
+      "clan2": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "s1": 6,
+      "s2": 11,
+      "d1": 1,
+      "d2": -2
+    },
+    {
       "when": "2026-09-04T19:04:33.726000+00:00",
       "clan1": {
         "id": "6a25636c20738f4b9efc650f",
@@ -33,6 +50,23 @@
       "s2": 9,
       "d1": -2,
       "d2": 2
+    },
+    {
+      "when": "2026-09-04T18:52:29.377000+00:00",
+      "clan1": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "clan2": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "s1": 9,
+      "s2": 8,
+      "d1": 5,
+      "d2": -5
     },
     {
       "when": "2026-09-03T19:01:02.423000+00:00",
