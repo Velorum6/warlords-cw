@@ -1,6 +1,57 @@
 {
   "wars": [
     {
+      "when": "2026-09-04T22:52:18.826000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "s1": 8,
+      "s2": 8,
+      "d1": -12,
+      "d2": 8
+    },
+    {
+      "when": "2026-09-04T20:58:11.515000+00:00",
+      "clan1": {
+        "id": "6a25b01c20738f4b9e038ee1",
+        "tag": "DRGNS",
+        "name": "The Sons Of The Dragon"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "s1": 3,
+      "s2": 12,
+      "d1": -13,
+      "d2": 10
+    },
+    {
+      "when": "2026-09-04T19:52:07.986000+00:00",
+      "clan1": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "clan2": {
+        "id": "6a25619c20738f4b9efc3ee9",
+        "tag": "DWDN",
+        "name": "Daewden Kingdom"
+      },
+      "s1": 12,
+      "s2": 0,
+      "d1": 4,
+      "d2": -6
+    },
+    {
       "when": "2026-09-04T19:06:49.288000+00:00",
       "clan1": {
         "id": "6a255ed220738f4b9efc0669",
