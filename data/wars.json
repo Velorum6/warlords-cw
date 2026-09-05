@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-05T19:05:41.532000+00:00",
+      "clan1": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "clan2": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "s1": 7,
+      "s2": 11,
+      "d1": -5,
+      "d2": 3
+    },
+    {
       "when": "2026-09-05T17:19:04.596000+00:00",
       "clan1": {
         "id": "6a25636c20738f4b9efc650f",
