@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-06T17:53:33.809000+00:00",
+      "clan1": {
+        "id": "6a255dbf20738f4b9efbfa29",
+        "tag": "CI",
+        "name": "Coronas Ibericas"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 10,
+      "s2": 7,
+      "d1": 4,
+      "d2": -3
+    },
+    {
       "when": "2026-09-06T17:40:55.089000+00:00",
       "clan1": {
         "id": "6a25619c20738f4b9efc3ee9",
