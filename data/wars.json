@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-07T17:51:40.651000+00:00",
+      "clan1": {
+        "id": "6a25979c20738f4b9e01bbdf",
+        "tag": "VSC",
+        "name": "The Volsung Clan"
+      },
+      "clan2": {
+        "id": "6a255ebe20738f4b9efc0534",
+        "tag": "IPL",
+        "name": "Imperium Polskie"
+      },
+      "s1": 12,
+      "s2": 1,
+      "d1": 36,
+      "d2": -8
+    },
+    {
       "when": "2026-09-06T20:23:00.136000+00:00",
       "clan1": {
         "id": "6a771fe5871001001756dd97",
