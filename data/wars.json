@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-08T21:02:27.999000+00:00",
+      "clan1": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "clan2": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "s1": 5,
+      "s2": 10,
+      "d1": -2,
+      "d2": 3
+    },
+    {
       "when": "2026-09-08T18:49:55.302000+00:00",
       "clan1": {
         "id": "6a255dbf20738f4b9efbfa29",
