@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-08T18:49:55.302000+00:00",
+      "clan1": {
+        "id": "6a255dbf20738f4b9efbfa29",
+        "tag": "CI",
+        "name": "Coronas Ibericas"
+      },
+      "clan2": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "s1": 9,
+      "s2": 7,
+      "d1": 2,
+      "d2": -2
+    },
+    {
       "when": "2026-09-07T20:58:28.459000+00:00",
       "clan1": {
         "id": "6a771fe5871001001756dd97",
