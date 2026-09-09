@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-09T18:01:13.655000+00:00",
+      "clan1": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "clan2": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "s1": 5,
+      "s2": 10,
+      "d1": -9,
+      "d2": 15
+    },
+    {
       "when": "2026-09-08T21:02:27.999000+00:00",
       "clan1": {
         "id": "6a25625120738f4b9efc4ca5",
