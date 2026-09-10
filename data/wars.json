@@ -1,6 +1,40 @@
 {
   "wars": [
     {
+      "when": "2026-09-10T18:54:16.443000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a255eb620738f4b9efc04d6",
+        "tag": "IE",
+        "name": "Imperial Eagles"
+      },
+      "s1": 3,
+      "s2": 12,
+      "d1": -2,
+      "d2": 3
+    },
+    {
+      "when": "2026-09-10T18:48:01.636000+00:00",
+      "clan1": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "clan2": {
+        "id": "6a255dbf20738f4b9efbfa29",
+        "tag": "CI",
+        "name": "Coronas Ibericas"
+      },
+      "s1": 7,
+      "s2": 8,
+      "d1": -3,
+      "d2": 4
+    },
+    {
       "when": "2026-09-10T17:48:50.932000+00:00",
       "clan1": {
         "id": "6a31ad7abee995dec85f45ae",
