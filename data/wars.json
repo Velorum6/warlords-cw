@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-10T17:48:50.932000+00:00",
+      "clan1": {
+        "id": "6a31ad7abee995dec85f45ae",
+        "tag": "SANT",
+        "name": "Orden de Santiago"
+      },
+      "clan2": {
+        "id": "6a25c37920738f4b9e0521bd",
+        "tag": "TTOD",
+        "name": "Teutonischer Orden"
+      },
+      "s1": 12,
+      "s2": 5,
+      "d1": 8,
+      "d2": -25
+    },
+    {
       "when": "2026-09-09T19:57:41.675000+00:00",
       "clan1": {
         "id": "6a25636c20738f4b9efc650f",
