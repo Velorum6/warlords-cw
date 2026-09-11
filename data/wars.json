@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-11T18:01:26.773000+00:00",
+      "clan1": {
+        "id": "6a29d509bc6a49b6e352e064",
+        "tag": "XIII",
+        "name": "Tagma"
+      },
+      "clan2": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "s1": 7,
+      "s2": 9,
+      "d1": 6,
+      "d2": -2
+    },
+    {
       "when": "2026-09-10T19:26:17.270000+00:00",
       "clan1": {
         "id": "6a25acf220738f4b9e034213",
