@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-11T18:59:17.414000+00:00",
+      "clan1": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "clan2": {
+        "id": "6a255dbf20738f4b9efbfa29",
+        "tag": "CI",
+        "name": "Coronas Ibericas"
+      },
+      "s1": 9,
+      "s2": 8,
+      "d1": 7,
+      "d2": -8
+    },
+    {
       "when": "2026-09-11T18:01:26.773000+00:00",
       "clan1": {
         "id": "6a29d509bc6a49b6e352e064",
@@ -18,6 +35,23 @@
       "d2": -2
     },
     {
+      "when": "2026-09-11T17:56:01.874000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6aa1e195273c53aabdc85020",
+        "tag": "AMG",
+        "name": "AMOGUS"
+      },
+      "s1": 8,
+      "s2": 9,
+      "d1": -4,
+      "d2": 105
+    },
+    {
       "when": "2026-09-10T19:26:17.270000+00:00",
       "clan1": {
         "id": "6a25acf220738f4b9e034213",
@@ -32,6 +66,23 @@
       "s1": 3,
       "s2": 12,
       "d1": 1,
+      "d2": 0
+    },
+    {
+      "when": "2026-09-10T18:58:45.937000+00:00",
+      "clan1": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "clan2": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "s1": 9,
+      "s2": 9,
+      "d1": 0,
       "d2": 0
     },
     {
