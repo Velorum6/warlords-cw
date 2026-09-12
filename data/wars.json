@@ -1,6 +1,1961 @@
 {
   "wars": [
     {
+      "when": "2026-09-11T19:55:13.826000+00:00",
+      "clan1": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "clan2": {
+        "id": "6a5b9aa79170a0608721d432",
+        "tag": "VAGOS",
+        "name": "Vagos"
+      },
+      "s1": 4,
+      "s2": 12,
+      "d1": -8,
+      "d2": 13
+    },
+    {
+      "when": "2026-09-11T18:59:17.414000+00:00",
+      "clan1": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "clan2": {
+        "id": "6a255dbf20738f4b9efbfa29",
+        "tag": "CI",
+        "name": "Coronas Ibericas"
+      },
+      "s1": 9,
+      "s2": 8,
+      "d1": 7,
+      "d2": -8
+    },
+    {
+      "when": "2026-09-11T18:01:26.773000+00:00",
+      "clan1": {
+        "id": "6a29d509bc6a49b6e352e064",
+        "tag": "XIII",
+        "name": "Tagma"
+      },
+      "clan2": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "s1": 7,
+      "s2": 9,
+      "d1": 6,
+      "d2": -2
+    },
+    {
+      "when": "2026-09-11T17:56:01.874000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6aa1e195273c53aabdc85020",
+        "tag": "AMG",
+        "name": "AMOGUS"
+      },
+      "s1": 8,
+      "s2": 9,
+      "d1": -4,
+      "d2": 105
+    },
+    {
+      "when": "2026-09-10T19:26:17.270000+00:00",
+      "clan1": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 3,
+      "s2": 12,
+      "d1": 1,
+      "d2": 0
+    },
+    {
+      "when": "2026-09-10T18:58:45.937000+00:00",
+      "clan1": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "clan2": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "s1": 9,
+      "s2": 9,
+      "d1": 0,
+      "d2": 0
+    },
+    {
+      "when": "2026-09-10T18:54:16.443000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a255eb620738f4b9efc04d6",
+        "tag": "IE",
+        "name": "Imperial Eagles"
+      },
+      "s1": 3,
+      "s2": 12,
+      "d1": -2,
+      "d2": 3
+    },
+    {
+      "when": "2026-09-10T18:48:01.636000+00:00",
+      "clan1": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "clan2": {
+        "id": "6a255dbf20738f4b9efbfa29",
+        "tag": "CI",
+        "name": "Coronas Ibericas"
+      },
+      "s1": 7,
+      "s2": 8,
+      "d1": -3,
+      "d2": 4
+    },
+    {
+      "when": "2026-09-10T17:48:50.932000+00:00",
+      "clan1": {
+        "id": "6a31ad7abee995dec85f45ae",
+        "tag": "SANT",
+        "name": "Orden de Santiago"
+      },
+      "clan2": {
+        "id": "6a25c37920738f4b9e0521bd",
+        "tag": "TTOD",
+        "name": "Teutonischer Orden"
+      },
+      "s1": 12,
+      "s2": 5,
+      "d1": 8,
+      "d2": -26
+    },
+    {
+      "when": "2026-09-09T19:57:41.675000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a2565d820738f4b9efca108",
+        "tag": "TA",
+        "name": "The Akrites"
+      },
+      "s1": 3,
+      "s2": 12,
+      "d1": -8,
+      "d2": 8
+    },
+    {
+      "when": "2026-09-09T18:08:05.775000+00:00",
+      "clan1": {
+        "id": "6a31ad7abee995dec85f45ae",
+        "tag": "SANT",
+        "name": "Orden de Santiago"
+      },
+      "clan2": {
+        "id": "6a25b01c20738f4b9e038ee1",
+        "tag": "DRGNS",
+        "name": "The Sons Of The Dragon"
+      },
+      "s1": 8,
+      "s2": 9,
+      "d1": -11,
+      "d2": 11
+    },
+    {
+      "when": "2026-09-09T18:01:13.655000+00:00",
+      "clan1": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "clan2": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "s1": 5,
+      "s2": 10,
+      "d1": -9,
+      "d2": 16
+    },
+    {
+      "when": "2026-09-08T21:02:27.999000+00:00",
+      "clan1": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "clan2": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "s1": 5,
+      "s2": 10,
+      "d1": -2,
+      "d2": 3
+    },
+    {
+      "when": "2026-09-08T20:20:35.511000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "s1": 3,
+      "s2": 12,
+      "d1": -16,
+      "d2": 9
+    },
+    {
+      "when": "2026-09-08T19:04:21.052000+00:00",
+      "clan1": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "clan2": {
+        "id": "6a255ed220738f4b9efc0669",
+        "tag": "VEMO",
+        "name": "Velmore Company"
+      },
+      "s1": 7,
+      "s2": 10,
+      "d1": -6,
+      "d2": 4
+    },
+    {
+      "when": "2026-09-08T18:49:55.302000+00:00",
+      "clan1": {
+        "id": "6a255dbf20738f4b9efbfa29",
+        "tag": "CI",
+        "name": "Coronas Ibericas"
+      },
+      "clan2": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "s1": 9,
+      "s2": 7,
+      "d1": 2,
+      "d2": -2
+    },
+    {
+      "when": "2026-09-08T18:04:39.614000+00:00",
+      "clan1": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "clan2": {
+        "id": "6a25979c20738f4b9e01bbdf",
+        "tag": "VSC",
+        "name": "The Volsung Clan"
+      },
+      "s1": 12,
+      "s2": 1,
+      "d1": 7,
+      "d2": -47
+    },
+    {
+      "when": "2026-09-07T20:58:28.459000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "s1": 12,
+      "s2": 2,
+      "d1": 8,
+      "d2": -6
+    },
+    {
+      "when": "2026-09-07T20:07:40.461000+00:00",
+      "clan1": {
+        "id": "6a255e0120738f4b9efbfbfa",
+        "tag": "DM",
+        "name": "Destiny Masters"
+      },
+      "clan2": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "s1": 5,
+      "s2": 11,
+      "d1": -14,
+      "d2": 13
+    },
+    {
+      "when": "2026-09-07T19:57:09.570000+00:00",
+      "clan1": {
+        "id": "6a331bf334894c83691a729b",
+        "tag": "DoN",
+        "name": "Dukedom of Navarra"
+      },
+      "clan2": {
+        "id": "6a25979c20738f4b9e01bbdf",
+        "tag": "VSC",
+        "name": "The Volsung Clan"
+      },
+      "s1": 3,
+      "s2": 12,
+      "d1": -17,
+      "d2": 23
+    },
+    {
+      "when": "2026-09-07T19:27:32.933000+00:00",
+      "clan1": {
+        "id": "6a351de134894c836922eb7b",
+        "tag": "PEAK",
+        "name": "PEAK"
+      },
+      "clan2": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "s1": 11,
+      "s2": 8,
+      "d1": 2,
+      "d2": -2
+    },
+    {
+      "when": "2026-09-07T19:11:45.685000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a3061c700bfb3d84b370b8e",
+        "tag": "OMEY",
+        "name": "Guardia Omeya"
+      },
+      "s1": 11,
+      "s2": 8,
+      "d1": 1,
+      "d2": -1
+    },
+    {
+      "when": "2026-09-07T18:58:26.942000+00:00",
+      "clan1": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "clan2": {
+        "id": "6a29d509bc6a49b6e352e064",
+        "tag": "XIII",
+        "name": "Tagma"
+      },
+      "s1": 12,
+      "s2": 1,
+      "d1": 3,
+      "d2": -11
+    },
+    {
+      "when": "2026-09-07T17:51:40.651000+00:00",
+      "clan1": {
+        "id": "6a25979c20738f4b9e01bbdf",
+        "tag": "VSC",
+        "name": "The Volsung Clan"
+      },
+      "clan2": {
+        "id": "6a255ebe20738f4b9efc0534",
+        "tag": "IPL",
+        "name": "Imperium Polskie"
+      },
+      "s1": 12,
+      "s2": 1,
+      "d1": 36,
+      "d2": -8
+    },
+    {
+      "when": "2026-09-06T20:23:00.136000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a25c37920738f4b9e0521bd",
+        "tag": "TTOD",
+        "name": "Teutonischer Orden"
+      },
+      "s1": 12,
+      "s2": 1,
+      "d1": 7,
+      "d2": -19
+    },
+    {
+      "when": "2026-09-06T19:01:32.175000+00:00",
+      "clan1": {
+        "id": "6a351de134894c836922eb7b",
+        "tag": "PEAK",
+        "name": "PEAK"
+      },
+      "clan2": {
+        "id": "6a256cde20738f4b9efd591f",
+        "tag": "Host",
+        "name": "Knights Hospitaller"
+      },
+      "s1": 11,
+      "s2": 7,
+      "d1": 1,
+      "d2": -1
+    },
+    {
+      "when": "2026-09-06T18:58:06.296000+00:00",
+      "clan1": {
+        "id": "6a2594e520738f4b9e017b7a",
+        "tag": "HINQ",
+        "name": "The Holy Inquisition"
+      },
+      "clan2": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "s1": 7,
+      "s2": 9,
+      "d1": -2,
+      "d2": 2
+    },
+    {
+      "when": "2026-09-06T18:29:50.489000+00:00",
+      "clan1": {
+        "id": "6a25979c20738f4b9e01bbdf",
+        "tag": "VSC",
+        "name": "The Volsung Clan"
+      },
+      "clan2": {
+        "id": "6a2573ad20738f4b9efe1284",
+        "tag": "CATA",
+        "name": "Cataphract Knights"
+      },
+      "s1": 9,
+      "s2": 6,
+      "d1": 24,
+      "d2": -3
+    },
+    {
+      "when": "2026-09-06T17:53:33.809000+00:00",
+      "clan1": {
+        "id": "6a255dbf20738f4b9efbfa29",
+        "tag": "CI",
+        "name": "Coronas Ibericas"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 10,
+      "s2": 7,
+      "d1": 4,
+      "d2": -3
+    },
+    {
+      "when": "2026-09-06T17:40:55.089000+00:00",
+      "clan1": {
+        "id": "6a25619c20738f4b9efc3ee9",
+        "tag": "DWDN",
+        "name": "Daewden Kingdom"
+      },
+      "clan2": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "s1": 1,
+      "s2": 12,
+      "d1": -3,
+      "d2": 2
+    },
+    {
+      "when": "2026-09-06T17:38:46.968000+00:00",
+      "clan1": {
+        "id": "6a331bf334894c83691a729b",
+        "tag": "DoN",
+        "name": "Dukedom of Navarra"
+      },
+      "clan2": {
+        "id": "6a31ad7abee995dec85f45ae",
+        "tag": "SANT",
+        "name": "Orden de Santiago"
+      },
+      "s1": 0,
+      "s2": 12,
+      "d1": -64,
+      "d2": 18
+    },
+    {
+      "when": "2026-09-05T19:59:17.788000+00:00",
+      "clan1": {
+        "id": "6a255e0120738f4b9efbfbfa",
+        "tag": "DM",
+        "name": "Destiny Masters"
+      },
+      "clan2": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "s1": 12,
+      "s2": 6,
+      "d1": 4,
+      "d2": -4
+    },
+    {
+      "when": "2026-09-05T19:05:41.532000+00:00",
+      "clan1": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "clan2": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "s1": 7,
+      "s2": 11,
+      "d1": -5,
+      "d2": 3
+    },
+    {
+      "when": "2026-09-05T17:59:24.060000+00:00",
+      "clan1": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "clan2": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "s1": 9,
+      "s2": 6,
+      "d1": 2,
+      "d2": -2
+    },
+    {
+      "when": "2026-09-05T17:19:04.596000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 1,
+      "s2": 12,
+      "d1": -12,
+      "d2": 12
+    },
+    {
+      "when": "2026-09-05T16:26:02.706000+00:00",
+      "clan1": {
+        "id": "6a255ed220738f4b9efc0669",
+        "tag": "VEMO",
+        "name": "Velmore Company"
+      },
+      "clan2": {
+        "id": "6a29d509bc6a49b6e352e064",
+        "tag": "XIII",
+        "name": "Tagma"
+      },
+      "s1": 0,
+      "s2": 12,
+      "d1": -12,
+      "d2": 40
+    },
+    {
+      "when": "2026-09-04T22:52:18.826000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "s1": 8,
+      "s2": 8,
+      "d1": -12,
+      "d2": 8
+    },
+    {
+      "when": "2026-09-04T20:58:11.515000+00:00",
+      "clan1": {
+        "id": "6a25b01c20738f4b9e038ee1",
+        "tag": "DRGNS",
+        "name": "The Sons Of The Dragon"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "s1": 3,
+      "s2": 12,
+      "d1": -13,
+      "d2": 10
+    },
+    {
+      "when": "2026-09-04T19:52:07.986000+00:00",
+      "clan1": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "clan2": {
+        "id": "6a25619c20738f4b9efc3ee9",
+        "tag": "DWDN",
+        "name": "Daewden Kingdom"
+      },
+      "s1": 12,
+      "s2": 0,
+      "d1": 4,
+      "d2": -6
+    },
+    {
+      "when": "2026-09-04T19:06:49.288000+00:00",
+      "clan1": {
+        "id": "6a255ed220738f4b9efc0669",
+        "tag": "VEMO",
+        "name": "Velmore Company"
+      },
+      "clan2": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "s1": 6,
+      "s2": 11,
+      "d1": 1,
+      "d2": -2
+    },
+    {
+      "when": "2026-09-04T19:04:33.726000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a255eb620738f4b9efc04d6",
+        "tag": "IE",
+        "name": "Imperial Eagles"
+      },
+      "s1": 5,
+      "s2": 12,
+      "d1": -1,
+      "d2": 1
+    },
+    {
+      "when": "2026-09-04T18:57:02.498000+00:00",
+      "clan1": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "clan2": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "s1": 6,
+      "s2": 9,
+      "d1": -2,
+      "d2": 2
+    },
+    {
+      "when": "2026-09-04T18:52:29.377000+00:00",
+      "clan1": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "clan2": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "s1": 9,
+      "s2": 8,
+      "d1": 5,
+      "d2": -5
+    },
+    {
+      "when": "2026-09-03T19:01:02.423000+00:00",
+      "clan1": {
+        "id": "6a2594e520738f4b9e017b7a",
+        "tag": "HINQ",
+        "name": "The Holy Inquisition"
+      },
+      "clan2": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "s1": 5,
+      "s2": 12,
+      "d1": -11,
+      "d2": 10
+    },
+    {
+      "when": "2026-09-03T18:57:12.392000+00:00",
+      "clan1": {
+        "id": "6a3061c700bfb3d84b370b8e",
+        "tag": "OMEY",
+        "name": "Guardia Omeya"
+      },
+      "clan2": {
+        "id": "6a255f7f20738f4b9efc12f0",
+        "tag": "MF",
+        "name": "Milites Fortunae"
+      },
+      "s1": 8,
+      "s2": 9,
+      "d1": -1,
+      "d2": 1
+    },
+    {
+      "when": "2026-09-03T18:53:35.047000+00:00",
+      "clan1": {
+        "id": "6a29d509bc6a49b6e352e064",
+        "tag": "XIII",
+        "name": "Tagma"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 1,
+      "s2": 12,
+      "d1": -16,
+      "d2": 4
+    },
+    {
+      "when": "2026-09-03T18:53:05.849000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "s1": 12,
+      "s2": 3,
+      "d1": 0,
+      "d2": 0
+    },
+    {
+      "when": "2026-09-03T18:51:25.905000+00:00",
+      "clan1": {
+        "id": "6a351de134894c836922eb7b",
+        "tag": "PEAK",
+        "name": "PEAK"
+      },
+      "clan2": {
+        "id": "6a255dbf20738f4b9efbfa29",
+        "tag": "CI",
+        "name": "Coronas Ibericas"
+      },
+      "s1": 11,
+      "s2": 3,
+      "d1": 10,
+      "d2": -11
+    },
+    {
+      "when": "2026-09-03T18:45:00.918000+00:00",
+      "clan1": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "clan2": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "s1": 7,
+      "s2": 7,
+      "d1": -1,
+      "d2": 1
+    },
+    {
+      "when": "2026-09-03T18:08:18.958000+00:00",
+      "clan1": {
+        "id": "6a90b06060736ae2d6edc08d",
+        "tag": "MILAN",
+        "name": "Duchy of Milan"
+      },
+      "clan2": {
+        "id": "6a31ad7abee995dec85f45ae",
+        "tag": "SANT",
+        "name": "Orden de Santiago"
+      },
+      "s1": 10,
+      "s2": 5,
+      "d1": -7,
+      "d2": 0
+    },
+    {
+      "when": "2026-09-03T17:52:18.880000+00:00",
+      "clan1": {
+        "id": "6a255ed220738f4b9efc0669",
+        "tag": "VEMO",
+        "name": "Velmore Company"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 2,
+      "s2": 12,
+      "d1": -2,
+      "d2": 2
+    },
+    {
+      "when": "2026-09-03T17:46:23.427000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "s1": 10,
+      "s2": 4,
+      "d1": 7,
+      "d2": -6
+    },
+    {
+      "when": "2026-09-02T21:18:23.551000+00:00",
+      "clan1": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "clan2": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "s1": 0,
+      "s2": 12,
+      "d1": -7,
+      "d2": 6
+    },
+    {
+      "when": "2026-09-02T20:37:32.007000+00:00",
+      "clan1": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "clan2": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "s1": 9,
+      "s2": 6,
+      "d1": -1,
+      "d2": 1
+    },
+    {
+      "when": "2026-09-02T18:47:35.284000+00:00",
+      "clan1": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "clan2": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "s1": 6,
+      "s2": 9,
+      "d1": -1,
+      "d2": 1
+    },
+    {
+      "when": "2026-09-02T18:00:51.171000+00:00",
+      "clan1": {
+        "id": "6a255f7f20738f4b9efc12f0",
+        "tag": "MF",
+        "name": "Milites Fortunae"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 2,
+      "s2": 12,
+      "d1": -8,
+      "d2": 8
+    },
+    {
+      "when": "2026-09-02T17:33:00.266000+00:00",
+      "clan1": {
+        "id": "6a2594e520738f4b9e017b7a",
+        "tag": "HINQ",
+        "name": "The Holy Inquisition"
+      },
+      "clan2": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "s1": 9,
+      "s2": 0,
+      "d1": 14,
+      "d2": -12
+    },
+    {
+      "when": "2026-09-01T19:25:09.039000+00:00",
+      "clan1": {
+        "id": "6a2573ad20738f4b9efe1284",
+        "tag": "CATA",
+        "name": "Cataphract Knights"
+      },
+      "clan2": {
+        "id": "6a25636320738f4b9efc646a",
+        "tag": "CHAD",
+        "name": "CHADSQUAD"
+      },
+      "s1": 2,
+      "s2": 12,
+      "d1": -7,
+      "d2": 7
+    },
+    {
+      "when": "2026-09-01T18:59:05.269000+00:00",
+      "clan1": {
+        "id": "6a255eb620738f4b9efc04d6",
+        "tag": "IE",
+        "name": "Imperial Eagles"
+      },
+      "clan2": {
+        "id": "6a5b9aa79170a0608721d432",
+        "tag": "VAGOS",
+        "name": "Vagos"
+      },
+      "s1": 10,
+      "s2": 7,
+      "d1": 3,
+      "d2": -5
+    },
+    {
+      "when": "2026-09-01T18:52:45.582000+00:00",
+      "clan1": {
+        "id": "6a29f106bc6a49b6e3539c51",
+        "tag": "TURK",
+        "name": "The Turks"
+      },
+      "clan2": {
+        "id": "6a257f9520738f4b9eff59c4",
+        "tag": "LEVV",
+        "name": "Lechia Vanguards"
+      },
+      "s1": 11,
+      "s2": 4,
+      "d1": 4,
+      "d2": -5
+    },
+    {
+      "when": "2026-09-01T17:56:25.922000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a255e8f20738f4b9efc03c5",
+        "tag": "IZpp",
+        "name": "IZpp"
+      },
+      "s1": 11,
+      "s2": 4,
+      "d1": 10,
+      "d2": -18
+    },
+    {
+      "when": "2026-09-01T17:48:07.677000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "s1": 9,
+      "s2": 6,
+      "d1": 11,
+      "d2": -10
+    },
+    {
+      "when": "2026-09-01T17:47:49.880000+00:00",
+      "clan1": {
+        "id": "6a3061c700bfb3d84b370b8e",
+        "tag": "OMEY",
+        "name": "Guardia Omeya"
+      },
+      "clan2": {
+        "id": "6a331bf334894c83691a729b",
+        "tag": "DoN",
+        "name": "Dukedom of Navarra"
+      },
+      "s1": 12,
+      "s2": 1,
+      "d1": 11,
+      "d2": -74
+    },
+    {
+      "when": "2026-08-31T20:38:37.174000+00:00",
+      "clan1": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "s1": 10,
+      "s2": 9,
+      "d1": -4,
+      "d2": 2
+    },
+    {
+      "when": "2026-08-31T19:58:43.800000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a5beac69170a06087232009",
+        "tag": "RS",
+        "name": "Ruthless Syndicate"
+      },
+      "s1": 3,
+      "s2": 12,
+      "d1": -12,
+      "d2": 16
+    },
+    {
+      "when": "2026-08-31T18:58:21.381000+00:00",
+      "clan1": {
+        "id": "6a29d509bc6a49b6e352e064",
+        "tag": "XIII",
+        "name": "Tagma"
+      },
+      "clan2": {
+        "id": "6a255f7f20738f4b9efc12f0",
+        "tag": "MF",
+        "name": "Milites Fortunae"
+      },
+      "s1": 5,
+      "s2": 10,
+      "d1": -5,
+      "d2": 1
+    },
+    {
+      "when": "2026-08-31T18:54:28.750000+00:00",
+      "clan1": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "clan2": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "s1": 4,
+      "s2": 10,
+      "d1": -5,
+      "d2": 6
+    },
+    {
+      "when": "2026-08-31T18:51:19.892000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a2565d820738f4b9efca108",
+        "tag": "TA",
+        "name": "The Akrites"
+      },
+      "s1": 7,
+      "s2": 7,
+      "d1": 3,
+      "d2": -3
+    },
+    {
+      "when": "2026-08-31T18:49:56.883000+00:00",
+      "clan1": {
+        "id": "6a3481e534894c8369211d09",
+        "tag": "SG",
+        "name": "Sultans Guard"
+      },
+      "clan2": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "s1": 3,
+      "s2": 12,
+      "d1": -3,
+      "d2": 2
+    },
+    {
+      "when": "2026-08-31T18:06:25.944000+00:00",
+      "clan1": {
+        "id": "6a255ebe20738f4b9efc0534",
+        "tag": "IPL",
+        "name": "Imperium Polskie"
+      },
+      "clan2": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "s1": 10,
+      "s2": 8,
+      "d1": 7,
+      "d2": -8
+    },
+    {
+      "when": "2026-08-31T17:56:56.858000+00:00",
+      "clan1": {
+        "id": "6a25979c20738f4b9e01bbdf",
+        "tag": "VSC",
+        "name": "The Volsung Clan"
+      },
+      "clan2": {
+        "id": "6a25636320738f4b9efc646a",
+        "tag": "CHAD",
+        "name": "CHADSQUAD"
+      },
+      "s1": 6,
+      "s2": 8,
+      "d1": -80,
+      "d2": 4
+    },
+    {
+      "when": "2026-08-31T17:49:08.200000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a255e8f20738f4b9efc03c5",
+        "tag": "IZpp",
+        "name": "IZpp"
+      },
+      "s1": 4,
+      "s2": 11,
+      "d1": -9,
+      "d2": 15
+    },
+    {
+      "when": "2026-08-31T00:02:19.975000+00:00",
+      "clan1": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 8,
+      "s2": 8,
+      "d1": 22,
+      "d2": -10
+    },
+    {
+      "when": "2026-08-30T20:13:20.207000+00:00",
+      "clan1": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "s1": 9,
+      "s2": 0,
+      "d1": 2,
+      "d2": -3
+    },
+    {
+      "when": "2026-08-30T19:23:15.846000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a2573ad20738f4b9efe1284",
+        "tag": "CATA",
+        "name": "Cataphract Knights"
+      },
+      "s1": 12,
+      "s2": 1,
+      "d1": 11,
+      "d2": -6
+    },
+    {
+      "when": "2026-08-30T18:52:13.891000+00:00",
+      "clan1": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "clan2": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "s1": 7,
+      "s2": 8,
+      "d1": -1,
+      "d2": 1
+    },
+    {
+      "when": "2026-08-30T17:56:57.357000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a31ad7abee995dec85f45ae",
+        "tag": "SANT",
+        "name": "Orden de Santiago"
+      },
+      "s1": 12,
+      "s2": 0,
+      "d1": 14,
+      "d2": -10
+    },
+    {
+      "when": "2026-08-30T17:56:18.356000+00:00",
+      "clan1": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "clan2": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "s1": 9,
+      "s2": 9,
+      "d1": 2,
+      "d2": -2
+    },
+    {
+      "when": "2026-08-30T17:46:11.621000+00:00",
+      "clan1": {
+        "id": "6a256cde20738f4b9efd591f",
+        "tag": "Host",
+        "name": "Knights Hospitaller"
+      },
+      "clan2": {
+        "id": "6a255eb620738f4b9efc04d6",
+        "tag": "IE",
+        "name": "Imperial Eagles"
+      },
+      "s1": 2,
+      "s2": 12,
+      "d1": -3,
+      "d2": 2
+    },
+    {
+      "when": "2026-08-30T17:29:01.907000+00:00",
+      "clan1": {
+        "id": "6a255ed220738f4b9efc0669",
+        "tag": "VEMO",
+        "name": "Velmore Company"
+      },
+      "clan2": {
+        "id": "6a331bf334894c83691a729b",
+        "tag": "DoN",
+        "name": "Dukedom of Navarra"
+      },
+      "s1": 5,
+      "s2": 11,
+      "d1": -5,
+      "d2": 36
+    },
+    {
+      "when": "2026-08-30T17:05:29.065000+00:00",
+      "clan1": {
+        "id": "6a25606d20738f4b9efc2689",
+        "tag": "VALE",
+        "name": "The Vale"
+      },
+      "clan2": {
+        "id": "6a90b06060736ae2d6edc08d",
+        "tag": "MILAN",
+        "name": "Duchy of Milan"
+      },
+      "s1": 6,
+      "s2": 8,
+      "d1": -2,
+      "d2": 11
+    },
+    {
+      "when": "2026-08-30T13:35:29.599000+00:00",
+      "clan1": {
+        "id": "6a90b06060736ae2d6edc08d",
+        "tag": "MILAN",
+        "name": "Duchy of Milan"
+      },
+      "clan2": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "s1": 10,
+      "s2": 8,
+      "d1": 95,
+      "d2": -10
+    },
+    {
+      "when": "2026-08-29T22:18:39.598000+00:00",
+      "clan1": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "clan2": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "s1": 12,
+      "s2": 2,
+      "d1": 9,
+      "d2": -27
+    },
+    {
+      "when": "2026-08-29T21:42:15.126000+00:00",
+      "clan1": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "clan2": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "s1": 3,
+      "s2": 12,
+      "d1": -5,
+      "d2": 3
+    },
+    {
+      "when": "2026-08-29T20:55:01.574000+00:00",
+      "clan1": {
+        "id": "6a25c37920738f4b9e0521bd",
+        "tag": "TTOD",
+        "name": "Teutonischer Orden"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "s1": 4,
+      "s2": 12,
+      "d1": -47,
+      "d2": 10
+    },
+    {
+      "when": "2026-08-29T20:17:38.154000+00:00",
+      "clan1": {
+        "id": "6a5b9aa79170a0608721d432",
+        "tag": "VAGOS",
+        "name": "Vagos"
+      },
+      "clan2": {
+        "id": "6a255e0120738f4b9efbfbfa",
+        "tag": "DM",
+        "name": "Destiny Masters"
+      },
+      "s1": 9,
+      "s2": 7,
+      "d1": 15,
+      "d2": -9
+    },
+    {
+      "when": "2026-08-29T20:08:06.089000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a25636320738f4b9efc646a",
+        "tag": "CHAD",
+        "name": "CHADSQUAD"
+      },
+      "s1": 10,
+      "s2": 7,
+      "d1": 7,
+      "d2": -3
+    },
+    {
+      "when": "2026-08-29T19:09:10.561000+00:00",
+      "clan1": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "clan2": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "s1": 12,
+      "s2": 5,
+      "d1": 8,
+      "d2": -10
+    },
+    {
+      "when": "2026-08-29T19:04:09.260000+00:00",
+      "clan1": {
+        "id": "6a3061c700bfb3d84b370b8e",
+        "tag": "OMEY",
+        "name": "Guardia Omeya"
+      },
+      "clan2": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "s1": 5,
+      "s2": 9,
+      "d1": 1,
+      "d2": -1
+    },
+    {
+      "when": "2026-08-29T18:01:35.343000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a255f7f20738f4b9efc12f0",
+        "tag": "MF",
+        "name": "Milites Fortunae"
+      },
+      "s1": 12,
+      "s2": 5,
+      "d1": 23,
+      "d2": -7
+    },
+    {
+      "when": "2026-08-29T17:58:56.012000+00:00",
+      "clan1": {
+        "id": "6a255ed220738f4b9efc0669",
+        "tag": "VEMO",
+        "name": "Velmore Company"
+      },
+      "clan2": {
+        "id": "6a25d04320738f4b9e067e57",
+        "tag": "ODS",
+        "name": "Order of Santiago"
+      },
+      "s1": 4,
+      "s2": 11,
+      "d1": -17,
+      "d2": 26
+    },
+    {
+      "when": "2026-08-29T17:49:35.991000+00:00",
+      "clan1": {
+        "id": "6a255eb620738f4b9efc04d6",
+        "tag": "IE",
+        "name": "Imperial Eagles"
+      },
+      "clan2": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "s1": 12,
+      "s2": 4,
+      "d1": 5,
+      "d2": -5
+    },
+    {
+      "when": "2026-08-28T20:36:19.145000+00:00",
+      "clan1": {
+        "id": "6a3007bf00bfb3d84b34484a",
+        "tag": "ANG",
+        "name": "Duchy of L'Anguille"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 7,
+      "s2": 8,
+      "d1": 31,
+      "d2": -2
+    },
+    {
+      "when": "2026-08-28T20:15:52.533000+00:00",
+      "clan1": {
+        "id": "6a25636320738f4b9efc646a",
+        "tag": "CHAD",
+        "name": "CHADSQUAD"
+      },
+      "clan2": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "s1": 5,
+      "s2": 10,
+      "d1": -7,
+      "d2": 19
+    },
+    {
+      "when": "2026-08-28T19:50:05.566000+00:00",
+      "clan1": {
+        "id": "6a255e0120738f4b9efbfbfa",
+        "tag": "DM",
+        "name": "Destiny Masters"
+      },
+      "clan2": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "s1": 9,
+      "s2": 9,
+      "d1": -6,
+      "d2": 6
+    },
+    {
+      "when": "2026-08-28T19:19:21.726000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a2565d820738f4b9efca108",
+        "tag": "TA",
+        "name": "The Akrites"
+      },
+      "s1": 8,
+      "s2": 11,
+      "d1": -4,
+      "d2": 4
+    },
+    {
+      "when": "2026-08-28T19:01:32.431000+00:00",
+      "clan1": {
+        "id": "6a255f7f20738f4b9efc12f0",
+        "tag": "MF",
+        "name": "Milites Fortunae"
+      },
+      "clan2": {
+        "id": "6a255e8f20738f4b9efc03c5",
+        "tag": "IZpp",
+        "name": "IZpp"
+      },
+      "s1": 7,
+      "s2": 8,
+      "d1": -2,
+      "d2": 4
+    },
+    {
+      "when": "2026-08-28T19:00:18.551000+00:00",
+      "clan1": {
+        "id": "6a255eb620738f4b9efc04d6",
+        "tag": "IE",
+        "name": "Imperial Eagles"
+      },
+      "clan2": {
+        "id": "6a351de134894c836922eb7b",
+        "tag": "PEAK",
+        "name": "PEAK"
+      },
+      "s1": 11,
+      "s2": 6,
+      "d1": 2,
+      "d2": -2
+    },
+    {
+      "when": "2026-08-28T18:46:51.700000+00:00",
+      "clan1": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "clan2": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "s1": 5,
+      "s2": 10,
+      "d1": -3,
+      "d2": 3
+    },
+    {
+      "when": "2026-08-28T18:35:27.269000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "s1": 1,
+      "s2": 12,
+      "d1": -32,
+      "d2": 9
+    },
+    {
+      "when": "2026-08-28T18:08:09.957000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a5b9aa79170a0608721d432",
+        "tag": "VAGOS",
+        "name": "Vagos"
+      },
+      "s1": 9,
+      "s2": 11,
+      "d1": 0,
+      "d2": 0
+    },
+    {
+      "when": "2026-08-28T17:17:22.430000+00:00",
+      "clan1": {
+        "id": "6a255ed220738f4b9efc0669",
+        "tag": "VEMO",
+        "name": "Velmore Company"
+      },
+      "clan2": {
+        "id": "6a296d99b88ebcda94356aa7",
+        "tag": "TRNV",
+        "name": "Triznov"
+      },
+      "s1": 9,
+      "s2": 8,
+      "d1": 1,
+      "d2": -1
+    },
+    {
+      "when": "2026-08-27T21:09:01.350000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "CAMO",
+        "name": "Unity of CAMO"
+      },
+      "s1": 9,
+      "s2": 9,
+      "d1": -30,
+      "d2": 9
+    },
+    {
+      "when": "2026-08-27T19:55:29.262000+00:00",
+      "clan1": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "clan2": {
+        "id": "6a255e8f20738f4b9efc03c5",
+        "tag": "IZpp",
+        "name": "IZpp"
+      },
+      "s1": 11,
+      "s2": 5,
+      "d1": 7,
+      "d2": -14
+    },
+    {
+      "when": "2026-08-27T19:30:12.308000+00:00",
+      "clan1": {
+        "id": "6a29c2dfbc6a49b6e3523eeb",
+        "tag": "LGA",
+        "name": "La Garde de l'Aube"
+      },
+      "clan2": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "s1": 0,
+      "s2": 12,
+      "d1": -77,
+      "d2": 6
+    },
+    {
+      "when": "2026-08-27T19:09:01.419000+00:00",
+      "clan1": {
+        "id": "6a31ad7abee995dec85f45ae",
+        "tag": "SANT",
+        "name": "Orden de Santiago"
+      },
+      "clan2": {
+        "id": "6a25619c20738f4b9efc3ee9",
+        "tag": "DWDN",
+        "name": "Daewden Kingdom"
+      },
+      "s1": 6,
+      "s2": 12,
+      "d1": -19,
+      "d2": 14
+    },
+    {
+      "when": "2026-08-27T19:05:18.271000+00:00",
+      "clan1": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "clan2": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "s1": 4,
+      "s2": 10,
+      "d1": -4,
+      "d2": 5
+    },
+    {
+      "when": "2026-08-27T18:55:01.809000+00:00",
+      "clan1": {
+        "id": "6a255eb620738f4b9efc04d6",
+        "tag": "IE",
+        "name": "Imperial Eagles"
+      },
+      "clan2": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "s1": 12,
+      "s2": 3,
+      "d1": 2,
+      "d2": -2
+    },
+    {
+      "when": "2026-08-27T18:48:45.205000+00:00",
+      "clan1": {
+        "id": "6a3061c700bfb3d84b370b8e",
+        "tag": "OMEY",
+        "name": "Guardia Omeya"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 2,
+      "s2": 12,
+      "d1": -6,
+      "d2": 5
+    },
+    {
+      "when": "2026-08-27T18:40:46.576000+00:00",
+      "clan1": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "clan2": {
+        "id": "6a29d509bc6a49b6e352e064",
+        "tag": "XIII",
+        "name": "Tagma"
+      },
+      "s1": 0,
+      "s2": 12,
+      "d1": -17,
+      "d2": 46
+    },
+    {
+      "when": "2026-08-27T18:20:50.554000+00:00",
+      "clan1": {
+        "id": "6a2594e520738f4b9e017b7a",
+        "tag": "HINQ",
+        "name": "The Holy Inquisition"
+      },
+      "clan2": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "s1": 4,
+      "s2": 9,
+      "d1": -10,
+      "d2": 9
+    },
+    {
+      "when": "2026-08-27T18:13:51.921000+00:00",
+      "clan1": {
+        "id": "6a331bf334894c83691a729b",
+        "tag": "DoN",
+        "name": "Dukedom of Navarra"
+      },
+      "clan2": {
+        "id": "6a255dbf20738f4b9efbfa29",
+        "tag": "CI",
+        "name": "Coronas Ibericas"
+      },
+      "s1": 1,
+      "s2": 12,
+      "d1": -39,
+      "d2": 4
+    },
+    {
+      "when": "2026-08-27T18:08:09.738000+00:00",
+      "clan1": {
+        "id": "6a255ebe20738f4b9efc0534",
+        "tag": "IPL",
+        "name": "Imperium Polskie"
+      },
+      "clan2": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "s1": 3,
+      "s2": 12,
+      "d1": -2,
+      "d2": 2
+    },
+    {
+      "when": "2026-08-27T17:48:49.748000+00:00",
+      "clan1": {
+        "id": "6a296d99b88ebcda94356aa7",
+        "tag": "TRNV",
+        "name": "Triznov"
+      },
+      "clan2": {
+        "id": "6a255f7f20738f4b9efc12f0",
+        "tag": "MF",
+        "name": "Milites Fortunae"
+      },
+      "s1": 0,
+      "s2": 12,
+      "d1": -8,
+      "d2": 3
+    },
+    {
+      "when": "2026-08-26T20:39:00.306000+00:00",
+      "clan1": {
+        "id": "6a255f7f20738f4b9efc12f0",
+        "tag": "MF",
+        "name": "Milites Fortunae"
+      },
+      "clan2": {
+        "id": "6a2573ad20738f4b9efe1284",
+        "tag": "CATA",
+        "name": "Cataphract Knights"
+      },
+      "s1": 9,
+      "s2": 6,
+      "d1": 0,
+      "d2": 0
+    },
+    {
       "when": "2026-08-26T20:33:13.463000+00:00",
       "clan1": {
         "id": "6a255e8f20738f4b9efc03c5",
@@ -18,6 +1973,23 @@
       "d2": -3
     },
     {
+      "when": "2026-08-26T20:01:39.224000+00:00",
+      "clan1": {
+        "id": "6a351de134894c836922eb7b",
+        "tag": "PEAK",
+        "name": "PEAK"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 12,
+      "s2": 5,
+      "d1": 6,
+      "d2": -5
+    },
+    {
       "when": "2026-08-26T19:56:20.491000+00:00",
       "clan1": {
         "id": "6a29f106bc6a49b6e3539c51",
@@ -33,6 +2005,23 @@
       "s2": 8,
       "d1": -6,
       "d2": 7
+    },
+    {
+      "when": "2026-08-26T19:08:54.586000+00:00",
+      "clan1": {
+        "id": "6a2594e520738f4b9e017b7a",
+        "tag": "HINQ",
+        "name": "The Holy Inquisition"
+      },
+      "clan2": {
+        "id": "6a351de134894c836922eb7b",
+        "tag": "PEAK",
+        "name": "PEAK"
+      },
+      "s1": 10,
+      "s2": 6,
+      "d1": 11,
+      "d2": -10
     },
     {
       "when": "2026-08-26T19:05:03.762000+00:00",
