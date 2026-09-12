@@ -154,16 +154,16 @@
     const ready = clans.some((row) => Number.isFinite(row[key]));
     if (!ready) return num;
     if (!Number.isFinite(prev)) {
-      return `${num}<span class="move in" title="Not on yesterday’s board">NEW</span>`;
+      return `${num}<span class="move in" title="Not on last week’s board">NEW</span>`;
     }
     const delta = prev - rank;
     if (delta === 0) {
-      return `${num}<span class="move same" title="Same rank as yesterday">–</span>`;
+      return `${num}<span class="move same" title="Same rank as last week">–</span>`;
     }
     if (delta > 0) {
-      return `${num}<span class="move up" title="Up ${delta} since yesterday">▲${delta}</span>`;
+      return `${num}<span class="move up" title="Up ${delta} since last week">▲${delta}</span>`;
     }
-    return `${num}<span class="move down" title="Down ${-delta} since yesterday">▼${-delta}</span>`;
+    return `${num}<span class="move down" title="Down ${-delta} since last week">▼${-delta}</span>`;
   }
 
   function renderExplain() {

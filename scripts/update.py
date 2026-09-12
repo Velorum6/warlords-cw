@@ -307,7 +307,8 @@ def load_previous_ratings() -> dict | None:
     return prev if isinstance(prev, dict) else None
 
 
-def madrid_day(iso: str | None) -> str:
+def madrid_week_start(iso: str | None) -> str:
+    """Monday date in Europe/Madrid — arrows hold for the whole week."""
     dt = parse_time(iso) if iso else None
     if dt is None:
         dt = utc_now()
@@ -317,7 +318,8 @@ def madrid_day(iso: str | None) -> str:
         local = dt.astimezone(ZoneInfo("Europe/Madrid"))
     except Exception:
         local = dt + timedelta(hours=2)
-    return local.strftime("%Y-%m-%d")
+    monday = local.date() - timedelta(days=local.weekday())
+    return monday.strftime("%Y-%m-%d")
 
 
 def ranks_by_rating(clans: list[dict], established_only: bool) -> dict[str, int]:
@@ -328,18 +330,18 @@ def ranks_by_rating(clans: list[dict], established_only: bool) -> dict[str, int]
 
 
 def apply_rank_movement(payload: dict, previous: dict | None) -> None:
-    """Arrows vs the last snapshot before today's Madrid date, not vs every cron tick."""
+    """Arrows vs the last snapshot before this Madrid week (Monday), not vs every cron tick."""
     ranked = payload.get("clans") or []
-    today = madrid_day(payload.get("generatedAt"))
+    week = madrid_week_start(payload.get("generatedAt"))
     prev_base = previous.get("rankBaseline") if isinstance(previous, dict) else None
     if (
         isinstance(prev_base, dict)
-        and prev_base.get("asOf") == today
+        and prev_base.get("asOf") == week
         and isinstance(prev_base.get("ranked"), dict)
         and prev_base["ranked"]
     ):
         baseline = {
-            "asOf": today,
+            "asOf": week,
             "ranked": {str(k): int(v) for k, v in prev_base["ranked"].items() if str(v).lstrip("-").isdigit()},
             "established": {
                 str(k): int(v)
@@ -349,12 +351,12 @@ def apply_rank_movement(payload: dict, previous: dict | None) -> None:
         }
     elif isinstance(previous, dict) and previous.get("clans"):
         baseline = {
-            "asOf": today,
+            "asOf": week,
             "ranked": ranks_by_rating(previous["clans"], False),
             "established": ranks_by_rating(previous["clans"], True),
         }
     else:
-        baseline = {"asOf": today, "ranked": {}, "established": {}}
+        baseline = {"asOf": week, "ranked": {}, "established": {}}
 
     payload["rankBaseline"] = baseline
     for clan in ranked:
