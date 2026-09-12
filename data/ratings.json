@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T13:07:30Z",
+  "generatedAt": "2026-09-12T13:28:51Z",
   "source": "https://mbwarlords.com/api/v1/clan-wars",
   "disclaimer": "Unofficial fan ladder. Not affiliated with Warlords or TaleWorlds.",
   "counts": {
@@ -1265,7 +1265,7 @@
     }
   ],
   "rankBaseline": {
-    "asOf": "2026-09-12",
+    "asOf": "2026-09-07",
     "ranked": {
       "6a255eb620738f4b9efc04d6": 1,
       "6a2563f620738f4b9efc7005": 2,
