@@ -221,7 +221,44 @@ table.board {
 .board td:nth-child(1) {
   text-align: center;
   color: var(--muted);
-  width: 2.5rem;
+  width: 4.6rem;
+}
+
+.board td.rank {
+  white-space: nowrap;
+}
+
+.board .rank-n {
+  display: inline-block;
+  min-width: 1.4em;
+}
+
+.board .move {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+}
+
+.board .move.up {
+  color: #76cc94;
+}
+
+.board .move.down {
+  color: #e07666;
+}
+
+.board .move.same {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.board .move.in {
+  color: var(--gold);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
 }
 
 .board th:nth-child(2),

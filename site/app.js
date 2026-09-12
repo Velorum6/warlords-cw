@@ -133,6 +133,39 @@
     return rows;
   }
 
+  function rankedView() {
+    const rows = viewRows();
+    rows.sort((a, b) => {
+      if (state.sort === "wars") {
+        if (b.wars !== a.wars) return b.wars - a.wars;
+      }
+      if (b.rating !== a.rating) return b.rating - a.rating;
+      if (a.uncertainty !== b.uncertainty) return a.uncertainty - b.uncertainty;
+      return b.wars - a.wars;
+    });
+    return rows;
+  }
+
+  function rankHtml(c, rank) {
+    const num = `<span class="rank-n">${rank}</span>`;
+    if (state.sort !== "rating") return num;
+    const key = state.view === "established" ? "prevEstablishedRank" : "prevRank";
+    const prev = c[key];
+    const ready = clans.some((row) => Number.isFinite(row[key]));
+    if (!ready) return num;
+    if (!Number.isFinite(prev)) {
+      return `${num}<span class="move in" title="Not on yesterday’s board">NEW</span>`;
+    }
+    const delta = prev - rank;
+    if (delta === 0) {
+      return `${num}<span class="move same" title="Same rank as yesterday">–</span>`;
+    }
+    if (delta > 0) {
+      return `${num}<span class="move up" title="Up ${delta} since yesterday">▲${delta}</span>`;
+    }
+    return `${num}<span class="move down" title="Down ${-delta} since yesterday">▼${-delta}</span>`;
+  }
+
   function renderExplain() {
     if (!els.explain && !els.explainBoard) return;
     const ex = data.explain || {};
@@ -213,13 +246,16 @@
     const wars = heatSet.map((r) => r.wars);
 
     if (els.body) {
+      const board = rankedView();
+      const rankOf = new Map(board.map((row, idx) => [row.id, idx + 1]));
       els.body.innerHTML = rows
-        .map((c, i) => {
+        .map((c) => {
           const lastHeat = Number.isFinite(ageDays(c.lastPlayed))
             ? 1 - Math.min(1, ageDays(c.lastPlayed) / 60)
             : 0;
+          const rank = rankOf.get(c.id) || 0;
           return `<tr>
-            <td class="num">${i + 1}</td>
+            <td class="num rank">${rankHtml(c, rank)}</td>
             <td class="clan"><span class="tag">${esc(c.tag || "—")}</span> <span class="name">${esc(c.name)}</span></td>
             <td class="num heat" style="color:${heatColor(scale(ratings, c.rating, false))}">${Math.round(c.rating)}</td>
             <td class="num heat" style="color:${heatColor(scale(uncs, c.uncertainty, true))}">${Math.round(c.uncertainty)}</td>

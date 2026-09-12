@@ -10,7 +10,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass, field
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 SCRIPTS = Path(__file__).resolve().parent
@@ -296,6 +296,73 @@ def is_established(row: Clan, now: datetime) -> bool:
     return (now - played).total_seconds() <= ESTABLISHED_MAX_IDLE_DAYS * 86400
 
 
+def load_previous_ratings() -> dict | None:
+    path = DATA / "ratings.json"
+    if not path.exists():
+        return None
+    try:
+        prev = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    return prev if isinstance(prev, dict) else None
+
+
+def madrid_day(iso: str | None) -> str:
+    dt = parse_time(iso) if iso else None
+    if dt is None:
+        dt = utc_now()
+    try:
+        from zoneinfo import ZoneInfo
+
+        local = dt.astimezone(ZoneInfo("Europe/Madrid"))
+    except Exception:
+        local = dt + timedelta(hours=2)
+    return local.strftime("%Y-%m-%d")
+
+
+def ranks_by_rating(clans: list[dict], established_only: bool) -> dict[str, int]:
+    rows = [c for c in clans if c.get("id")]
+    if established_only:
+        rows = [c for c in rows if c.get("established")]
+    return {str(c["id"]): i + 1 for i, c in enumerate(rows)}
+
+
+def apply_rank_movement(payload: dict, previous: dict | None) -> None:
+    """Arrows vs the last snapshot before today's Madrid date, not vs every cron tick."""
+    ranked = payload.get("clans") or []
+    today = madrid_day(payload.get("generatedAt"))
+    prev_base = previous.get("rankBaseline") if isinstance(previous, dict) else None
+    if (
+        isinstance(prev_base, dict)
+        and prev_base.get("asOf") == today
+        and isinstance(prev_base.get("ranked"), dict)
+        and prev_base["ranked"]
+    ):
+        baseline = {
+            "asOf": today,
+            "ranked": {str(k): int(v) for k, v in prev_base["ranked"].items() if str(v).lstrip("-").isdigit()},
+            "established": {
+                str(k): int(v)
+                for k, v in (prev_base.get("established") or {}).items()
+                if str(v).lstrip("-").isdigit()
+            },
+        }
+    elif isinstance(previous, dict) and previous.get("clans"):
+        baseline = {
+            "asOf": today,
+            "ranked": ranks_by_rating(previous["clans"], False),
+            "established": ranks_by_rating(previous["clans"], True),
+        }
+    else:
+        baseline = {"asOf": today, "ranked": {}, "established": {}}
+
+    payload["rankBaseline"] = baseline
+    for clan in ranked:
+        cid = str(clan.get("id") or "")
+        clan["prevRank"] = baseline["ranked"].get(cid)
+        clan["prevEstablishedRank"] = baseline["established"].get(cid)
+
+
 def clan_brief(row: Clan, now: datetime | None = None) -> dict:
     win_pct = 100.0 * row.wins / row.wars if row.wars else 0.0
     when = now or utc_now()
@@ -450,7 +517,9 @@ def main() -> int:
         print(f"no usable wars (skipped={skipped})", file=sys.stderr)
         return 1
     clans = replay(matches)
+    previous = load_previous_ratings()
     payload = build_payload(wars, matches, skipped, clans)
+    apply_rank_movement(payload, previous)
     history = history_wars(matches)
     write_outputs(payload, history)
     print(f"used={len(matches)} skipped={skipped} clans={payload['counts']['clans']}")
