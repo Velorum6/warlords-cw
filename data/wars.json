@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-12T19:26:26.933000+00:00",
+      "clan1": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "clan2": {
+        "id": "6a29d509bc6a49b6e352e064",
+        "tag": "XIII",
+        "name": "Tagma"
+      },
+      "s1": 7,
+      "s2": 8,
+      "d1": -12,
+      "d2": 41
+    },
+    {
       "when": "2026-09-12T17:58:50.179000+00:00",
       "clan1": {
         "id": "6a31ad7abee995dec85f45ae",
