@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T07:07:26Z",
+  "generatedAt": "2026-09-12T09:09:30Z",
   "source": "https://mbwarlords.com/api/v1/clan-wars",
   "disclaimer": "Unofficial fan ladder. Not affiliated with Warlords or TaleWorlds.",
   "counts": {
@@ -120,7 +120,9 @@
       "winPct": 69.5,
       "wars": 59,
       "lastPlayed": "2026-09-10",
-      "established": true
+      "established": true,
+      "prevRank": 1,
+      "prevEstablishedRank": 1
     },
     {
       "id": "6a2563f620738f4b9efc7005",
@@ -135,7 +137,9 @@
       "winPct": 65.6,
       "wars": 61,
       "lastPlayed": "2026-08-20",
-      "established": false
+      "established": false,
+      "prevRank": 2,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a25e3c01a1e7aef9121c65f",
@@ -150,7 +154,9 @@
       "winPct": 100.0,
       "wars": 9,
       "lastPlayed": "2026-07-03",
-      "established": false
+      "established": false,
+      "prevRank": 3,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a255e0120738f4b9efbfbfa",
@@ -165,7 +171,9 @@
       "winPct": 66.7,
       "wars": 48,
       "lastPlayed": "2026-09-07",
-      "established": true
+      "established": true,
+      "prevRank": 4,
+      "prevEstablishedRank": 2
     },
     {
       "id": "6a30118300bfb3d84b348b72",
@@ -180,7 +188,9 @@
       "winPct": 87.5,
       "wars": 8,
       "lastPlayed": "2026-07-04",
-      "established": false
+      "established": false,
+      "prevRank": 5,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a258a9d20738f4b9e0086b8",
@@ -195,7 +205,9 @@
       "winPct": 88.9,
       "wars": 9,
       "lastPlayed": "2026-08-18",
-      "established": false
+      "established": false,
+      "prevRank": 6,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a5b9aa79170a0608721d432",
@@ -210,7 +222,9 @@
       "winPct": 71.4,
       "wars": 21,
       "lastPlayed": "2026-09-11",
-      "established": true
+      "established": true,
+      "prevRank": 7,
+      "prevEstablishedRank": 3
     },
     {
       "id": "6a25c4411a1e7aef91215ecd",
@@ -225,7 +239,9 @@
       "winPct": 83.3,
       "wars": 6,
       "lastPlayed": "2026-06-26",
-      "established": false
+      "established": false,
+      "prevRank": 8,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a5beac69170a06087232009",
@@ -240,7 +256,9 @@
       "winPct": 84.6,
       "wars": 13,
       "lastPlayed": "2026-08-31",
-      "established": false
+      "established": false,
+      "prevRank": 9,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a2575dd20738f4b9efe4e38",
@@ -255,7 +273,9 @@
       "winPct": 54.2,
       "wars": 48,
       "lastPlayed": "2026-09-11",
-      "established": true
+      "established": true,
+      "prevRank": 10,
+      "prevEstablishedRank": 4
     },
     {
       "id": "6a25618c20738f4b9efc3e4c",
@@ -270,7 +290,9 @@
       "winPct": 87.5,
       "wars": 8,
       "lastPlayed": "2026-06-24",
-      "established": false
+      "established": false,
+      "prevRank": 11,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a351de134894c836922eb7b",
@@ -285,7 +307,9 @@
       "winPct": 61.9,
       "wars": 42,
       "lastPlayed": "2026-09-07",
-      "established": true
+      "established": true,
+      "prevRank": 12,
+      "prevEstablishedRank": 5
     },
     {
       "id": "6a255dbf20738f4b9efbfa29",
@@ -300,7 +324,9 @@
       "winPct": 64.8,
       "wars": 54,
       "lastPlayed": "2026-09-11",
-      "established": true
+      "established": true,
+      "prevRank": 13,
+      "prevEstablishedRank": 6
     },
     {
       "id": "6a255e9f20738f4b9efc0477",
@@ -315,7 +341,9 @@
       "winPct": 63.0,
       "wars": 54,
       "lastPlayed": "2026-07-30",
-      "established": false
+      "established": false,
+      "prevRank": 14,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a2565d820738f4b9efca108",
@@ -330,7 +358,9 @@
       "winPct": 57.4,
       "wars": 47,
       "lastPlayed": "2026-09-09",
-      "established": true
+      "established": true,
+      "prevRank": 15,
+      "prevEstablishedRank": 7
     },
     {
       "id": "6a2add67bc6a49b6e35668e5",
@@ -345,7 +375,9 @@
       "winPct": 68.3,
       "wars": 60,
       "lastPlayed": "2026-09-10",
-      "established": true
+      "established": true,
+      "prevRank": 16,
+      "prevEstablishedRank": 8
     },
     {
       "id": "6a2ee09e00bfb3d84b2f387e",
@@ -360,7 +392,9 @@
       "winPct": 71.4,
       "wars": 7,
       "lastPlayed": "2026-06-24",
-      "established": false
+      "established": false,
+      "prevRank": 17,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a2594e520738f4b9e017b7a",
@@ -375,7 +409,9 @@
       "winPct": 51.3,
       "wars": 39,
       "lastPlayed": "2026-09-06",
-      "established": true
+      "established": true,
+      "prevRank": 18,
+      "prevEstablishedRank": 9
     },
     {
       "id": "6a255f5a20738f4b9efc0fde",
@@ -390,7 +426,9 @@
       "winPct": 64.6,
       "wars": 130,
       "lastPlayed": "2026-09-10",
-      "established": true
+      "established": true,
+      "prevRank": 19,
+      "prevEstablishedRank": 10
     },
     {
       "id": "6a257fcc20738f4b9eff6306",
@@ -405,7 +443,9 @@
       "winPct": 53.8,
       "wars": 65,
       "lastPlayed": "2026-08-23",
-      "established": true
+      "established": true,
+      "prevRank": 20,
+      "prevEstablishedRank": 11
     },
     {
       "id": "6a255e8f20738f4b9efc03c5",
@@ -420,7 +460,9 @@
       "winPct": 59.1,
       "wars": 22,
       "lastPlayed": "2026-09-01",
-      "established": true
+      "established": true,
+      "prevRank": 21,
+      "prevEstablishedRank": 12
     },
     {
       "id": "6a255dc620738f4b9efbfa2a",
@@ -435,7 +477,9 @@
       "winPct": 47.8,
       "wars": 90,
       "lastPlayed": "2026-09-11",
-      "established": true
+      "established": true,
+      "prevRank": 22,
+      "prevEstablishedRank": 13
     },
     {
       "id": "6a25636c20738f4b9efc650f",
@@ -450,7 +494,9 @@
       "winPct": 33.3,
       "wars": 63,
       "lastPlayed": "2026-09-11",
-      "established": true
+      "established": true,
+      "prevRank": 23,
+      "prevEstablishedRank": 14
     },
     {
       "id": "6a255e4320738f4b9efbfde5",
@@ -465,7 +511,9 @@
       "winPct": 46.2,
       "wars": 119,
       "lastPlayed": "2026-09-04",
-      "established": true
+      "established": true,
+      "prevRank": 24,
+      "prevEstablishedRank": 15
     },
     {
       "id": "6a4495de4465735da5f8457f",
@@ -480,7 +528,9 @@
       "winPct": 62.5,
       "wars": 16,
       "lastPlayed": "2026-07-21",
-      "established": false
+      "established": false,
+      "prevRank": 25,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a771fe5871001001756dd97",
@@ -495,7 +545,9 @@
       "winPct": 64.0,
       "wars": 25,
       "lastPlayed": "2026-09-08",
-      "established": true
+      "established": true,
+      "prevRank": 26,
+      "prevEstablishedRank": 16
     },
     {
       "id": "6a3083f000bfb3d84b37eae2",
@@ -510,7 +562,9 @@
       "winPct": 69.0,
       "wars": 29,
       "lastPlayed": "2026-09-11",
-      "established": true
+      "established": true,
+      "prevRank": 27,
+      "prevEstablishedRank": 17
     },
     {
       "id": "6a280cb1b837fb6adebba4cc",
@@ -525,7 +579,9 @@
       "winPct": 40.0,
       "wars": 10,
       "lastPlayed": "2026-08-15",
-      "established": false
+      "established": false,
+      "prevRank": 28,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a256cde20738f4b9efd591f",
@@ -540,7 +596,9 @@
       "winPct": 48.8,
       "wars": 43,
       "lastPlayed": "2026-09-06",
-      "established": true
+      "established": true,
+      "prevRank": 29,
+      "prevEstablishedRank": 18
     },
     {
       "id": "6a29f106bc6a49b6e3539c51",
@@ -555,7 +613,9 @@
       "winPct": 64.2,
       "wars": 67,
       "lastPlayed": "2026-09-01",
-      "established": true
+      "established": true,
+      "prevRank": 30,
+      "prevEstablishedRank": 19
     },
     {
       "id": "6a2560c920738f4b9efc2fd1",
@@ -570,7 +630,9 @@
       "winPct": 30.8,
       "wars": 13,
       "lastPlayed": "2026-07-02",
-      "established": false
+      "established": false,
+      "prevRank": 31,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a255f7f20738f4b9efc12f0",
@@ -585,7 +647,9 @@
       "winPct": 49.4,
       "wars": 81,
       "lastPlayed": "2026-09-03",
-      "established": true
+      "established": true,
+      "prevRank": 32,
+      "prevEstablishedRank": 20
     },
     {
       "id": "6a25636320738f4b9efc646a",
@@ -600,7 +664,9 @@
       "winPct": 58.5,
       "wars": 41,
       "lastPlayed": "2026-09-01",
-      "established": true
+      "established": true,
+      "prevRank": 33,
+      "prevEstablishedRank": 21
     },
     {
       "id": "6a47ecc04465735da5045c62",
@@ -615,7 +681,9 @@
       "winPct": 57.1,
       "wars": 7,
       "lastPlayed": "2026-08-22",
-      "established": false
+      "established": false,
+      "prevRank": 34,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a25606d20738f4b9efc2689",
@@ -630,7 +698,9 @@
       "winPct": 33.3,
       "wars": 45,
       "lastPlayed": "2026-08-30",
-      "established": true
+      "established": true,
+      "prevRank": 35,
+      "prevEstablishedRank": 22
     },
     {
       "id": "6a256abe20738f4b9efd1dde",
@@ -645,7 +715,9 @@
       "winPct": 43.8,
       "wars": 64,
       "lastPlayed": "2026-08-23",
-      "established": true
+      "established": true,
+      "prevRank": 36,
+      "prevEstablishedRank": 23
     },
     {
       "id": "6a25979c20738f4b9e01bbdf",
@@ -660,7 +732,9 @@
       "winPct": 60.0,
       "wars": 5,
       "lastPlayed": "2026-09-08",
-      "established": false
+      "established": false,
+      "prevRank": 37,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a293ba6b88ebcda943432ad",
@@ -675,7 +749,9 @@
       "winPct": 45.5,
       "wars": 11,
       "lastPlayed": "2026-06-29",
-      "established": false
+      "established": false,
+      "prevRank": 38,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a3ffc4b1b99f73f1d86d4d4",
@@ -690,7 +766,9 @@
       "winPct": 37.5,
       "wars": 8,
       "lastPlayed": "2026-07-07",
-      "established": false
+      "established": false,
+      "prevRank": 39,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a29dfb1bc6a49b6e3532cc1",
@@ -705,7 +783,9 @@
       "winPct": 22.2,
       "wars": 18,
       "lastPlayed": "2026-07-15",
-      "established": false
+      "established": false,
+      "prevRank": 40,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a25a0ca20738f4b9e027c92",
@@ -720,7 +800,9 @@
       "winPct": 31.2,
       "wars": 16,
       "lastPlayed": "2026-07-08",
-      "established": false
+      "established": false,
+      "prevRank": 41,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a3061c700bfb3d84b370b8e",
@@ -735,7 +817,9 @@
       "winPct": 44.0,
       "wars": 50,
       "lastPlayed": "2026-09-07",
-      "established": true
+      "established": true,
+      "prevRank": 42,
+      "prevEstablishedRank": 24
     },
     {
       "id": "6a257f9520738f4b9eff59c4",
@@ -750,7 +834,9 @@
       "winPct": 27.9,
       "wars": 43,
       "lastPlayed": "2026-09-01",
-      "established": true
+      "established": true,
+      "prevRank": 43,
+      "prevEstablishedRank": 25
     },
     {
       "id": "6a25625120738f4b9efc4ca5",
@@ -765,7 +851,9 @@
       "winPct": 35.7,
       "wars": 42,
       "lastPlayed": "2026-09-08",
-      "established": true
+      "established": true,
+      "prevRank": 44,
+      "prevEstablishedRank": 26
     },
     {
       "id": "6a31ad7abee995dec85f45ae",
@@ -780,7 +868,9 @@
       "winPct": 40.7,
       "wars": 27,
       "lastPlayed": "2026-09-10",
-      "established": true
+      "established": true,
+      "prevRank": 45,
+      "prevEstablishedRank": 27
     },
     {
       "id": "6a29d509bc6a49b6e352e064",
@@ -795,7 +885,9 @@
       "winPct": 33.3,
       "wars": 12,
       "lastPlayed": "2026-09-11",
-      "established": false
+      "established": false,
+      "prevRank": 46,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a2b4e05bc6a49b6e359676e",
@@ -810,7 +902,9 @@
       "winPct": 25.0,
       "wars": 12,
       "lastPlayed": "2026-08-01",
-      "established": false
+      "established": false,
+      "prevRank": 47,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a2573ad20738f4b9efe1284",
@@ -825,7 +919,9 @@
       "winPct": 24.5,
       "wars": 49,
       "lastPlayed": "2026-09-06",
-      "established": true
+      "established": true,
+      "prevRank": 48,
+      "prevEstablishedRank": 28
     },
     {
       "id": "6a2b81f5bc6a49b6e359d4fc",
@@ -840,7 +936,9 @@
       "winPct": 12.5,
       "wars": 8,
       "lastPlayed": "2026-06-27",
-      "established": false
+      "established": false,
+      "prevRank": 49,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a3481e534894c8369211d09",
@@ -855,7 +953,9 @@
       "winPct": 40.6,
       "wars": 32,
       "lastPlayed": "2026-08-31",
-      "established": true
+      "established": true,
+      "prevRank": 50,
+      "prevEstablishedRank": 29
     },
     {
       "id": "6a25619c20738f4b9efc3ee9",
@@ -870,7 +970,9 @@
       "winPct": 42.4,
       "wars": 33,
       "lastPlayed": "2026-09-06",
-      "established": true
+      "established": true,
+      "prevRank": 51,
+      "prevEstablishedRank": 30
     },
     {
       "id": "6a25b01c20738f4b9e038ee1",
@@ -885,7 +987,9 @@
       "winPct": 32.0,
       "wars": 25,
       "lastPlayed": "2026-09-09",
-      "established": true
+      "established": true,
+      "prevRank": 52,
+      "prevEstablishedRank": 31
     },
     {
       "id": "6a259d5120738f4b9e022750",
@@ -900,7 +1004,9 @@
       "winPct": 26.3,
       "wars": 19,
       "lastPlayed": "2026-08-02",
-      "established": false
+      "established": false,
+      "prevRank": 53,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a58d9fa9170a0608719e76c",
@@ -915,7 +1021,9 @@
       "winPct": 16.7,
       "wars": 12,
       "lastPlayed": "2026-08-23",
-      "established": false
+      "established": false,
+      "prevRank": 54,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a30171d00bfb3d84b34b4b2",
@@ -930,7 +1038,9 @@
       "winPct": 12.5,
       "wars": 8,
       "lastPlayed": "2026-07-30",
-      "established": false
+      "established": false,
+      "prevRank": 55,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a331bf334894c83691a729b",
@@ -945,7 +1055,9 @@
       "winPct": 16.7,
       "wars": 6,
       "lastPlayed": "2026-09-07",
-      "established": false
+      "established": false,
+      "prevRank": 56,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a255ed220738f4b9efc0669",
@@ -960,7 +1072,9 @@
       "winPct": 37.2,
       "wars": 43,
       "lastPlayed": "2026-09-08",
-      "established": true
+      "established": true,
+      "prevRank": 57,
+      "prevEstablishedRank": 32
     },
     {
       "id": "6a25c37920738f4b9e0521bd",
@@ -975,7 +1089,9 @@
       "winPct": 12.5,
       "wars": 8,
       "lastPlayed": "2026-09-10",
-      "established": false
+      "established": false,
+      "prevRank": 58,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a42da031b99f73f1d931223",
@@ -990,7 +1106,9 @@
       "winPct": 36.7,
       "wars": 30,
       "lastPlayed": "2026-08-07",
-      "established": false
+      "established": false,
+      "prevRank": 59,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a255ebe20738f4b9efc0534",
@@ -1005,7 +1123,9 @@
       "winPct": 31.8,
       "wars": 22,
       "lastPlayed": "2026-09-07",
-      "established": true
+      "established": true,
+      "prevRank": 60,
+      "prevEstablishedRank": 33
     },
     {
       "id": "6a25777320738f4b9efe7a41",
@@ -1020,7 +1140,9 @@
       "winPct": 17.4,
       "wars": 23,
       "lastPlayed": "2026-07-19",
-      "established": false
+      "established": false,
+      "prevRank": 61,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a2d44507caf77008b418934",
@@ -1035,7 +1157,9 @@
       "winPct": 16.7,
       "wars": 6,
       "lastPlayed": "2026-07-02",
-      "established": false
+      "established": false,
+      "prevRank": 62,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a25625820738f4b9efc4d37",
@@ -1050,7 +1174,9 @@
       "winPct": 0.0,
       "wars": 8,
       "lastPlayed": "2026-06-16",
-      "established": false
+      "established": false,
+      "prevRank": 63,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a25acf220738f4b9e034213",
@@ -1065,7 +1191,9 @@
       "winPct": 16.7,
       "wars": 24,
       "lastPlayed": "2026-09-10",
-      "established": true
+      "established": true,
+      "prevRank": 64,
+      "prevEstablishedRank": 34
     },
     {
       "id": "6a25d04320738f4b9e067e57",
@@ -1080,7 +1208,9 @@
       "winPct": 22.7,
       "wars": 22,
       "lastPlayed": "2026-08-29",
-      "established": true
+      "established": true,
+      "prevRank": 65,
+      "prevEstablishedRank": 35
     },
     {
       "id": "6a296d99b88ebcda94356aa7",
@@ -1095,7 +1225,9 @@
       "winPct": 10.5,
       "wars": 19,
       "lastPlayed": "2026-08-28",
-      "established": false
+      "established": false,
+      "prevRank": 66,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a2f090200bfb3d84b3071f9",
@@ -1110,7 +1242,9 @@
       "winPct": 0.0,
       "wars": 6,
       "lastPlayed": "2026-07-04",
-      "established": false
+      "established": false,
+      "prevRank": 67,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a326e0534894c836915f950",
@@ -1125,7 +1259,119 @@
       "winPct": 22.2,
       "wars": 27,
       "lastPlayed": "2026-08-15",
-      "established": false
+      "established": false,
+      "prevRank": 68,
+      "prevEstablishedRank": null
     }
-  ]
+  ],
+  "rankBaseline": {
+    "asOf": "2026-09-12",
+    "ranked": {
+      "6a255eb620738f4b9efc04d6": 1,
+      "6a2563f620738f4b9efc7005": 2,
+      "6a25e3c01a1e7aef9121c65f": 3,
+      "6a255e0120738f4b9efbfbfa": 4,
+      "6a30118300bfb3d84b348b72": 5,
+      "6a258a9d20738f4b9e0086b8": 6,
+      "6a5b9aa79170a0608721d432": 7,
+      "6a25c4411a1e7aef91215ecd": 8,
+      "6a5beac69170a06087232009": 9,
+      "6a2575dd20738f4b9efe4e38": 10,
+      "6a25618c20738f4b9efc3e4c": 11,
+      "6a351de134894c836922eb7b": 12,
+      "6a255dbf20738f4b9efbfa29": 13,
+      "6a255e9f20738f4b9efc0477": 14,
+      "6a2565d820738f4b9efca108": 15,
+      "6a2add67bc6a49b6e35668e5": 16,
+      "6a2ee09e00bfb3d84b2f387e": 17,
+      "6a2594e520738f4b9e017b7a": 18,
+      "6a255f5a20738f4b9efc0fde": 19,
+      "6a257fcc20738f4b9eff6306": 20,
+      "6a255e8f20738f4b9efc03c5": 21,
+      "6a255dc620738f4b9efbfa2a": 22,
+      "6a25636c20738f4b9efc650f": 23,
+      "6a255e4320738f4b9efbfde5": 24,
+      "6a4495de4465735da5f8457f": 25,
+      "6a771fe5871001001756dd97": 26,
+      "6a3083f000bfb3d84b37eae2": 27,
+      "6a280cb1b837fb6adebba4cc": 28,
+      "6a256cde20738f4b9efd591f": 29,
+      "6a29f106bc6a49b6e3539c51": 30,
+      "6a2560c920738f4b9efc2fd1": 31,
+      "6a255f7f20738f4b9efc12f0": 32,
+      "6a25636320738f4b9efc646a": 33,
+      "6a47ecc04465735da5045c62": 34,
+      "6a25606d20738f4b9efc2689": 35,
+      "6a256abe20738f4b9efd1dde": 36,
+      "6a25979c20738f4b9e01bbdf": 37,
+      "6a293ba6b88ebcda943432ad": 38,
+      "6a3ffc4b1b99f73f1d86d4d4": 39,
+      "6a29dfb1bc6a49b6e3532cc1": 40,
+      "6a25a0ca20738f4b9e027c92": 41,
+      "6a3061c700bfb3d84b370b8e": 42,
+      "6a257f9520738f4b9eff59c4": 43,
+      "6a25625120738f4b9efc4ca5": 44,
+      "6a31ad7abee995dec85f45ae": 45,
+      "6a29d509bc6a49b6e352e064": 46,
+      "6a2b4e05bc6a49b6e359676e": 47,
+      "6a2573ad20738f4b9efe1284": 48,
+      "6a2b81f5bc6a49b6e359d4fc": 49,
+      "6a3481e534894c8369211d09": 50,
+      "6a25619c20738f4b9efc3ee9": 51,
+      "6a25b01c20738f4b9e038ee1": 52,
+      "6a259d5120738f4b9e022750": 53,
+      "6a58d9fa9170a0608719e76c": 54,
+      "6a30171d00bfb3d84b34b4b2": 55,
+      "6a331bf334894c83691a729b": 56,
+      "6a255ed220738f4b9efc0669": 57,
+      "6a25c37920738f4b9e0521bd": 58,
+      "6a42da031b99f73f1d931223": 59,
+      "6a255ebe20738f4b9efc0534": 60,
+      "6a25777320738f4b9efe7a41": 61,
+      "6a2d44507caf77008b418934": 62,
+      "6a25625820738f4b9efc4d37": 63,
+      "6a25acf220738f4b9e034213": 64,
+      "6a25d04320738f4b9e067e57": 65,
+      "6a296d99b88ebcda94356aa7": 66,
+      "6a2f090200bfb3d84b3071f9": 67,
+      "6a326e0534894c836915f950": 68
+    },
+    "established": {
+      "6a255eb620738f4b9efc04d6": 1,
+      "6a255e0120738f4b9efbfbfa": 2,
+      "6a5b9aa79170a0608721d432": 3,
+      "6a2575dd20738f4b9efe4e38": 4,
+      "6a351de134894c836922eb7b": 5,
+      "6a255dbf20738f4b9efbfa29": 6,
+      "6a2565d820738f4b9efca108": 7,
+      "6a2add67bc6a49b6e35668e5": 8,
+      "6a2594e520738f4b9e017b7a": 9,
+      "6a255f5a20738f4b9efc0fde": 10,
+      "6a257fcc20738f4b9eff6306": 11,
+      "6a255e8f20738f4b9efc03c5": 12,
+      "6a255dc620738f4b9efbfa2a": 13,
+      "6a25636c20738f4b9efc650f": 14,
+      "6a255e4320738f4b9efbfde5": 15,
+      "6a771fe5871001001756dd97": 16,
+      "6a3083f000bfb3d84b37eae2": 17,
+      "6a256cde20738f4b9efd591f": 18,
+      "6a29f106bc6a49b6e3539c51": 19,
+      "6a255f7f20738f4b9efc12f0": 20,
+      "6a25636320738f4b9efc646a": 21,
+      "6a25606d20738f4b9efc2689": 22,
+      "6a256abe20738f4b9efd1dde": 23,
+      "6a3061c700bfb3d84b370b8e": 24,
+      "6a257f9520738f4b9eff59c4": 25,
+      "6a25625120738f4b9efc4ca5": 26,
+      "6a31ad7abee995dec85f45ae": 27,
+      "6a2573ad20738f4b9efe1284": 28,
+      "6a3481e534894c8369211d09": 29,
+      "6a25619c20738f4b9efc3ee9": 30,
+      "6a25b01c20738f4b9e038ee1": 31,
+      "6a255ed220738f4b9efc0669": 32,
+      "6a255ebe20738f4b9efc0534": 33,
+      "6a25acf220738f4b9e034213": 34,
+      "6a25d04320738f4b9e067e57": 35
+    }
+  }
 }
