@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-12T17:58:50.179000+00:00",
+      "clan1": {
+        "id": "6a31ad7abee995dec85f45ae",
+        "tag": "SANT",
+        "name": "Orden de Santiago"
+      },
+      "clan2": {
+        "id": "6a255ebe20738f4b9efc0534",
+        "tag": "IPL",
+        "name": "Imperium Polskie"
+      },
+      "s1": 11,
+      "s2": 6,
+      "d1": 4,
+      "d2": -4
+    },
+    {
       "when": "2026-09-11T19:55:13.826000+00:00",
       "clan1": {
         "id": "6a2575dd20738f4b9efe4e38",
