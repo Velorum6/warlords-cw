@@ -18,6 +18,23 @@
       "d2": 41
     },
     {
+      "when": "2026-09-12T18:51:14.528000+00:00",
+      "clan1": {
+        "id": "6a257fcc20738f4b9eff6306",
+        "tag": "BB",
+        "name": "Bashi-Bazouks"
+      },
+      "clan2": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "s1": 12,
+      "s2": 1,
+      "d1": 12,
+      "d2": -10
+    },
+    {
       "when": "2026-09-12T17:58:50.179000+00:00",
       "clan1": {
         "id": "6a31ad7abee995dec85f45ae",
