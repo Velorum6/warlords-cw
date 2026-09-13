@@ -1,6 +1,159 @@
 {
   "wars": [
     {
+      "when": "2026-09-13T19:36:33.616000+00:00",
+      "clan1": {
+        "id": "6a255dbf20738f4b9efbfa29",
+        "tag": "CI",
+        "name": "Coronas Ibericas"
+      },
+      "clan2": {
+        "id": "6a256abe20738f4b9efd1dde",
+        "tag": "BD",
+        "name": "Blood Diamond"
+      },
+      "s1": 10,
+      "s2": 11,
+      "d1": -12,
+      "d2": 11
+    },
+    {
+      "when": "2026-09-13T18:54:54.639000+00:00",
+      "clan1": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "clan2": {
+        "id": "6a2575dd20738f4b9efe4e38",
+        "tag": "AmoX",
+        "name": "AmoX"
+      },
+      "s1": 4,
+      "s2": 12,
+      "d1": -4,
+      "d2": 5
+    },
+    {
+      "when": "2026-09-13T18:51:34.922000+00:00",
+      "clan1": {
+        "id": "6a351de134894c836922eb7b",
+        "tag": "PEAK",
+        "name": "PEAK"
+      },
+      "clan2": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "s1": 12,
+      "s2": 2,
+      "d1": 7,
+      "d2": -6
+    },
+    {
+      "when": "2026-09-13T18:35:57.407000+00:00",
+      "clan1": {
+        "id": "6a2add67bc6a49b6e35668e5",
+        "tag": "REIKS",
+        "name": "Grand Order Of The Reiksguard"
+      },
+      "clan2": {
+        "id": "6a2565d820738f4b9efca108",
+        "tag": "TA",
+        "name": "The Akrites"
+      },
+      "s1": 1,
+      "s2": 9,
+      "d1": -9,
+      "d2": 9
+    },
+    {
+      "when": "2026-09-13T17:45:34.487000+00:00",
+      "clan1": {
+        "id": "6a257fcc20738f4b9eff6306",
+        "tag": "BB",
+        "name": "Bashi-Bazouks"
+      },
+      "clan2": {
+        "id": "6a29d509bc6a49b6e352e064",
+        "tag": "XIII",
+        "name": "Tagma"
+      },
+      "s1": 10,
+      "s2": 3,
+      "d1": 2,
+      "d2": -5
+    },
+    {
+      "when": "2026-09-13T17:40:42.702000+00:00",
+      "clan1": {
+        "id": "6a25979c20738f4b9e01bbdf",
+        "tag": "VSC",
+        "name": "The Volsung Clan"
+      },
+      "clan2": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "s1": 12,
+      "s2": 1,
+      "d1": 16,
+      "d2": -6
+    },
+    {
+      "when": "2026-09-13T17:31:46.147000+00:00",
+      "clan1": {
+        "id": "6a255eb620738f4b9efc04d6",
+        "tag": "IE",
+        "name": "Imperial Eagles"
+      },
+      "clan2": {
+        "id": "6a255f7f20738f4b9efc12f0",
+        "tag": "MF",
+        "name": "Milites Fortunae"
+      },
+      "s1": 12,
+      "s2": 0,
+      "d1": 3,
+      "d2": -3
+    },
+    {
+      "when": "2026-09-12T21:39:02.212000+00:00",
+      "clan1": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "WINX",
+        "name": "WINX club"
+      },
+      "clan2": {
+        "id": "6a25606d20738f4b9efc2689",
+        "tag": "VALE",
+        "name": "The Vale"
+      },
+      "s1": 6,
+      "s2": 11,
+      "d1": -4,
+      "d2": 4
+    },
+    {
+      "when": "2026-09-12T19:59:56.633000+00:00",
+      "clan1": {
+        "id": "6a25c37920738f4b9e0521bd",
+        "tag": "TTOD",
+        "name": "Teutonischer Orden"
+      },
+      "clan2": {
+        "id": "6a257fcc20738f4b9eff6306",
+        "tag": "BB",
+        "name": "Bashi-Bazouks"
+      },
+      "s1": 4,
+      "s2": 12,
+      "d1": 1,
+      "d2": 0
+    },
+    {
       "when": "2026-09-12T19:26:26.933000+00:00",
       "clan1": {
         "id": "6a2add67bc6a49b6e35668e5",
