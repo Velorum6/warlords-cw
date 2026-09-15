@@ -154,6 +154,23 @@
       "d2": 9
     },
     {
+      "when": "2026-09-13T18:00:06.722000+00:00",
+      "clan1": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "clan2": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "s1": 4,
+      "s2": 7,
+      "d1": -6,
+      "d2": 6
+    },
+    {
       "when": "2026-09-13T17:45:34.487000+00:00",
       "clan1": {
         "id": "6a257fcc20738f4b9eff6306",
@@ -239,6 +256,23 @@
       "d2": 0
     },
     {
+      "when": "2026-09-12T19:58:30.001000+00:00",
+      "clan1": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "clan2": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "s1": 10,
+      "s2": 6,
+      "d1": 5,
+      "d2": -5
+    },
+    {
       "when": "2026-09-12T19:26:26.933000+00:00",
       "clan1": {
         "id": "6a2add67bc6a49b6e35668e5",
@@ -271,6 +305,23 @@
       "s2": 1,
       "d1": 12,
       "d2": -10
+    },
+    {
+      "when": "2026-09-12T18:44:40.491000+00:00",
+      "clan1": {
+        "id": "6a255f7f20738f4b9efc12f0",
+        "tag": "MF",
+        "name": "Milites Fortunae"
+      },
+      "clan2": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "s1": 4,
+      "s2": 9,
+      "d1": -5,
+      "d2": 5
     },
     {
       "when": "2026-09-12T17:58:50.179000+00:00",
@@ -388,8 +439,8 @@
       },
       "s1": 9,
       "s2": 9,
-      "d1": 0,
-      "d2": 0
+      "d1": -1,
+      "d2": 1
     },
     {
       "when": "2026-09-10T18:54:16.443000+00:00",
@@ -458,6 +509,40 @@
       "s2": 12,
       "d1": -8,
       "d2": 8
+    },
+    {
+      "when": "2026-09-09T19:28:55.252000+00:00",
+      "clan1": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "clan2": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "s1": 4,
+      "s2": 11,
+      "d1": -9,
+      "d2": 9
+    },
+    {
+      "when": "2026-09-09T18:46:40.125000+00:00",
+      "clan1": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "clan2": {
+        "id": "6a255f5a20738f4b9efc0fde",
+        "tag": "KoL",
+        "name": "Kaiserthum of Lorraine"
+      },
+      "s1": 4,
+      "s2": 11,
+      "d1": -7,
+      "d2": 7
     },
     {
       "when": "2026-09-09T18:08:05.775000+00:00",
