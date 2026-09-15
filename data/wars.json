@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-15T18:52:12.204000+00:00",
+      "clan1": {
+        "id": "6a255f7f20738f4b9efc12f0",
+        "tag": "MF",
+        "name": "Milites Fortunae"
+      },
+      "clan2": {
+        "id": "6a3061c700bfb3d84b370b8e",
+        "tag": "OMEY",
+        "name": "Guardia Omeya"
+      },
+      "s1": 8,
+      "s2": 7,
+      "d1": 1,
+      "d2": -1
+    },
+    {
       "when": "2026-09-15T17:55:55.255000+00:00",
       "clan1": {
         "id": "6a2575dd20738f4b9efe4e38",
