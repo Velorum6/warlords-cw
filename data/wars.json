@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-17T17:49:02.555000+00:00",
+      "clan1": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "clan2": {
+        "id": "6a31ad7abee995dec85f45ae",
+        "tag": "SANT",
+        "name": "Orden de Santiago"
+      },
+      "s1": 5,
+      "s2": 10,
+      "d1": -2,
+      "d2": 2
+    },
+    {
       "when": "2026-09-16T17:52:29.710000+00:00",
       "clan1": {
         "id": "6a29d509bc6a49b6e352e064",
