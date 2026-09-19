@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-19T20:04:32.962000+00:00",
+      "clan1": {
+        "id": "6a25979c20738f4b9e01bbdf",
+        "tag": "VSC",
+        "name": "The Volsung Clan"
+      },
+      "clan2": {
+        "id": "6a255f7f20738f4b9efc12f0",
+        "tag": "MF",
+        "name": "Milites Fortunae"
+      },
+      "s1": 8,
+      "s2": 10,
+      "d1": -10,
+      "d2": 3
+    },
+    {
       "when": "2026-09-19T18:03:19.880000+00:00",
       "clan1": {
         "id": "6a31ad7abee995dec85f45ae",
@@ -16,6 +33,23 @@
       "s2": 9,
       "d1": -2,
       "d2": 5
+    },
+    {
+      "when": "2026-09-18T20:14:38.814000+00:00",
+      "clan1": {
+        "id": "6a25619c20738f4b9efc3ee9",
+        "tag": "DWDN",
+        "name": "Daewden Kingdom"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "WINX",
+        "name": "WINX Club"
+      },
+      "s1": 11,
+      "s2": 10,
+      "d1": 9,
+      "d2": -8
     },
     {
       "when": "2026-09-18T18:58:47.718000+00:00",
