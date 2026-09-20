@@ -1,6 +1,91 @@
 {
   "wars": [
     {
+      "when": "2026-09-20T18:56:10.726000+00:00",
+      "clan1": {
+        "id": "6a255e4320738f4b9efbfde5",
+        "tag": "EQUE",
+        "name": "Libere Equites"
+      },
+      "clan2": {
+        "id": "6a2565d820738f4b9efca108",
+        "tag": "TA",
+        "name": "The Akrites"
+      },
+      "s1": 5,
+      "s2": 11,
+      "d1": -5,
+      "d2": 5
+    },
+    {
+      "when": "2026-09-20T18:55:18.272000+00:00",
+      "clan1": {
+        "id": "6a255e0120738f4b9efbfbfa",
+        "tag": "DM",
+        "name": "Destiny Masters"
+      },
+      "clan2": {
+        "id": "6a25636c20738f4b9efc650f",
+        "tag": "VRG",
+        "name": "V A R A N G I A N S"
+      },
+      "s1": 9,
+      "s2": 7,
+      "d1": -3,
+      "d2": 3
+    },
+    {
+      "when": "2026-09-20T18:41:58.310000+00:00",
+      "clan1": {
+        "id": "6a351de134894c836922eb7b",
+        "tag": "PEAK",
+        "name": "PEAK"
+      },
+      "clan2": {
+        "id": "6a256abe20738f4b9efd1dde",
+        "tag": "BD",
+        "name": "Blood Diamond"
+      },
+      "s1": 9,
+      "s2": 1,
+      "d1": 3,
+      "d2": -3
+    },
+    {
+      "when": "2026-09-20T18:12:16.741000+00:00",
+      "clan1": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "clan2": {
+        "id": "6a255ebe20738f4b9efc0534",
+        "tag": "IPL",
+        "name": "Imperium Polskie"
+      },
+      "s1": 12,
+      "s2": 3,
+      "d1": 16,
+      "d2": -17
+    },
+    {
+      "when": "2026-09-20T18:03:44.825000+00:00",
+      "clan1": {
+        "id": "6a255ed220738f4b9efc0669",
+        "tag": "VEMO",
+        "name": "Velmore Company"
+      },
+      "clan2": {
+        "id": "6a25d04320738f4b9e067e57",
+        "tag": "ODS",
+        "name": "Order of Santiago"
+      },
+      "s1": 10,
+      "s2": 3,
+      "d1": 7,
+      "d2": -12
+    },
+    {
       "when": "2026-09-20T17:45:35.910000+00:00",
       "clan1": {
         "id": "6a255eb620738f4b9efc04d6",
@@ -16,6 +101,23 @@
       "s2": 4,
       "d1": 3,
       "d2": -2
+    },
+    {
+      "when": "2026-09-19T20:48:28.611000+00:00",
+      "clan1": {
+        "id": "6aad555fa5cb93d5ef67be0f",
+        "tag": "VG",
+        "name": "VARANGIANS"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "WINX",
+        "name": "WINX Club"
+      },
+      "s1": 7,
+      "s2": 10,
+      "d1": -163,
+      "d2": 7
     },
     {
       "when": "2026-09-19T20:04:32.962000+00:00",
@@ -441,6 +543,23 @@
       "s2": 11,
       "d1": -12,
       "d2": 11
+    },
+    {
+      "when": "2026-09-13T19:22:27.253000+00:00",
+      "clan1": {
+        "id": "6a255dc620738f4b9efbfa2a",
+        "tag": "VW",
+        "name": "Vineyard Workers"
+      },
+      "clan2": {
+        "id": "6a255e0120738f4b9efbfbfa",
+        "tag": "DM",
+        "name": "Destiny Masters"
+      },
+      "s1": 4,
+      "s2": 12,
+      "d1": -2,
+      "d2": 2
     },
     {
       "when": "2026-09-13T18:54:54.639000+00:00",
