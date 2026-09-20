@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T21:47:26Z",
+  "generatedAt": "2026-09-20T22:07:29Z",
   "source": "https://mbwarlords.com/api/v1/clan-wars",
   "disclaimer": "Unofficial fan ladder. Not affiliated with Warlords or TaleWorlds.",
   "counts": {
@@ -274,8 +274,8 @@
       "wars": 44,
       "lastPlayed": "2026-09-20",
       "established": true,
-      "prevRank": 11,
-      "prevEstablishedRank": 5
+      "prevRank": 10,
+      "prevEstablishedRank": 4
     },
     {
       "id": "6a25618c20738f4b9efc3e4c",
@@ -291,7 +291,7 @@
       "wars": 8,
       "lastPlayed": "2026-06-24",
       "established": false,
-      "prevRank": 12,
+      "prevRank": 11,
       "prevEstablishedRank": null
     },
     {
@@ -308,8 +308,8 @@
       "wars": 52,
       "lastPlayed": "2026-09-20",
       "established": true,
-      "prevRank": 10,
-      "prevEstablishedRank": 4
+      "prevRank": 12,
+      "prevEstablishedRank": 5
     },
     {
       "id": "6a2565d820738f4b9efca108",
@@ -325,8 +325,8 @@
       "wars": 50,
       "lastPlayed": "2026-09-20",
       "established": true,
-      "prevRank": 15,
-      "prevEstablishedRank": 7
+      "prevRank": 13,
+      "prevEstablishedRank": 6
     },
     {
       "id": "6a255e9f20738f4b9efc0477",
@@ -342,7 +342,7 @@
       "wars": 54,
       "lastPlayed": "2026-07-30",
       "established": false,
-      "prevRank": 13,
+      "prevRank": 14,
       "prevEstablishedRank": null
     },
     {
@@ -359,8 +359,8 @@
       "wars": 55,
       "lastPlayed": "2026-09-13",
       "established": true,
-      "prevRank": 14,
-      "prevEstablishedRank": 6
+      "prevRank": 15,
+      "prevEstablishedRank": 7
     },
     {
       "id": "6a2ee09e00bfb3d84b2f387e",
@@ -410,8 +410,8 @@
       "wars": 70,
       "lastPlayed": "2026-09-16",
       "established": true,
-      "prevRank": 19,
-      "prevEstablishedRank": 10
+      "prevRank": 18,
+      "prevEstablishedRank": 9
     },
     {
       "id": "6a255f5a20738f4b9efc0fde",
@@ -427,8 +427,8 @@
       "wars": 132,
       "lastPlayed": "2026-09-12",
       "established": true,
-      "prevRank": 20,
-      "prevEstablishedRank": 11
+      "prevRank": 19,
+      "prevEstablishedRank": 10
     },
     {
       "id": "6a2594e520738f4b9e017b7a",
@@ -444,8 +444,8 @@
       "wars": 39,
       "lastPlayed": "2026-09-06",
       "established": true,
-      "prevRank": 18,
-      "prevEstablishedRank": 9
+      "prevRank": 20,
+      "prevEstablishedRank": 11
     },
     {
       "id": "6a255e8f20738f4b9efc03c5",
@@ -478,8 +478,8 @@
       "wars": 129,
       "lastPlayed": "2026-09-20",
       "established": true,
-      "prevRank": 24,
-      "prevEstablishedRank": 15
+      "prevRank": 22,
+      "prevEstablishedRank": 13
     },
     {
       "id": "6a25636c20738f4b9efc650f",
@@ -495,8 +495,8 @@
       "wars": 67,
       "lastPlayed": "2026-09-20",
       "established": true,
-      "prevRank": 22,
-      "prevEstablishedRank": 13
+      "prevRank": 23,
+      "prevEstablishedRank": 14
     },
     {
       "id": "6a255dc620738f4b9efbfa2a",
@@ -512,8 +512,8 @@
       "wars": 96,
       "lastPlayed": "2026-09-18",
       "established": true,
-      "prevRank": 23,
-      "prevEstablishedRank": 14
+      "prevRank": 24,
+      "prevEstablishedRank": 15
     },
     {
       "id": "6a4495de4465735da5f8457f",
@@ -699,8 +699,8 @@
       "wars": 66,
       "lastPlayed": "2026-09-20",
       "established": true,
-      "prevRank": 36,
-      "prevEstablishedRank": 23
+      "prevRank": 35,
+      "prevEstablishedRank": 22
     },
     {
       "id": "6a25606d20738f4b9efc2689",
@@ -716,8 +716,8 @@
       "wars": 48,
       "lastPlayed": "2026-09-16",
       "established": true,
-      "prevRank": 35,
-      "prevEstablishedRank": 22
+      "prevRank": 36,
+      "prevEstablishedRank": 23
     },
     {
       "id": "6a293ba6b88ebcda943432ad",
@@ -733,7 +733,7 @@
       "wars": 11,
       "lastPlayed": "2026-06-29",
       "established": false,
-      "prevRank": 38,
+      "prevRank": 37,
       "prevEstablishedRank": null
     },
     {
@@ -750,7 +750,7 @@
       "wars": 8,
       "lastPlayed": "2026-07-07",
       "established": false,
-      "prevRank": 39,
+      "prevRank": 38,
       "prevEstablishedRank": null
     },
     {
@@ -767,7 +767,7 @@
       "wars": 18,
       "lastPlayed": "2026-07-15",
       "established": false,
-      "prevRank": 40,
+      "prevRank": 39,
       "prevEstablishedRank": null
     },
     {
@@ -784,7 +784,7 @@
       "wars": 10,
       "lastPlayed": "2026-09-19",
       "established": false,
-      "prevRank": 37,
+      "prevRank": 40,
       "prevEstablishedRank": null
     },
     {
@@ -835,8 +835,8 @@
       "wars": 19,
       "lastPlayed": "2026-09-18",
       "established": true,
-      "prevRank": 44,
-      "prevEstablishedRank": null
+      "prevRank": 43,
+      "prevEstablishedRank": 25
     },
     {
       "id": "6a257f9520738f4b9eff59c4",
@@ -852,8 +852,8 @@
       "wars": 43,
       "lastPlayed": "2026-09-01",
       "established": true,
-      "prevRank": 43,
-      "prevEstablishedRank": 25
+      "prevRank": 44,
+      "prevEstablishedRank": 26
     },
     {
       "id": "6a25625120738f4b9efc4ca5",
@@ -870,7 +870,7 @@
       "lastPlayed": "2026-09-19",
       "established": true,
       "prevRank": 45,
-      "prevEstablishedRank": 26
+      "prevEstablishedRank": 27
     },
     {
       "id": "6a31ad7abee995dec85f45ae",
@@ -887,7 +887,7 @@
       "lastPlayed": "2026-09-19",
       "established": true,
       "prevRank": 46,
-      "prevEstablishedRank": 27
+      "prevEstablishedRank": 28
     },
     {
       "id": "6a2b4e05bc6a49b6e359676e",
@@ -920,7 +920,7 @@
       "wars": 12,
       "lastPlayed": "2026-09-19",
       "established": false,
-      "prevRank": 58,
+      "prevRank": 48,
       "prevEstablishedRank": null
     },
     {
@@ -937,8 +937,8 @@
       "wars": 51,
       "lastPlayed": "2026-09-15",
       "established": true,
-      "prevRank": 48,
-      "prevEstablishedRank": 28
+      "prevRank": 49,
+      "prevEstablishedRank": 29
     },
     {
       "id": "6a2b81f5bc6a49b6e359d4fc",
@@ -954,7 +954,7 @@
       "wars": 8,
       "lastPlayed": "2026-06-27",
       "established": false,
-      "prevRank": 49,
+      "prevRank": 50,
       "prevEstablishedRank": null
     },
     {
@@ -971,8 +971,8 @@
       "wars": 32,
       "lastPlayed": "2026-08-31",
       "established": true,
-      "prevRank": 50,
-      "prevEstablishedRank": 29
+      "prevRank": 51,
+      "prevEstablishedRank": 30
     },
     {
       "id": "6a25b01c20738f4b9e038ee1",
@@ -1022,8 +1022,8 @@
       "wars": 36,
       "lastPlayed": "2026-09-18",
       "established": true,
-      "prevRank": 51,
-      "prevEstablishedRank": 30
+      "prevRank": 54,
+      "prevEstablishedRank": 32
     },
     {
       "id": "6a58d9fa9170a0608719e76c",
@@ -1039,7 +1039,7 @@
       "wars": 12,
       "lastPlayed": "2026-08-23",
       "established": false,
-      "prevRank": 54,
+      "prevRank": 55,
       "prevEstablishedRank": null
     },
     {
@@ -1056,7 +1056,7 @@
       "wars": 8,
       "lastPlayed": "2026-07-30",
       "established": false,
-      "prevRank": 55,
+      "prevRank": 56,
       "prevEstablishedRank": null
     },
     {
@@ -1074,7 +1074,7 @@
       "lastPlayed": "2026-09-20",
       "established": true,
       "prevRank": 57,
-      "prevEstablishedRank": 32
+      "prevEstablishedRank": 33
     },
     {
       "id": "6a42da031b99f73f1d931223",
@@ -1090,7 +1090,7 @@
       "wars": 30,
       "lastPlayed": "2026-08-07",
       "established": false,
-      "prevRank": 59,
+      "prevRank": 58,
       "prevEstablishedRank": null
     },
     {
@@ -1107,7 +1107,7 @@
       "wars": 7,
       "lastPlayed": "2026-09-16",
       "established": false,
-      "prevRank": 56,
+      "prevRank": 59,
       "prevEstablishedRank": null
     },
     {
@@ -1124,8 +1124,8 @@
       "wars": 29,
       "lastPlayed": "2026-09-20",
       "established": true,
-      "prevRank": 65,
-      "prevEstablishedRank": 35
+      "prevRank": 60,
+      "prevEstablishedRank": 34
     },
     {
       "id": "6a25777320738f4b9efe7a41",
@@ -1175,8 +1175,8 @@
       "wars": 25,
       "lastPlayed": "2026-09-20",
       "established": true,
-      "prevRank": 60,
-      "prevEstablishedRank": 33
+      "prevRank": 63,
+      "prevEstablishedRank": 35
     },
     {
       "id": "6a25625820738f4b9efc4d37",
@@ -1192,7 +1192,7 @@
       "wars": 8,
       "lastPlayed": "2026-06-16",
       "established": false,
-      "prevRank": 63,
+      "prevRank": 64,
       "prevEstablishedRank": null
     },
     {
@@ -1209,7 +1209,7 @@
       "wars": 19,
       "lastPlayed": "2026-08-28",
       "established": false,
-      "prevRank": 66,
+      "prevRank": 65,
       "prevEstablishedRank": null
     },
     {
@@ -1226,8 +1226,8 @@
       "wars": 23,
       "lastPlayed": "2026-09-20",
       "established": true,
-      "prevRank": 64,
-      "prevEstablishedRank": 34
+      "prevRank": 66,
+      "prevEstablishedRank": 36
     },
     {
       "id": "6a2f090200bfb3d84b3071f9",
@@ -1265,7 +1265,7 @@
     }
   ],
   "rankBaseline": {
-    "asOf": "2026-09-14",
+    "asOf": "2026-09-21",
     "ranked": {
       "6a255eb620738f4b9efc04d6": 1,
       "6a2563f620738f4b9efc7005": 2,
@@ -1276,21 +1276,21 @@
       "6a5b9aa79170a0608721d432": 7,
       "6a25c4411a1e7aef91215ecd": 8,
       "6a5beac69170a06087232009": 9,
-      "6a2575dd20738f4b9efe4e38": 10,
-      "6a351de134894c836922eb7b": 11,
-      "6a25618c20738f4b9efc3e4c": 12,
-      "6a255e9f20738f4b9efc0477": 13,
-      "6a255dbf20738f4b9efbfa29": 14,
-      "6a2565d820738f4b9efca108": 15,
+      "6a351de134894c836922eb7b": 10,
+      "6a25618c20738f4b9efc3e4c": 11,
+      "6a2575dd20738f4b9efe4e38": 12,
+      "6a2565d820738f4b9efca108": 13,
+      "6a255e9f20738f4b9efc0477": 14,
+      "6a255dbf20738f4b9efbfa29": 15,
       "6a2ee09e00bfb3d84b2f387e": 16,
       "6a2add67bc6a49b6e35668e5": 17,
-      "6a2594e520738f4b9e017b7a": 18,
-      "6a257fcc20738f4b9eff6306": 19,
-      "6a255f5a20738f4b9efc0fde": 20,
+      "6a257fcc20738f4b9eff6306": 18,
+      "6a255f5a20738f4b9efc0fde": 19,
+      "6a2594e520738f4b9e017b7a": 20,
       "6a255e8f20738f4b9efc03c5": 21,
-      "6a25636c20738f4b9efc650f": 22,
-      "6a255dc620738f4b9efbfa2a": 23,
-      "6a255e4320738f4b9efbfde5": 24,
+      "6a255e4320738f4b9efbfde5": 22,
+      "6a25636c20738f4b9efc650f": 23,
+      "6a255dc620738f4b9efbfa2a": 24,
       "6a4495de4465735da5f8457f": 25,
       "6a771fe5871001001756dd97": 26,
       "6a3083f000bfb3d84b37eae2": 27,
@@ -1301,38 +1301,38 @@
       "6a255f7f20738f4b9efc12f0": 32,
       "6a25636320738f4b9efc646a": 33,
       "6a47ecc04465735da5045c62": 34,
-      "6a25606d20738f4b9efc2689": 35,
-      "6a256abe20738f4b9efd1dde": 36,
-      "6a25979c20738f4b9e01bbdf": 37,
-      "6a293ba6b88ebcda943432ad": 38,
-      "6a3ffc4b1b99f73f1d86d4d4": 39,
-      "6a29dfb1bc6a49b6e3532cc1": 40,
+      "6a256abe20738f4b9efd1dde": 35,
+      "6a25606d20738f4b9efc2689": 36,
+      "6a293ba6b88ebcda943432ad": 37,
+      "6a3ffc4b1b99f73f1d86d4d4": 38,
+      "6a29dfb1bc6a49b6e3532cc1": 39,
+      "6a25979c20738f4b9e01bbdf": 40,
       "6a25a0ca20738f4b9e027c92": 41,
       "6a3061c700bfb3d84b370b8e": 42,
-      "6a257f9520738f4b9eff59c4": 43,
-      "6a29d509bc6a49b6e352e064": 44,
+      "6a29d509bc6a49b6e352e064": 43,
+      "6a257f9520738f4b9eff59c4": 44,
       "6a25625120738f4b9efc4ca5": 45,
       "6a31ad7abee995dec85f45ae": 46,
       "6a2b4e05bc6a49b6e359676e": 47,
-      "6a2573ad20738f4b9efe1284": 48,
-      "6a2b81f5bc6a49b6e359d4fc": 49,
-      "6a3481e534894c8369211d09": 50,
-      "6a25619c20738f4b9efc3ee9": 51,
+      "6a25c37920738f4b9e0521bd": 48,
+      "6a2573ad20738f4b9efe1284": 49,
+      "6a2b81f5bc6a49b6e359d4fc": 50,
+      "6a3481e534894c8369211d09": 51,
       "6a25b01c20738f4b9e038ee1": 52,
       "6a259d5120738f4b9e022750": 53,
-      "6a58d9fa9170a0608719e76c": 54,
-      "6a30171d00bfb3d84b34b4b2": 55,
-      "6a331bf334894c83691a729b": 56,
+      "6a25619c20738f4b9efc3ee9": 54,
+      "6a58d9fa9170a0608719e76c": 55,
+      "6a30171d00bfb3d84b34b4b2": 56,
       "6a255ed220738f4b9efc0669": 57,
-      "6a25c37920738f4b9e0521bd": 58,
-      "6a42da031b99f73f1d931223": 59,
-      "6a255ebe20738f4b9efc0534": 60,
+      "6a42da031b99f73f1d931223": 58,
+      "6a331bf334894c83691a729b": 59,
+      "6a25acf220738f4b9e034213": 60,
       "6a25777320738f4b9efe7a41": 61,
       "6a2d44507caf77008b418934": 62,
-      "6a25625820738f4b9efc4d37": 63,
-      "6a25d04320738f4b9e067e57": 64,
-      "6a25acf220738f4b9e034213": 65,
-      "6a296d99b88ebcda94356aa7": 66,
+      "6a255ebe20738f4b9efc0534": 63,
+      "6a25625820738f4b9efc4d37": 64,
+      "6a296d99b88ebcda94356aa7": 65,
+      "6a25d04320738f4b9e067e57": 66,
       "6a2f090200bfb3d84b3071f9": 67,
       "6a326e0534894c836915f950": 68
     },
@@ -1340,38 +1340,39 @@
       "6a255eb620738f4b9efc04d6": 1,
       "6a255e0120738f4b9efbfbfa": 2,
       "6a5b9aa79170a0608721d432": 3,
-      "6a2575dd20738f4b9efe4e38": 4,
-      "6a351de134894c836922eb7b": 5,
-      "6a255dbf20738f4b9efbfa29": 6,
-      "6a2565d820738f4b9efca108": 7,
+      "6a351de134894c836922eb7b": 4,
+      "6a2575dd20738f4b9efe4e38": 5,
+      "6a2565d820738f4b9efca108": 6,
+      "6a255dbf20738f4b9efbfa29": 7,
       "6a2add67bc6a49b6e35668e5": 8,
-      "6a2594e520738f4b9e017b7a": 9,
-      "6a257fcc20738f4b9eff6306": 10,
-      "6a255f5a20738f4b9efc0fde": 11,
+      "6a257fcc20738f4b9eff6306": 9,
+      "6a255f5a20738f4b9efc0fde": 10,
+      "6a2594e520738f4b9e017b7a": 11,
       "6a255e8f20738f4b9efc03c5": 12,
-      "6a25636c20738f4b9efc650f": 13,
-      "6a255dc620738f4b9efbfa2a": 14,
-      "6a255e4320738f4b9efbfde5": 15,
+      "6a255e4320738f4b9efbfde5": 13,
+      "6a25636c20738f4b9efc650f": 14,
+      "6a255dc620738f4b9efbfa2a": 15,
       "6a771fe5871001001756dd97": 16,
       "6a3083f000bfb3d84b37eae2": 17,
       "6a256cde20738f4b9efd591f": 18,
       "6a29f106bc6a49b6e3539c51": 19,
       "6a255f7f20738f4b9efc12f0": 20,
       "6a25636320738f4b9efc646a": 21,
-      "6a25606d20738f4b9efc2689": 22,
-      "6a256abe20738f4b9efd1dde": 23,
+      "6a256abe20738f4b9efd1dde": 22,
+      "6a25606d20738f4b9efc2689": 23,
       "6a3061c700bfb3d84b370b8e": 24,
-      "6a257f9520738f4b9eff59c4": 25,
-      "6a25625120738f4b9efc4ca5": 26,
-      "6a31ad7abee995dec85f45ae": 27,
-      "6a2573ad20738f4b9efe1284": 28,
-      "6a3481e534894c8369211d09": 29,
-      "6a25619c20738f4b9efc3ee9": 30,
+      "6a29d509bc6a49b6e352e064": 25,
+      "6a257f9520738f4b9eff59c4": 26,
+      "6a25625120738f4b9efc4ca5": 27,
+      "6a31ad7abee995dec85f45ae": 28,
+      "6a2573ad20738f4b9efe1284": 29,
+      "6a3481e534894c8369211d09": 30,
       "6a25b01c20738f4b9e038ee1": 31,
-      "6a255ed220738f4b9efc0669": 32,
-      "6a255ebe20738f4b9efc0534": 33,
-      "6a25d04320738f4b9e067e57": 34,
-      "6a25acf220738f4b9e034213": 35
+      "6a25619c20738f4b9efc3ee9": 32,
+      "6a255ed220738f4b9efc0669": 33,
+      "6a25acf220738f4b9e034213": 34,
+      "6a255ebe20738f4b9efc0534": 35,
+      "6a25d04320738f4b9e067e57": 36
     }
   }
 }
