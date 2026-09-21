@@ -1,6 +1,57 @@
 {
   "wars": [
     {
+      "when": "2026-09-21T21:12:23.346000+00:00",
+      "clan1": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "WINX",
+        "name": "WINX Club"
+      },
+      "s1": 8,
+      "s2": 11,
+      "d1": 0,
+      "d2": 0
+    },
+    {
+      "when": "2026-09-21T19:56:46.393000+00:00",
+      "clan1": {
+        "id": "6a3083f000bfb3d84b37eae2",
+        "tag": "TOL",
+        "name": "Principado de Toledo"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "WINX",
+        "name": "WINX Club"
+      },
+      "s1": 9,
+      "s2": 5,
+      "d1": 1,
+      "d2": 0
+    },
+    {
+      "when": "2026-09-21T19:43:25.450000+00:00",
+      "clan1": {
+        "id": "6a771fe5871001001756dd97",
+        "tag": "RX",
+        "name": "Ravage X"
+      },
+      "clan2": {
+        "id": "6a3061c700bfb3d84b370b8e",
+        "tag": "OMEY",
+        "name": "Guardia Omeya"
+      },
+      "s1": 8,
+      "s2": 10,
+      "d1": -15,
+      "d2": 10
+    },
+    {
       "when": "2026-09-20T18:56:10.726000+00:00",
       "clan1": {
         "id": "6a255e4320738f4b9efbfde5",
