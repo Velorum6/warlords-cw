@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-24T19:05:06.965000+00:00",
+      "clan1": {
+        "id": "6a255eb620738f4b9efc04d6",
+        "tag": "IE",
+        "name": "Imperial Eagles"
+      },
+      "clan2": {
+        "id": "6a2565d820738f4b9efca108",
+        "tag": "TA",
+        "name": "The Akrites"
+      },
+      "s1": 12,
+      "s2": 4,
+      "d1": 3,
+      "d2": -3
+    },
+    {
       "when": "2026-09-23T19:38:18.307000+00:00",
       "clan1": {
         "id": "6a255f5a20738f4b9efc0fde",
