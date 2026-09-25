@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-09-25T18:06:11.846000+00:00",
+      "clan1": {
+        "id": "6a255ed220738f4b9efc0669",
+        "tag": "VEMO",
+        "name": "Velmore Company"
+      },
+      "clan2": {
+        "id": "6a31ad7abee995dec85f45ae",
+        "tag": "SANT",
+        "name": "Orden de Santiago"
+      },
+      "s1": 8,
+      "s2": 9,
+      "d1": 0,
+      "d2": 0
+    },
+    {
       "when": "2026-09-24T19:05:06.965000+00:00",
       "clan1": {
         "id": "6a255eb620738f4b9efc04d6",
