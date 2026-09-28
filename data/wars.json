@@ -1,6 +1,57 @@
 {
   "wars": [
     {
+      "when": "2026-09-28T19:06:56.518000+00:00",
+      "clan1": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "clan2": {
+        "id": "6a255ebe20738f4b9efc0534",
+        "tag": "IPL",
+        "name": "Imperium Polskie"
+      },
+      "s1": 11,
+      "s2": 7,
+      "d1": 8,
+      "d2": -9
+    },
+    {
+      "when": "2026-09-28T18:28:51.048000+00:00",
+      "clan1": {
+        "id": "6a29d509bc6a49b6e352e064",
+        "tag": "XIII",
+        "name": "Tagma"
+      },
+      "clan2": {
+        "id": "6a25625120738f4b9efc4ca5",
+        "tag": "WINX",
+        "name": "WINX Club"
+      },
+      "s1": 12,
+      "s2": 4,
+      "d1": 15,
+      "d2": -9
+    },
+    {
+      "when": "2026-09-27T19:00:00.108000+00:00",
+      "clan1": {
+        "id": "6a255ed220738f4b9efc0669",
+        "tag": "VEMO",
+        "name": "Velmore Company"
+      },
+      "clan2": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "s1": 10,
+      "s2": 5,
+      "d1": 7,
+      "d2": -8
+    },
+    {
       "when": "2026-09-26T17:24:01.157000+00:00",
       "clan1": {
         "id": "6a29d509bc6a49b6e352e064",
