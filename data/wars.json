@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-10-02T17:44:30.799000+00:00",
+      "clan1": {
+        "id": "6a255f7f20738f4b9efc12f0",
+        "tag": "MF",
+        "name": "Milites Fortunae"
+      },
+      "clan2": {
+        "id": "6a31ad7abee995dec85f45ae",
+        "tag": "SANT",
+        "name": "Orden de Santiago"
+      },
+      "s1": 12,
+      "s2": 0,
+      "d1": 6,
+      "d2": -9
+    },
+    {
       "when": "2026-10-01T17:11:32.596000+00:00",
       "clan1": {
         "id": "6a29d509bc6a49b6e352e064",
