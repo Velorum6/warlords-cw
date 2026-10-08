@@ -1,6 +1,23 @@
 {
   "wars": [
     {
+      "when": "2026-10-08T20:05:53.881000+00:00",
+      "clan1": {
+        "id": "6a255eb620738f4b9efc04d6",
+        "tag": "IE",
+        "name": "Imperial Eagles"
+      },
+      "clan2": {
+        "id": "6a255e0120738f4b9efbfbfa",
+        "tag": "DM",
+        "name": "Destiny Masters"
+      },
+      "s1": 11,
+      "s2": 7,
+      "d1": 5,
+      "d2": -5
+    },
+    {
       "when": "2026-10-08T17:56:11.038000+00:00",
       "clan1": {
         "id": "6a31ad7abee995dec85f45ae",
