@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T18:45:50Z",
+  "generatedAt": "2026-10-11T20:27:29Z",
   "source": "https://mbwarlords.com/api/v1/clan-wars",
   "disclaimer": "Unofficial fan ladder. Not affiliated with Warlords or TaleWorlds.",
   "counts": {
@@ -8,7 +8,7 @@
     "skipped": {},
     "clans": 100,
     "ranked": 70,
-    "established": 19
+    "established": 17
   },
   "filters": {
     "establishedMinWars": 15,
@@ -477,7 +477,7 @@
       "winPct": 47.3,
       "wars": 129,
       "lastPlayed": "2026-09-20",
-      "established": true,
+      "established": false,
       "prevRank": 22,
       "prevEstablishedRank": 9
     },
@@ -494,7 +494,7 @@
       "winPct": 31.3,
       "wars": 67,
       "lastPlayed": "2026-09-20",
-      "established": true,
+      "established": false,
       "prevRank": 23,
       "prevEstablishedRank": 10
     },
