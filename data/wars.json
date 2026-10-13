@@ -1,6 +1,40 @@
 {
   "wars": [
     {
+      "when": "2026-10-12T18:18:55.496000+00:00",
+      "clan1": {
+        "id": "6a255ed220738f4b9efc0669",
+        "tag": "VEMO",
+        "name": "Velmore Company"
+      },
+      "clan2": {
+        "id": "6a25619c20738f4b9efc3ee9",
+        "tag": "DWDN",
+        "name": "Daewden Kingdom"
+      },
+      "s1": 11,
+      "s2": 7,
+      "d1": 8,
+      "d2": -8
+    },
+    {
+      "when": "2026-10-12T18:00:56.529000+00:00",
+      "clan1": {
+        "id": "6a25acf220738f4b9e034213",
+        "tag": "LZKT",
+        "name": "Landsknechts"
+      },
+      "clan2": {
+        "id": "6a29d509bc6a49b6e352e064",
+        "tag": "XIII",
+        "name": "Tagma"
+      },
+      "s1": 9,
+      "s2": 6,
+      "d1": 14,
+      "d2": -20
+    },
+    {
       "when": "2026-10-11T18:21:26.830000+00:00",
       "clan1": {
         "id": "6a25acf220738f4b9e034213",
