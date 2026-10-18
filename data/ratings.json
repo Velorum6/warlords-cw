@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T21:53:07Z",
+  "generatedAt": "2026-10-18T22:07:31Z",
   "source": "https://mbwarlords.com/api/v1/clan-wars",
   "disclaimer": "Unofficial fan ladder. Not affiliated with Warlords or TaleWorlds.",
   "counts": {
@@ -343,7 +343,7 @@
       "lastPlayed": "2026-09-24",
       "established": false,
       "prevRank": 14,
-      "prevEstablishedRank": 3
+      "prevEstablishedRank": null
     },
     {
       "id": "6a255dbf20738f4b9efbfa29",
@@ -445,7 +445,7 @@
       "lastPlayed": "2026-09-23",
       "established": false,
       "prevRank": 20,
-      "prevEstablishedRank": 4
+      "prevEstablishedRank": null
     },
     {
       "id": "6a255e8f20738f4b9efc03c5",
@@ -547,7 +547,7 @@
       "lastPlayed": "2026-09-21",
       "established": false,
       "prevRank": 26,
-      "prevEstablishedRank": 5
+      "prevEstablishedRank": null
     },
     {
       "id": "6a280cb1b837fb6adebba4cc",
@@ -615,7 +615,7 @@
       "lastPlayed": "2026-09-21",
       "established": false,
       "prevRank": 30,
-      "prevEstablishedRank": 6
+      "prevEstablishedRank": null
     },
     {
       "id": "6a255f7f20738f4b9efc12f0",
@@ -632,7 +632,7 @@
       "lastPlayed": "2026-10-02",
       "established": true,
       "prevRank": 31,
-      "prevEstablishedRank": 7
+      "prevEstablishedRank": 3
     },
     {
       "id": "6a2560c920738f4b9efc2fd1",
@@ -700,7 +700,7 @@
       "lastPlayed": "2026-09-25",
       "established": false,
       "prevRank": 35,
-      "prevEstablishedRank": 8
+      "prevEstablishedRank": null
     },
     {
       "id": "6a256abe20738f4b9efd1dde",
@@ -852,8 +852,8 @@
       "wars": 53,
       "lastPlayed": "2026-09-22",
       "established": false,
-      "prevRank": 45,
-      "prevEstablishedRank": 10
+      "prevRank": 44,
+      "prevEstablishedRank": null
     },
     {
       "id": "6a29d509bc6a49b6e352e064",
@@ -869,8 +869,8 @@
       "wars": 24,
       "lastPlayed": "2026-10-12",
       "established": true,
-      "prevRank": 44,
-      "prevEstablishedRank": 9
+      "prevRank": 45,
+      "prevEstablishedRank": 4
     },
     {
       "id": "6a257f9520738f4b9eff59c4",
@@ -904,7 +904,7 @@
       "lastPlayed": "2026-09-29",
       "established": true,
       "prevRank": 47,
-      "prevEstablishedRank": 11
+      "prevEstablishedRank": 5
     },
     {
       "id": "6a31ad7abee995dec85f45ae",
@@ -921,7 +921,7 @@
       "lastPlayed": "2026-10-15",
       "established": true,
       "prevRank": 48,
-      "prevEstablishedRank": 12
+      "prevEstablishedRank": 6
     },
     {
       "id": "6a2b4e05bc6a49b6e359676e",
@@ -1006,7 +1006,7 @@
       "lastPlayed": "2026-09-24",
       "established": false,
       "prevRank": 53,
-      "prevEstablishedRank": 13
+      "prevEstablishedRank": null
     },
     {
       "id": "6a25b01c20738f4b9e038ee1",
@@ -1057,7 +1057,7 @@
       "lastPlayed": "2026-10-14",
       "established": true,
       "prevRank": 56,
-      "prevEstablishedRank": 14
+      "prevEstablishedRank": 7
     },
     {
       "id": "6a58d9fa9170a0608719e76c",
@@ -1108,7 +1108,7 @@
       "lastPlayed": "2026-10-15",
       "established": true,
       "prevRank": 59,
-      "prevEstablishedRank": 15
+      "prevEstablishedRank": 8
     },
     {
       "id": "6a42da031b99f73f1d931223",
@@ -1159,7 +1159,7 @@
       "lastPlayed": "2026-10-13",
       "established": true,
       "prevRank": 62,
-      "prevEstablishedRank": 16
+      "prevEstablishedRank": 9
     },
     {
       "id": "6a25777320738f4b9efe7a41",
@@ -1209,8 +1209,8 @@
       "wars": 27,
       "lastPlayed": "2026-10-12",
       "established": true,
-      "prevRank": 66,
-      "prevEstablishedRank": 17
+      "prevRank": 65,
+      "prevEstablishedRank": 10
     },
     {
       "id": "6a25625820738f4b9efc4d37",
@@ -1226,7 +1226,7 @@
       "wars": 8,
       "lastPlayed": "2026-06-16",
       "established": false,
-      "prevRank": 65,
+      "prevRank": 66,
       "prevEstablishedRank": null
     },
     {
@@ -1261,7 +1261,7 @@
       "lastPlayed": "2026-10-11",
       "established": true,
       "prevRank": 68,
-      "prevEstablishedRank": null
+      "prevEstablishedRank": 11
     },
     {
       "id": "6a2f090200bfb3d84b3071f9",
@@ -1299,7 +1299,7 @@
     }
   ],
   "rankBaseline": {
-    "asOf": "2026-10-12",
+    "asOf": "2026-10-19",
     "ranked": {
       "6a255eb620738f4b9efc04d6": 1,
       "6a2563f620738f4b9efc7005": 2,
@@ -1344,8 +1344,8 @@
       "6a25979c20738f4b9e01bbdf": 41,
       "6a25a0ca20738f4b9e027c92": 42,
       "6aad555fa5cb93d5ef67be0f": 43,
-      "6a29d509bc6a49b6e352e064": 44,
-      "6a3061c700bfb3d84b370b8e": 45,
+      "6a3061c700bfb3d84b370b8e": 44,
+      "6a29d509bc6a49b6e352e064": 45,
       "6a257f9520738f4b9eff59c4": 46,
       "6a25625120738f4b9efc4ca5": 47,
       "6a31ad7abee995dec85f45ae": 48,
@@ -1365,8 +1365,8 @@
       "6a25acf220738f4b9e034213": 62,
       "6a25777320738f4b9efe7a41": 63,
       "6a2d44507caf77008b418934": 64,
-      "6a25625820738f4b9efc4d37": 65,
-      "6a255ebe20738f4b9efc0534": 66,
+      "6a255ebe20738f4b9efc0534": 65,
+      "6a25625820738f4b9efc4d37": 66,
       "6a296d99b88ebcda94356aa7": 67,
       "6a25d04320738f4b9e067e57": 68,
       "6a2f090200bfb3d84b3071f9": 69,
@@ -1375,21 +1375,15 @@
     "established": {
       "6a255eb620738f4b9efc04d6": 1,
       "6a255e0120738f4b9efbfbfa": 2,
-      "6a2565d820738f4b9efca108": 3,
-      "6a255f5a20738f4b9efc0fde": 4,
-      "6a3083f000bfb3d84b37eae2": 5,
-      "6a771fe5871001001756dd97": 6,
-      "6a255f7f20738f4b9efc12f0": 7,
-      "6a25606d20738f4b9efc2689": 8,
-      "6a29d509bc6a49b6e352e064": 9,
-      "6a3061c700bfb3d84b370b8e": 10,
-      "6a25625120738f4b9efc4ca5": 11,
-      "6a31ad7abee995dec85f45ae": 12,
-      "6a2573ad20738f4b9efe1284": 13,
-      "6a25619c20738f4b9efc3ee9": 14,
-      "6a255ed220738f4b9efc0669": 15,
-      "6a25acf220738f4b9e034213": 16,
-      "6a255ebe20738f4b9efc0534": 17
+      "6a255f7f20738f4b9efc12f0": 3,
+      "6a29d509bc6a49b6e352e064": 4,
+      "6a25625120738f4b9efc4ca5": 5,
+      "6a31ad7abee995dec85f45ae": 6,
+      "6a25619c20738f4b9efc3ee9": 7,
+      "6a255ed220738f4b9efc0669": 8,
+      "6a25acf220738f4b9e034213": 9,
+      "6a255ebe20738f4b9efc0534": 10,
+      "6a25d04320738f4b9e067e57": 11
     }
   }
 }
