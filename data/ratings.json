@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T22:47:33Z",
+  "generatedAt": "2026-10-25T23:07:36Z",
   "source": "https://mbwarlords.com/api/v1/clan-wars",
   "disclaimer": "Unofficial fan ladder. Not affiliated with Warlords or TaleWorlds.",
   "counts": {
@@ -632,7 +632,7 @@
       "lastPlayed": "2026-10-02",
       "established": false,
       "prevRank": 31,
-      "prevEstablishedRank": 3
+      "prevEstablishedRank": null
     },
     {
       "id": "6a2560c920738f4b9efc2fd1",
@@ -870,7 +870,7 @@
       "lastPlayed": "2026-10-18",
       "established": true,
       "prevRank": 45,
-      "prevEstablishedRank": 4
+      "prevEstablishedRank": 3
     },
     {
       "id": "6a257f9520738f4b9eff59c4",
@@ -904,7 +904,7 @@
       "lastPlayed": "2026-09-29",
       "established": false,
       "prevRank": 47,
-      "prevEstablishedRank": 5
+      "prevEstablishedRank": null
     },
     {
       "id": "6a31ad7abee995dec85f45ae",
@@ -921,7 +921,7 @@
       "lastPlayed": "2026-10-15",
       "established": true,
       "prevRank": 48,
-      "prevEstablishedRank": 6
+      "prevEstablishedRank": 4
     },
     {
       "id": "6a2b4e05bc6a49b6e359676e",
@@ -1057,7 +1057,7 @@
       "lastPlayed": "2026-10-14",
       "established": true,
       "prevRank": 56,
-      "prevEstablishedRank": 7
+      "prevEstablishedRank": 5
     },
     {
       "id": "6a58d9fa9170a0608719e76c",
@@ -1108,7 +1108,7 @@
       "lastPlayed": "2026-10-15",
       "established": true,
       "prevRank": 59,
-      "prevEstablishedRank": 8
+      "prevEstablishedRank": 6
     },
     {
       "id": "6a42da031b99f73f1d931223",
@@ -1159,7 +1159,7 @@
       "lastPlayed": "2026-10-18",
       "established": true,
       "prevRank": 62,
-      "prevEstablishedRank": 9
+      "prevEstablishedRank": 7
     },
     {
       "id": "6a25777320738f4b9efe7a41",
@@ -1210,7 +1210,7 @@
       "lastPlayed": "2026-10-12",
       "established": true,
       "prevRank": 65,
-      "prevEstablishedRank": 10
+      "prevEstablishedRank": 8
     },
     {
       "id": "6a25625820738f4b9efc4d37",
@@ -1261,7 +1261,7 @@
       "lastPlayed": "2026-10-11",
       "established": true,
       "prevRank": 68,
-      "prevEstablishedRank": 11
+      "prevEstablishedRank": 9
     },
     {
       "id": "6a2f090200bfb3d84b3071f9",
@@ -1299,7 +1299,7 @@
     }
   ],
   "rankBaseline": {
-    "asOf": "2026-10-19",
+    "asOf": "2026-10-26",
     "ranked": {
       "6a255eb620738f4b9efc04d6": 1,
       "6a2563f620738f4b9efc7005": 2,
@@ -1375,15 +1375,13 @@
     "established": {
       "6a255eb620738f4b9efc04d6": 1,
       "6a255e0120738f4b9efbfbfa": 2,
-      "6a255f7f20738f4b9efc12f0": 3,
-      "6a29d509bc6a49b6e352e064": 4,
-      "6a25625120738f4b9efc4ca5": 5,
-      "6a31ad7abee995dec85f45ae": 6,
-      "6a25619c20738f4b9efc3ee9": 7,
-      "6a255ed220738f4b9efc0669": 8,
-      "6a25acf220738f4b9e034213": 9,
-      "6a255ebe20738f4b9efc0534": 10,
-      "6a25d04320738f4b9e067e57": 11
+      "6a29d509bc6a49b6e352e064": 3,
+      "6a31ad7abee995dec85f45ae": 4,
+      "6a25619c20738f4b9efc3ee9": 5,
+      "6a255ed220738f4b9efc0669": 6,
+      "6a25acf220738f4b9e034213": 7,
+      "6a255ebe20738f4b9efc0534": 8,
+      "6a25d04320738f4b9e067e57": 9
     }
   }
 }
