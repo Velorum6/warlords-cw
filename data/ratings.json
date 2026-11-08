@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:47:27Z",
+  "generatedAt": "2026-11-08T23:07:32Z",
   "source": "https://mbwarlords.com/api/v1/clan-wars",
   "disclaimer": "Unofficial fan ladder. Not affiliated with Warlords or TaleWorlds.",
   "counts": {
@@ -870,7 +870,7 @@
       "lastPlayed": "2026-10-18",
       "established": false,
       "prevRank": 45,
-      "prevEstablishedRank": 1
+      "prevEstablishedRank": null
     },
     {
       "id": "6a257f9520738f4b9eff59c4",
@@ -921,7 +921,7 @@
       "lastPlayed": "2026-10-15",
       "established": false,
       "prevRank": 48,
-      "prevEstablishedRank": 2
+      "prevEstablishedRank": null
     },
     {
       "id": "6a2b4e05bc6a49b6e359676e",
@@ -1057,7 +1057,7 @@
       "lastPlayed": "2026-10-14",
       "established": false,
       "prevRank": 56,
-      "prevEstablishedRank": 3
+      "prevEstablishedRank": null
     },
     {
       "id": "6a58d9fa9170a0608719e76c",
@@ -1108,7 +1108,7 @@
       "lastPlayed": "2026-10-15",
       "established": false,
       "prevRank": 59,
-      "prevEstablishedRank": 4
+      "prevEstablishedRank": null
     },
     {
       "id": "6a42da031b99f73f1d931223",
@@ -1159,7 +1159,7 @@
       "lastPlayed": "2026-10-18",
       "established": false,
       "prevRank": 62,
-      "prevEstablishedRank": 5
+      "prevEstablishedRank": null
     },
     {
       "id": "6a25777320738f4b9efe7a41",
@@ -1210,7 +1210,7 @@
       "lastPlayed": "2026-10-12",
       "established": false,
       "prevRank": 65,
-      "prevEstablishedRank": 6
+      "prevEstablishedRank": null
     },
     {
       "id": "6a25625820738f4b9efc4d37",
@@ -1299,7 +1299,7 @@
     }
   ],
   "rankBaseline": {
-    "asOf": "2026-11-02",
+    "asOf": "2026-11-09",
     "ranked": {
       "6a255eb620738f4b9efc04d6": 1,
       "6a2563f620738f4b9efc7005": 2,
@@ -1372,13 +1372,6 @@
       "6a2f090200bfb3d84b3071f9": 69,
       "6a326e0534894c836915f950": 70
     },
-    "established": {
-      "6a29d509bc6a49b6e352e064": 1,
-      "6a31ad7abee995dec85f45ae": 2,
-      "6a25619c20738f4b9efc3ee9": 3,
-      "6a255ed220738f4b9efc0669": 4,
-      "6a25acf220738f4b9e034213": 5,
-      "6a255ebe20738f4b9efc0534": 6
-    }
+    "established": {}
   }
 }
